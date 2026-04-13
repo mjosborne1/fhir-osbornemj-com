@@ -1,10 +1,10 @@
-# Emergency Department (Hospital) - FHIR Implementation Guide for PUBLIC Testing v0.1.0
+# Location - Hospital Emergency Dept - FHIR Implementation Guide for PUBLIC Testing v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
-* **Emergency Department (Hospital)**
+* **Location - Hospital Emergency Dept**
 
-## Example Location: Emergency Department (Hospital)
+## Example Location: Location - Hospital Emergency Dept
 
 Profile: [AU Core Location](http://hl7.org.au/fhir/core/2.0.0/StructureDefinition-au-core-location.html)
 

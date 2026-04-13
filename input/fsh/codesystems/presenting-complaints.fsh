@@ -1,7 +1,7 @@
 CodeSystem: PresentingComplaintCS
 Id: presenting-complaints
 Title: "Presenting Complaints"
-Description: "Presenting Complaint codes"
+Description: "Local code system specifying Presenting Complaint codes"
 * ^meta.profile[+] = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^status = #draft
 * ^extension[http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm].valueInteger = 0

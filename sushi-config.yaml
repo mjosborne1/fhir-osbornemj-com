@@ -7,7 +7,7 @@ description: FHIR Implementation Guide for PUBLIC Testing        # this will sho
 
 status: draft # draft | active | retired | unknown
 version: 0.1.0
-license: CC0-1.0
+license: MIT
 copyrightYear: 2025+
 releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
 
@@ -54,6 +54,12 @@ resources:
   DiagnosticReport/diagnosticreport-urinemcs:
     name: "DiagnosticReport - Urine MCS"
     description: "Microbiology report for urine microscopy, culture and sensitivities"
+  Encounter/encounter-female-ed:
+    name: "Encounter - Female ED Presentation"
+    description: "Ambulatory encounter for female patient Lynch at Hospital ED"
+  Location/location-hosp-ed:
+    name: "Location - Hospital Emergency Dept"
+    description: "Hospital Emergency Department location"
   Observation/observation-ecoli-amoxicillin:
     name: "Observation - E. coli Amoxicillin Susceptibility"
     description: "Amoxicillin susceptibility result for patient Lynch"
@@ -71,4 +77,13 @@ resources:
     description: "E. coli identified in urine by culture for patient Lynch"
   Patient/patient-lynch-alyce:
     name: "Patient - Alyce Lynch"
-    description: "Patient Alyce Shauna Lynch"
+    description: "Patient Alyce Shauna Lynch, courtesy of the HL7 AU FHIR Test Data repo"
+  Practitioner/practitioner-persson-una:
+    name: "Practitioner - Una Persson"
+    description: "Practitioner Una Persson"
+  ServiceRequest/servicerequest-urinemcs:
+    name: "ServiceRequest - Urine MCS"
+    description: "Lab order for urine microscopy, culture and sensitivity panel"
+  Specimen/specimen-urine:
+    name: "Specimen - Urine"
+    description: "Urine specimen for patient Lynch"

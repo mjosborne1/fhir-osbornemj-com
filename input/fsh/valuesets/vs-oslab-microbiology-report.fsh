@@ -1,7 +1,7 @@
 ValueSet: OSLABMicrobiologyOrdersVS
 Id: vs-OSLAB-microbiology-report
 Title: "OS LAB Microbiology Report"
-Description: "The OS LAB Microbiology Report value set includes codes for Microbiology reports."
+Description: "The OS LAB Microbiology Report value set includes codes for Microbiology reports, for example URINE - Urine M/C/S."
 * ^meta.profile[+] = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^status = #draft
 * ^extension[http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm].valueInteger = 0

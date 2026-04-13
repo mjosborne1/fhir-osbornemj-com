@@ -6,7 +6,7 @@
 
 ## Example DiagnosticReport: DiagnosticReport - Urine MCS
 
-Profile: `http://.csiro.au/StructureDefinition/-diagnosticreport-microbiology`
+Profile: [DiagnosticReport Microbiology Profile](StructureDefinition-diagnosticreport-microbiology.md)
 
 ## Measurement of Microscopy, culture and susceptibility in Urine (Microbiology) 
 
@@ -31,7 +31,7 @@ Profile: `http://.csiro.au/StructureDefinition/-diagnosticreport-microbiology`
   "resourceType" : "DiagnosticReport",
   "id" : "diagnosticreport-urinemcs",
   "meta" : {
-    "profile" : ["http://.csiro.au/StructureDefinition/-diagnosticreport-microbiology"]
+    "profile" : ["https://fhir.osbornemj.com/ig/StructureDefinition/diagnosticreport-microbiology"]
   },
   "identifier" : [{
     "use" : "official",
@@ -65,7 +65,7 @@ Profile: `http://.csiro.au/StructureDefinition/-diagnosticreport-microbiology`
       "display" : "Urine microscopy, culture and sensitivities"
     },
     {
-      "system" : "http://lab.osbornemj.com/cs/reports",
+      "system" : "https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports",
       "code" : "URINE",
       "display" : "Urine Culture (M/C/S)"
     }],
@@ -75,7 +75,7 @@ Profile: `http://.csiro.au/StructureDefinition/-diagnosticreport-microbiology`
     "reference" : "Patient/patient-lynch-alyce"
   },
   "encounter" : {
-    "reference" : "Encounter/encounter-teen-female-ed"
+    "reference" : "Encounter/encounter-female-ed"
   },
   "effectiveDateTime" : "2023-02-04T17:30:00+10:30",
   "result" : [{

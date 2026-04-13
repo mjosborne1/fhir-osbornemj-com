@@ -19,7 +19,7 @@
             ],
             "text": "Hospital Provider Identifier"
         },
-        "system": "http://ns.health.qld.gov.au/id/hpi",
+        "system": "http://fhir.osbornemj.com/id/hpi",
         "value": "PERS~PH"
         }
     ],

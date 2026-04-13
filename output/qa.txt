@@ -1,22 +1,22 @@
 FHIROsbornemjIG : Validation Results
 =========================================
 
-err = 0, warn = 52, info = 6
+err = 0, warn = 42, info = 6
 IG Publisher Version: 2.2.6
-Generated Mon Apr 13 13:23:53 AEST 2026. FHIR version 4.0.1 for fhir.osbornemj.ig#0.1.0 (canonical = https://fhir.osbornemj.com/ig)
- Build Errors : 0 / 9 / 0
+Generated Mon Apr 13 14:17:56 AEST 2026. FHIR version 4.0.1 for fhir.osbornemj.ig#0.1.0 (canonical = https://fhir.osbornemj.com/ig)
+ Build Errors : 0 / 5 / 0
  /Users/osb074/Development/fhir-osbornemj-ig/fsh-generated/resources/CodeSystem-OSLAB-microbiology-reports : 0 / 0 / 1
  /Users/osb074/Development/fhir-osbornemj-ig/fsh-generated/resources/CodeSystem-oslab-specimens : 0 / 0 / 1
  /Users/osb074/Development/fhir-osbornemj-ig/fsh-generated/resources/CodeSystem-presenting-complaints : 0 / 0 / 1
  /Users/osb074/Development/fhir-osbornemj-ig/fsh-generated/resources/ImplementationGuide-fhir.osbornemj.ig : 0 / 0 / 1
- /Users/osb074/Development/fhir-osbornemj-ig/fsh-generated/resources/StructureDefinition-diagnosticreport-microbiology : 0 / 2 / 4
+ /Users/osb074/Development/fhir-osbornemj-ig/fsh-generated/resources/StructureDefinition-diagnosticreport-microbiology : 0 / 1 / 4
  /Users/osb074/Development/fhir-osbornemj-ig/fsh-generated/resources/ValueSet-vs-OSLAB-microbiology-report : 0 / 0 / 1
  /Users/osb074/Development/fhir-osbornemj-ig/fsh-generated/resources/ValueSet-vs-presenting-complaint : 0 / 0 / 1
  /Users/osb074/Development/fhir-osbornemj-ig/input/examples/condition-lynch-ckd : 0 / 0 / 1
- /Users/osb074/Development/fhir-osbornemj-ig/input/examples/condition-lynch-haematuria : 0 / 3 / 1
+ /Users/osb074/Development/fhir-osbornemj-ig/input/examples/condition-lynch-haematuria : 0 / 2 / 2
  /Users/osb074/Development/fhir-osbornemj-ig/input/examples/condition-lynch-uti : 0 / 0 / 1
- /Users/osb074/Development/fhir-osbornemj-ig/input/examples/diagnosticreport-urinemcs : 0 / 5 / 2
- /Users/osb074/Development/fhir-osbornemj-ig/input/examples/encounter-teen-female-ed : 0 / 5 / 1
+ /Users/osb074/Development/fhir-osbornemj-ig/input/examples/diagnosticreport-urinemcs : 0 / 4 / 1
+ /Users/osb074/Development/fhir-osbornemj-ig/input/examples/encounter-female-ed : 0 / 2 / 1
  /Users/osb074/Development/fhir-osbornemj-ig/input/examples/location-hosp-ed : 0 / 1 / 1
  /Users/osb074/Development/fhir-osbornemj-ig/input/examples/observation-ecoli : 0 / 2 / 1
  /Users/osb074/Development/fhir-osbornemj-ig/input/examples/observation-ecoli-amoxicillin : 0 / 2 / 1
@@ -29,10 +29,6 @@ Generated Mon Apr 13 13:23:53 AEST 2026. FHIR version 4.0.1 for fhir.osbornemj.i
  /Users/osb074/Development/fhir-osbornemj-ig/input/examples/specimen-urine : 0 / 3 / 1
 </table>
 == n/a ==
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Encounter/encounter-teen-female-ed.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Practitioner/practitioner-persson-una.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ServiceRequest/servicerequest-urinemcs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Specimen/specimen-urine.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
@@ -47,28 +43,22 @@ INFORMATION: StructureDefinition/diagnosticreport-microbiology: StructureDefinit
 WARNING: StructureDefinition/diagnosticreport-microbiology: StructureDefinition.snapshot.element[8].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/patient-sexParameterForClinicalUse'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.2.0', found versions: 1.0.0 (from hl7.fhir.uv.extensions.r4#1.0.0), 5.1.0-cibuild (from hl7.fhir.uv.extensions.r4#5.1.0-snapshot1), 5.2.0 (from hl7.fhir.uv.extensions.r4#5.2.0). Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/patient-sexParameterForClinicalUse' to 'http://hl7.org/fhir/StructureDefinition/patient-sexParameterForClinicalUse|5.2.0'
 INFORMATION: StructureDefinition/diagnosticreport-microbiology: StructureDefinition.differential.element[3].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
 INFORMATION: StructureDefinition/diagnosticreport-microbiology: StructureDefinition.snapshot.element[13].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
-WARNING: StructureDefinition.where(url = 'https://fhir.osbornemj.com/ig/StructureDefinition/diagnosticreport-microbiology'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/ValueSet-vs-OSLAB-microbiology-report.json ==
 == fsh-generated/resources/ValueSet-vs-presenting-complaint.json ==
 == input/examples/condition-lynch-ckd.json ==
 == input/examples/condition-lynch-haematuria.json ==
-WARNING: Condition/condition-lynch-haematuria: Condition.code.coding[0].system: A definition for CodeSystem 'http://hosp.osbornemj.com/cs/ed-presenting-complaints' could not be found, so the code cannot be validated
+INFORMATION: Condition/condition-lynch-haematuria: Condition.code: Reference to draft CodeSystem https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints|0.1.0
 WARNING: Condition/condition-lynch-haematuria: Condition.code.coding[1].system: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/32506021000036107' could not be found, so the code cannot be validated. Valid versions: http://snomed.info/sct/11000146104/version/20240930, http://snomed.info/sct/2011000195101/version/20230607, http://snomed.info/sct/731000124108/version/20230301, http://snomed.info/sct/731000124108/version/20240301, http://snomed.info/sct/731000124108/version/20250901, http://snomed.info/sct/827022005/version/20241216, http://snomed.info/sct/83821000000107/version/20230412, http://snomed.info/sct/900000000000207008/version/20240201, http://snomed.info/sct/900000000000207008/version/20250201 and http://snomed.info/xsct/900000000000207008/version/20250814
 WARNING: Condition/condition-lynch-haematuria: Condition.code.coding[1].system: A definition for CodeSystem 'http://snomed.info/sct' could not be found, so the code cannot be validated
 == input/examples/condition-lynch-uti.json ==
 == input/examples/diagnosticreport-urinemcs.json ==
-WARNING: DiagnosticReport/diagnosticreport-urinemcs: DiagnosticReport.meta.profile[0]: A definition could not be found for Canonical URL 'http://.csiro.au/StructureDefinition/-diagnosticreport-microbiology'
-WARNING: DiagnosticReport/diagnosticreport-urinemcs: DiagnosticReport.identifier[0].system: No definition could be found for URL value 'http://lab.osbornemj.com/id/flrnum'
+WARNING: DiagnosticReport/diagnosticreport-urinemcs: DiagnosticReport.identifier[0]: Found multiple matching profiles among 2 choices: http://hl7.org.au/fhir/StructureDefinition/au-localorderidentifier, http://hl7.org/fhir/StructureDefinition/Identifier
+WARNING: DiagnosticReport/diagnosticreport-urinemcs: DiagnosticReport.identifier[0].system: No definition could be found for URL value 'http://lab.osbornemj.com/id/flrnum' (validating against http://hl7.org/fhir/StructureDefinition/Identifier|4.0.1 [Identifier])
+WARNING: DiagnosticReport/diagnosticreport-urinemcs: DiagnosticReport.identifier[0].system: No definition could be found for URL value 'http://lab.osbornemj.com/id/flrnum' (validating against http://hl7.org.au/fhir/StructureDefinition/au-localorderidentifier|6.0.0 [AULocalOrderIdentifier])
 WARNING: DiagnosticReport/diagnosticreport-urinemcs: DiagnosticReport.code.coding[0].system: A definition for CodeSystem 'http://snomed.info/sct' could not be found, so the code cannot be validated
-WARNING: DiagnosticReport/diagnosticreport-urinemcs: DiagnosticReport.code.coding[1].system: A definition for CodeSystem 'http://lab.osbornemj.com/cs/reports' could not be found, so the code cannot be validated
-INFORMATION: DiagnosticReport/diagnosticreport-urinemcs: DiagnosticReport.code: None of the codings provided are in the value set 'LOINC Diagnostic Report Codes' (http://hl7.org/fhir/ValueSet/report-codes|4.0.1), and a coding is recommended to come from this value set (codes = http://snomed.info/sct#401324008, http://lab.osbornemj.com/cs/reports#URINE)
-WARNING: DiagnosticReport/diagnosticreport-urinemcs: DiagnosticReport.meta.profile[0]: Profile reference 'http://.csiro.au/StructureDefinition/-diagnosticreport-microbiology' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
-== input/examples/encounter-teen-female-ed.json ==
-WARNING: Encounter/encounter-teen-female-ed: Encounter.meta.profile[0]: A definition could not be found for Canonical URL 'http://cureator.csiro.au/StructureDefinition/cureator-encounter'
-WARNING: Encounter/encounter-teen-female-ed: Encounter.identifier[0].system: No definition could be found for URL value 'http://ns.health.qld.gov.au/id/pq-lab-no'
-WARNING: Encounter/encounter-teen-female-ed: Encounter.type[0].coding[0].system: A definition for CodeSystem 'http://ns.health.qld.gov.au/cs/qh-encounter-types' could not be found, so the code cannot be validated
-WARNING: Encounter/encounter-teen-female-ed: Encounter.hospitalization.dischargeDisposition.coding[0].system: A definition for CodeSystem 'http://ns.health.qld.gov.au/cs/qh-ed-departure-statuses' could not be found, so the code cannot be validated
-WARNING: Encounter/encounter-teen-female-ed: Encounter.meta.profile[0]: Profile reference 'http://cureator.csiro.au/StructureDefinition/cureator-encounter' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/examples/encounter-female-ed.json ==
+WARNING: Encounter/encounter-female-ed: Encounter.identifier[0].system: No definition could be found for URL value 'http://fhir.osbornemj.com/id/visitno'
+WARNING: Encounter/encounter-female-ed: Encounter.type[0].coding[0].system: A definition for CodeSystem 'http://fhir.osbornemj.com/cs/qh-encounter-types' could not be found, so the code cannot be validated
 == input/examples/location-hosp-ed.json ==
 WARNING: Location/location-hosp-ed: Location.identifier[0].system: No definition could be found for URL value 'http://fhir.osbornemj.com/id/location'
 == input/examples/observation-ecoli.json ==
@@ -97,7 +87,7 @@ WARNING: Patient/patient-lynch-alyce: Patient.identifier[2].system: No definitio
 WARNING: Patient/patient-lynch-alyce: Patient.address[0]: Found multiple matching profiles among 2 choices: http://hl7.org.au/fhir/StructureDefinition/au-address, http://hl7.org/fhir/StructureDefinition/Address
 == input/examples/practitioner-persson-una.json ==
 INFORMATION: Practitioner/practitioner-persson-una: Practitioner.identifier[0]: This element does not match any known slice defined in the profile http://hl7.org.au/fhir/core/StructureDefinition/au-core-practitioner|2.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
-WARNING: Practitioner/practitioner-persson-una: Practitioner.identifier[0].system: No definition could be found for URL value 'http://ns.health.qld.gov.au/id/hpi'
+WARNING: Practitioner/practitioner-persson-una: Practitioner.identifier[0].system: No definition could be found for URL value 'http://fhir.osbornemj.com/id/hpi'
 == input/examples/servicerequest-urinemcs.json ==
 WARNING: ServiceRequest/servicerequest-urinemcs: ServiceRequest.identifier[0]: Found multiple matching profiles among 2 choices: http://hl7.org.au/fhir/StructureDefinition/au-localorderidentifier, http://hl7.org/fhir/StructureDefinition/Identifier
 WARNING: ServiceRequest/servicerequest-urinemcs: ServiceRequest.identifier[0].system: No definition could be found for URL value 'http://fhir.osbornemj.com/id/pon' (validating against http://hl7.org/fhir/StructureDefinition/Identifier|4.0.1 [Identifier])

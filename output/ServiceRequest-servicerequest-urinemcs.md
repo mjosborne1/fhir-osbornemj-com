@@ -1,10 +1,10 @@
-# servicerequest-urinemcs - FHIR Implementation Guide for PUBLIC Testing v0.1.0
+# ServiceRequest - Urine MCS - FHIR Implementation Guide for PUBLIC Testing v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
-* **servicerequest-urinemcs**
+* **ServiceRequest - Urine MCS**
 
-## Example ServiceRequest: servicerequest-urinemcs
+## Example ServiceRequest: ServiceRequest - Urine MCS
 
 Profile: [AU Base ServiceRequest](http://hl7.org.au/fhir/6.0.0/StructureDefinition-au-servicerequest.html)
 
@@ -20,7 +20,7 @@ Profile: [AU Base ServiceRequest](http://hl7.org.au/fhir/6.0.0/StructureDefiniti
 
 **subject**: [Alyce SHAUNA LYNCH (official) Female, DoB: 2009-12-02 ( Hospital Unique patient number: PC842914 (use: usual, ))](Patient-patient-lynch-alyce.md)
 
-**encounter**: [Encounter: identifier = Lab Number: 612964051 (use: official, ); status = finished; class = ambulatory (ActCode#AMB); type = E; period = 2023-02-04 09:30:00+1030 --> 2023-02-04 18:30:00+1030](Encounter-encounter-teen-female-ed.md)
+**encounter**: [Encounter: identifier = Visit number: 2964051 (use: official, ); status = finished; class = ambulatory (ActCode#AMB); type = E; period = 2023-02-04 09:30:00+1030 --> 2023-02-04 18:30:00+1030](Encounter-encounter-female-ed.md)
 
 **occurrence**: 2023-02-04
 
@@ -90,7 +90,7 @@ Profile: [AU Base ServiceRequest](http://hl7.org.au/fhir/6.0.0/StructureDefiniti
     "reference" : "Patient/patient-lynch-alyce"
   },
   "encounter" : {
-    "reference" : "Encounter/encounter-teen-female-ed"
+    "reference" : "Encounter/encounter-female-ed"
   },
   "occurrenceDateTime" : "2023-02-04",
   "requester" : {

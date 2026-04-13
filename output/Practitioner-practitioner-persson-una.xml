@@ -18,7 +18,7 @@
       </coding>
       <text value="Hospital Provider Identifier"/>
     </type>
-    <system value="http://ns.health.qld.gov.au/id/hpi"/>
+    <system value="http://fhir.osbornemj.com/id/hpi"/>
     <value value="PERS~PH"/>
   </identifier>
   <name>

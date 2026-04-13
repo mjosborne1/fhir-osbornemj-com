@@ -19,7 +19,7 @@
     "status" : "draft",
     "name" : "OSLABMicrobiologyOrdersVS",
     "title" : "OS LAB Microbiology Report",
-    "description" : "The OS LAB Microbiology Report value set includes codes for Microbiology reports.",
+    "description" : "The OS LAB Microbiology Report value set includes codes for Microbiology reports, for example URINE - Urine M/C/S.",
     "systems" : ["https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports"],
     "uses" : {
     },
@@ -30,8 +30,8 @@
     "version" : "0.1.0",
     "status" : "draft",
     "name" : "PresentingComplaintVS",
-    "title" : "Presenting Complaints ValueSet",
-    "description" : "Presenting Complaint codes",
+    "title" : "Presenting Complaint",
+    "description" : "The Presenting Complaint value set includes codes for the presenting complaint in an ED presentation.",
     "systems" : ["https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"]
   }]
 }

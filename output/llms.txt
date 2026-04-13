@@ -16,7 +16,7 @@
 ### ValueSets
 
 * [OS LAB Microbiology Report](ValueSet-vs-OSLAB-microbiology-report.md)
-* [Presenting Complaints ValueSet](ValueSet-vs-presenting-complaint.md)
+* [Presenting Complaint](ValueSet-vs-presenting-complaint.md)
 
 ### Resource Profiles
 
@@ -32,7 +32,7 @@
 * [condition-lynch-haematuria (Condition)](Condition-condition-lynch-haematuria.md)
 * [condition-lynch-uti (Condition)](Condition-condition-lynch-uti.md)
 * [diagnosticreport-urinemcs (DiagnosticReport)](DiagnosticReport-diagnosticreport-urinemcs.md)
-* [encounter-teen-female-ed (Encounter)](Encounter-encounter-teen-female-ed.md)
+* [encounter-female-ed (Encounter)](Encounter-encounter-female-ed.md)
 * [Emergency Department (Hospital) (Location)](Location-location-hosp-ed.md)
 * [observation-ecoli-amoxicillin (Observation)](Observation-observation-ecoli-amoxicillin.md)
 * [observation-ecoli-cephalexin (Observation)](Observation-observation-ecoli-cephalexin.md)

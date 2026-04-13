@@ -10,158 +10,13 @@
 | *Official URL*:https://fhir.osbornemj.com/ig/ImplementationGuide/fhir.osbornemj.ig | *Version*:0.1.0 |
 | Draft as of 2026-04-13 | *Computable Name*:FHIROsbornemjIG |
 
-![](https://healthinfoservices.site/images/logo extended.png)
-## Temp Implementation Guide
-
-#### for testing Australian Content
+## FHIR Implementation Guide Test Harness
 
 ## Overview
 
-This is an Implementation Guide (IG) template is intended as a starting place for new FHIR projects. It provides a basic structure with a set of commonly used base FHIR profiles that can be readily modified and/or extended to meet the project requirements.
+This is an Implementation Guide (IG) test harness for testing Australian content, based on good work by [Daniel Foulkes](https://www.linkedin.com/in/daniel-foulkes/) (see Acknowledgments below to access the original repo). It provides a basic structure with a set of commonly used base FHIR profiles that can be readily modified and/or extended to meet the project requirements.
 
-This version of the template includes dependencies on the Australian FHIR standards - AU Base (v5.0.0) and AU Core (v1.0.0). It is intended that a version of the template without jurisdiction specific dependencies will be subsequently created.
-
-## Getting Started
-
-To configure your system to compile this code into an IG, follow the steps below.
-
-### Prerequisite Skills
-
-This template is designed to make your getting started process as easy as possible… But if you are unfamiliar with FHIR, you are strongly recommended to first familiarise yourself with the basic concepts of FHIR resources. There are many tutorials and guides, but don't get lost in the weeds, the best way to learn is actually starting with a simple project.
-
-Equally if you are not familiar with FHIR Shorthand (FSH) it would be good to follow a tutorial My recommendations are:
-
-* [FSH Seminar](https://fshschool.github.io/courses/fsh-seminar/)
-* [Sushi Tutorial](https://fshschool.org/docs/sushi/tutorial/)
-
-### Required Software
-
-You will need to have the following software installed and configured on the system that you will be using for creating the IG.
-
-1. Node.js
-1. Sushi - to install Sushi and Node.js follow these[instructions](https://fshschool.org/docs/sushi/installation/)
-1. Git
-1. A text editor (Notepad++ or Visual Studio Code)
-
-### Installation
-
-To setup and deploy the IG, ensure that you have the pre-requisite software installed, and then follow the steps below.
-
-1. Create or go to a folder that you will use for working with the FSH code
-1. Clone this repository by executing:
-
-```
-  git clone https://github.com/healthinfoservices/template-fhir-ig.git
-
-```
-
-
-1. Install the FHIR packages listed in the dependencies section of the sushi-config.yaml file:
-
-```
-  sushi update-dependencies
-
-```
-
-
-1. Download the latest version of the HL7 FHIR IG Publisher tool into the cache.(for Linux/Mac)
-
-```
-./_updatePublisher.sh
-
-```
-
-(for Windows CMD)
-
-```
-_updatePublisher
-
-```
-
-(for Windows Powershell)
-
-```
-./_updatePublisher.bat
-
-```
-
-
-1. Run SUSHI on the FSH files in input/fsh:
-
-```
-  sushi build .
-
-```
-
-
-1. Build the IG(for Linux/Mac)
-
-```
-./_genonce.sh
-
-```
-
-(for Windows CMD)
-
-```
-_genonce
-
-```
-
-(for Windows Powershell)
-
-```
-./_genonce.bat
-
-```
-
-
-### Creating your own IG content
-
-To customise this template for our own you will need to use a text editor to modify the following:
-
-1. Change the information in the sushi-config.yaml file to set overall settings for your IG.
-1. Using a text editor, you can adapt or extend the IG by editing the .fsh files in the input/fsh folder. You can also delete and .fsh files for profiles that you will not be using, and/or create new fsh files for additional profiles.
-1. Using a text editor, modify the index.md. This creates the content for the home page of your IG.
-1. Make use of the aliases.fsh file. It contains a set of aliases that you can use in your fsh files to prevent having to type in long url's.
-1. After each modification to fsh or md files, run the following command: (for Linux/Mac)
-
-```
-  ./_genonce.sh
-
-```
-
-(for Windows CMD)
-
-```
-  _genonce
-  (for Windows Powershell)
-  ```sh
-  ./_genonce.bat
-
-```
-
-
-## Useful Links and Cheatsheets
-
-You might find these links helpful:
-
-## Example Profiles
-
-Simple example profiles are included for the following resources:
-
-* Patient (AUTmpPatient)
-* Practitioner (AUTmpPractitioner)
-
-### Acknowledgements
-
-* [FHIR Shorthand FSH](https://build.fhir.org/ig/HL7/fhir-shorthand/overview.html)
-* [FHIR Australia AU FHIR Base Implementation Guide](https://build.fhir.org/ig/hl7au/au-fhir-base/index.html)
-* [HealthInfoServices - Australia](https://healthinfoservices.site)
-
-## About the Project
-
-This template is provided by HealthInfoServices to help those starting on their FHIR journey, and to make it more efficient for more experienced FHIR practitioners. Enjoy and please feel free to credit HealthInfoServices in your work.
+This version of the template includes dependencies on AU Base (v6.0.0) and AU Core (v2.0.0).
 
 ### License
 
@@ -170,8 +25,9 @@ Distributed under the MIT License. See [LICENSE.txt](https://au-ig-template.heal
 ### Acknowledgments
 
 * [FHIR Shorthand FSH](https://build.fhir.org/ig/HL7/fhir-shorthand/overview.html)
-* [FHIR Australia AU FHIR Base Implementation Guide](https://build.fhir.org/ig/hl7au/au-fhir-base/index.html)
-* [HealthInfoServices Australia](https://healthinfoservices.site)
+* [AU Base Implementation Guide](https://build.fhir.org/ig/hl7au/au-fhir-base/index.html)
+* [AU Core Implementation Guide](https://build.fhir.org/ig/hl7au/au-fhir-core/index.html)
+* [HealthInfoServices Australia template](https://au-ig-template.healthinfoservices.site/)
 * [Daniel Foulkes](https://www.linkedin.com/in/daniel-foulkes/)
 
 ([back to top](#readme-top))
@@ -189,7 +45,7 @@ Distributed under the MIT License. See [LICENSE.txt](https://au-ig-template.heal
   "name" : "FHIROsbornemjIG",
   "title" : "FHIR Implementation Guide for PUBLIC Testing",
   "status" : "draft",
-  "date" : "2026-04-13T13:22:11+10:00",
+  "date" : "2026-04-13T14:16:09+10:00",
   "publisher" : "Michael J Osborne",
   "contact" : [{
     "name" : "Michael J Osborne",
@@ -207,7 +63,7 @@ Distributed under the MIT License. See [LICENSE.txt](https://au-ig-template.heal
     }]
   }],
   "packageId" : "fhir.osbornemj.ig",
-  "license" : "CC0-1.0",
+  "license" : "MIT",
   "fhirVersion" : ["4.0.1"],
   "dependsOn" : [{
     "id" : "hl7tx",
@@ -870,7 +726,7 @@ Distributed under the MIT License. See [LICENSE.txt](https://au-ig-template.heal
       },
       "name" : "DiagnosticReport - Urine MCS",
       "description" : "Microbiology report for urine microscopy, culture and sensitivities",
-      "exampleBoolean" : true
+      "exampleCanonical" : "https://fhir.osbornemj.com/ig/StructureDefinition/diagnosticreport-microbiology"
     },
     {
       "extension" : [{
@@ -881,8 +737,20 @@ Distributed under the MIT License. See [LICENSE.txt](https://au-ig-template.heal
         "reference" : "StructureDefinition/diagnosticreport-microbiology"
       },
       "name" : "DiagnosticReport Microbiology Profile",
-      "description" : "The DiagnosticReport Microbiology Profile inherits from the AU Base DiagnosticReport [AUBaseDiagnosticReport](https://build.fhir.org/ig/hl7au/au-fhir-base/StructureDefinition-au-diagnosticreport.html) resource; refer to it for scope and usage definitions. Laboratory results are grouped and summarized using the DiagnosticReport resource, which typically references Observation resource(s). Each Observation resource represents an individual laboratory test and result value or component result values or a nested panel (such as a microbial susceptibility panel) that references other observations. Laboratory results can also be presented in report form or as free text. This profile sets minimum expectations for the DiagnosticReport resource to record, search,  and fetch laboratory results associated with a patient. It specifies which core elements, extensions, vocabularies, and value sets **SHALL** be present and constrains how the elements are used. Providing the floor for standards development for specific use cases promotes interoperability and adoption.",
+      "description" : "The DiagnosticReport Microbiology Profile inherits from the AU Base DiagnosticReport [AUBaseDiagnosticReport](https://build.fhir.org/ig/hl7au/au-fhir-base/StructureDefinition-au-diagnosticreport.html) resource; refer to it for scope and usage definitions. Laboratory results are grouped and summarized using the DiagnosticReport resource, which typically references Observation resource(s). Each Observation resource represents an individual laboratory test and result value or component result values or a nested panel (such as a microbial susceptibility panel) that references other observations. Laboratory results can also be presented in report form or as free text.",
       "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Encounter"
+      }],
+      "reference" : {
+        "reference" : "Encounter/encounter-female-ed"
+      },
+      "name" : "Encounter - Female ED Presentation",
+      "description" : "Ambulatory encounter for female patient Lynch at Hospital ED",
+      "exampleCanonical" : "http://hl7.org.au/fhir/core/StructureDefinition/au-core-encounter"
     },
     {
       "extension" : [{
@@ -892,20 +760,9 @@ Distributed under the MIT License. See [LICENSE.txt](https://au-ig-template.heal
       "reference" : {
         "reference" : "Location/location-hosp-ed"
       },
-      "name" : "Emergency Department (Hospital)",
-      "description" : "Ward where patient is located",
+      "name" : "Location - Hospital Emergency Dept",
+      "description" : "Hospital Emergency Department location",
       "exampleCanonical" : "http://hl7.org.au/fhir/core/StructureDefinition/au-core-location"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Encounter"
-      }],
-      "reference" : {
-        "reference" : "Encounter/encounter-teen-female-ed"
-      },
-      "name" : "encounter-teen-female-ed",
-      "exampleBoolean" : true
     },
     {
       "extension" : [{
@@ -976,7 +833,7 @@ Distributed under the MIT License. See [LICENSE.txt](https://au-ig-template.heal
         "reference" : "ValueSet/vs-OSLAB-microbiology-report"
       },
       "name" : "OS LAB Microbiology Report",
-      "description" : "The OS LAB Microbiology Report value set includes codes for Microbiology reports.",
+      "description" : "The OS LAB Microbiology Report value set includes codes for Microbiology reports, for example URINE - Urine M/C/S.",
       "exampleBoolean" : false
     },
     {
@@ -1023,8 +880,21 @@ Distributed under the MIT License. See [LICENSE.txt](https://au-ig-template.heal
       "reference" : {
         "reference" : "Practitioner/practitioner-persson-una"
       },
-      "name" : "practitioner-persson-una",
+      "name" : "Practitioner - Una Persson",
+      "description" : "Practitioner Una Persson",
       "exampleCanonical" : "http://hl7.org.au/fhir/core/StructureDefinition/au-core-practitioner"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-presenting-complaint"
+      },
+      "name" : "Presenting Complaint",
+      "description" : "The Presenting Complaint value set includes codes for the presenting complaint in an ED presentation.",
+      "exampleBoolean" : false
     },
     {
       "extension" : [{
@@ -1035,19 +905,7 @@ Distributed under the MIT License. See [LICENSE.txt](https://au-ig-template.heal
         "reference" : "CodeSystem/presenting-complaints"
       },
       "name" : "Presenting Complaints",
-      "description" : "Presenting Complaint codes",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/vs-presenting-complaint"
-      },
-      "name" : "Presenting Complaints ValueSet",
-      "description" : "Presenting Complaint codes",
+      "description" : "Local code system specifying Presenting Complaint codes",
       "exampleBoolean" : false
     },
     {
@@ -1058,7 +916,8 @@ Distributed under the MIT License. See [LICENSE.txt](https://au-ig-template.heal
       "reference" : {
         "reference" : "ServiceRequest/servicerequest-urinemcs"
       },
-      "name" : "servicerequest-urinemcs",
+      "name" : "ServiceRequest - Urine MCS",
+      "description" : "Lab order for urine microscopy, culture and sensitivity panel",
       "exampleCanonical" : "http://hl7.org.au/fhir/StructureDefinition/au-servicerequest"
     },
     {
@@ -1069,7 +928,8 @@ Distributed under the MIT License. See [LICENSE.txt](https://au-ig-template.heal
       "reference" : {
         "reference" : "Specimen/specimen-urine"
       },
-      "name" : "specimen-urine",
+      "name" : "Specimen - Urine",
+      "description" : "Urine specimen for patient Lynch",
       "exampleCanonical" : "http://hl7.org.au/fhir/StructureDefinition/au-specimen"
     }],
     "page" : {

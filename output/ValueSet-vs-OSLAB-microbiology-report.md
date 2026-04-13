@@ -12,7 +12,7 @@
 | Draft as of 2026-02-28 | [Maturity Level](http://hl7.org/fhir/versions.html#maturity): 0 | *Computable Name*:OSLABMicrobiologyOrdersVS |
 
  
-The OS LAB Microbiology Report value set includes codes for Microbiology reports. 
+The OS LAB Microbiology Report value set includes codes for Microbiology reports, for example URINE - Urine M/C/S. 
 
  **References** 
 
@@ -67,7 +67,7 @@ The OS LAB Microbiology Report value set includes codes for Microbiology reports
       "value" : "http://osbornemj.com"
     }]
   }],
-  "description" : "The OS LAB Microbiology Report value set includes codes for Microbiology reports.",
+  "description" : "The OS LAB Microbiology Report value set includes codes for Microbiology reports, for example URINE - Urine M/C/S.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

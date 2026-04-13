@@ -178,20 +178,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <p><!-- white space is critical inside of capture --></p>
 <div class="markdown-toc">
 <ul id="markdown-toc">
-  <li><a href="#overview" id="markdown-toc-overview">Overview</a></li>
-  <li><a href="#getting-started" id="markdown-toc-getting-started">Getting Started</a>    <ul>
-      <li><a href="#prerequisite-skills" id="markdown-toc-prerequisite-skills">Prerequisite Skills</a></li>
-      <li><a href="#required-software" id="markdown-toc-required-software">Required Software</a></li>
-      <li><a href="#installation" id="markdown-toc-installation">Installation</a></li>
-      <li><a href="#creating-your-own-ig-content" id="markdown-toc-creating-your-own-ig-content">Creating your own IG content</a></li>
-    </ul>
-  </li>
-  <li><a href="#useful-links-and-cheatsheets" id="markdown-toc-useful-links-and-cheatsheets">Useful Links and Cheatsheets</a></li>
-  <li><a href="#example-profiles" id="markdown-toc-example-profiles">Example Profiles</a>    <ul>
-      <li><a href="#acknowledgements" id="markdown-toc-acknowledgements">Acknowledgements</a></li>
-    </ul>
-  </li>
-  <li><a href="#about-the-project" id="markdown-toc-about-the-project">About the Project</a>    <ul>
+  <li><a href="#overview" id="markdown-toc-overview">Overview</a>    <ul>
       <li><a href="#license" id="markdown-toc-license">License</a></li>
       <li><a href="#acknowledgments" id="markdown-toc-acknowledgments">Acknowledgments</a></li>
     </ul>
@@ -200,134 +187,15 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 </div>
 <p><a id="readme-top"></a></p>
-<div align="center">
-  <a href="https://au-ig-template.healthinfoservices.site"><img src="https://healthinfoservices.site/images/logo extended.png" width="100" alt="Health Info Services Logo" /></a>
-  <h2>Temp Implementation Guide</h2>
-  <h4>for testing Australian Content</h4>
+<div align="center"> 
+  <h2>FHIR Implementation Guide Test Harness</h2>
 </div>
 
 <h2 id="overview">Overview</h2>
 
-<p>This is an Implementation Guide (IG) template is intended as a starting place for new FHIR projects.  It provides a basic structure with a set of commonly used base FHIR profiles that can be readily modified and/or extended to meet the project requirements.</p>
+<p>This is an Implementation Guide (IG) test harness for testing Australian content, based on good work by <a href="https://www.linkedin.com/in/daniel-foulkes/">Daniel Foulkes</a> (see Acknowledgments below to access the original repo).  It provides a basic structure with a set of commonly used base FHIR profiles that can be readily modified and/or extended to meet the project requirements.</p>
 
-<p>This version of the template includes dependencies on the Australian FHIR standards - AU Base (v5.0.0) and AU Core (v1.0.0).   It is intended that a version of the template without jurisdiction specific dependencies will be subsequently created.</p>
-
-<h2 id="getting-started">Getting Started</h2>
-<p>To configure your system to compile this code into an IG, follow the steps below.</p>
-
-<h3 id="prerequisite-skills">Prerequisite Skills</h3>
-<p>This template is designed to make your getting started process as easy as possible…  But if you are unfamiliar with FHIR, you are strongly recommended to first familiarise yourself with the basic concepts of FHIR resources.  There are many tutorials and guides,  but don't get lost in the weeds,  the best way to learn is actually starting with a simple project.</p>
-
-<p>Equally if you are not familiar with FHIR Shorthand (FSH) it would be good to follow a tutorial   My recommendations are:</p>
-<ul>
-  <li><a href="https://fshschool.github.io/courses/fsh-seminar/">FSH Seminar</a></li>
-  <li><a href="https://fshschool.org/docs/sushi/tutorial/">Sushi Tutorial</a></li>
-</ul>
-
-<h3 id="required-software">Required Software</h3>
-<p>You will need to have the following software installed and configured on the system that you will be using for creating the IG.</p>
-<ol>
-  <li>Node.js</li>
-  <li>Sushi - to install Sushi and Node.js follow these <a href="https://fshschool.org/docs/sushi/installation/">instructions</a></li>
-  <li>Git</li>
-  <li>A text editor (Notepad++ or Visual Studio Code)</li>
-</ol>
-
-<h3 id="installation">Installation</h3>
-<p>To setup and deploy the IG, ensure that you have the pre-requisite software installed,  and then follow the steps below.</p>
-<ol>
-  <li>Create or go to a folder that you will use for working with the FSH code</li>
-  <li>Clone this repository by executing:
-    <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  git clone https://github.com/healthinfoservices/template-fhir-ig.git
-</code></pre></div>    </div>
-  </li>
-  <li>Install the FHIR packages listed in the dependencies section of the sushi-config.yaml file:
-    <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  sushi update-dependencies
-</code></pre></div>    </div>
-  </li>
-  <li>
-    <p>Download the latest version of the HL7 FHIR IG Publisher tool into the cache.</p>
-
-    <p>(for Linux/Mac)</p>
-    <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./_updatePublisher.sh
-</code></pre></div>    </div>
-    <p>(for Windows CMD)</p>
-    <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>_updatePublisher
-</code></pre></div>    </div>
-    <p>(for Windows Powershell)</p>
-    <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./_updatePublisher.bat
-</code></pre></div>    </div>
-  </li>
-  <li>Run SUSHI on the FSH files in input/fsh:
-    <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  sushi build <span class="nb">.</span>
-</code></pre></div>    </div>
-  </li>
-  <li>
-    <p>Build the IG</p>
-
-    <p>(for Linux/Mac)</p>
-    <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./_genonce.sh
-</code></pre></div>    </div>
-    <p>(for Windows CMD)</p>
-    <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>_genonce
-</code></pre></div>    </div>
-    <p>(for Windows Powershell)</p>
-    <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./_genonce.bat
-</code></pre></div>    </div>
-  </li>
-</ol>
-
-<h3 id="creating-your-own-ig-content">Creating your own IG content</h3>
-<p>To customise this template for our own you will need to use a text editor to modify the following:</p>
-
-<ol>
-  <li>
-    <p>Change the information in the sushi-config.yaml file to set overall settings for your IG.</p>
-  </li>
-  <li>
-    <p>Using a text editor,  you can adapt or extend the IG by editing the .fsh files in the input/fsh folder.  You can also delete and .fsh files for profiles that you will not be using,  and/or create new fsh files for additional profiles.</p>
-  </li>
-  <li>
-    <p>Using a text editor,  modify the index.md.  This creates the content for the home page of your IG.</p>
-  </li>
-  <li>
-    <p>Make use of the aliases.fsh file.  It contains a set of aliases that you can use in your fsh files to prevent having to type in long url's.</p>
-  </li>
-  <li>
-    <p>After each modification to fsh or md files,  run the following command:
-  (for Linux/Mac)</p>
-    <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  ./_genonce.sh
-</code></pre></div>    </div>
-    <p>(for Windows CMD)</p>
-    <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  _genonce
-  <span class="o">(</span><span class="k">for </span>Windows Powershell<span class="o">)</span>
-  <span class="sb">```</span>sh
-  ./_genonce.bat
-</code></pre></div>    </div>
-  </li>
-</ol>
-
-<h2 id="useful-links-and-cheatsheets">Useful Links and Cheatsheets</h2>
-<p>You might find these links helpful:</p>
-
-<h2 id="example-profiles">Example Profiles</h2>
-
-<p>Simple example profiles are included for the following resources:</p>
-
-<ul>
-  <li>Patient (AUTmpPatient)</li>
-  <li>Practitioner (AUTmpPractitioner)</li>
-</ul>
-
-<h3 id="acknowledgements">Acknowledgements</h3>
-<ul>
-  <li><a href="https://build.fhir.org/ig/HL7/fhir-shorthand/overview.html">FHIR Shorthand FSH</a></li>
-  <li><a href="https://build.fhir.org/ig/hl7au/au-fhir-base/index.html">FHIR Australia AU FHIR Base Implementation Guide</a></li>
-  <li><a href="https://healthinfoservices.site">HealthInfoServices - Australia</a></li>
-</ul>
-
-<h2 id="about-the-project">About the Project</h2>
-<p>This template is provided by HealthInfoServices to help those starting on their FHIR journey,  and to make it more efficient for more experienced FHIR practitioners.  Enjoy and please feel free to credit HealthInfoServices in your work.</p>
+<p>This version of the template includes dependencies on AU Base (v6.0.0) and AU Core (v2.0.0).</p>
 
 <h3 id="license">License</h3>
 
@@ -336,8 +204,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <h3 id="acknowledgments">Acknowledgments</h3>
 <ul>
   <li><a href="https://build.fhir.org/ig/HL7/fhir-shorthand/overview.html">FHIR Shorthand FSH</a></li>
-  <li><a href="https://build.fhir.org/ig/hl7au/au-fhir-base/index.html">FHIR Australia AU FHIR Base Implementation Guide</a></li>
-  <li><a href="https://healthinfoservices.site">HealthInfoServices Australia</a></li>
+  <li><a href="https://build.fhir.org/ig/hl7au/au-fhir-base/index.html">AU Base Implementation Guide</a></li>
+  <li><a href="https://build.fhir.org/ig/hl7au/au-fhir-core/index.html">AU Core Implementation Guide</a></li>
+  <li><a href="https://au-ig-template.healthinfoservices.site/">HealthInfoServices Australia template</a></li>
   <li><a href="https://www.linkedin.com/in/daniel-foulkes/">Daniel Foulkes</a></li>
 </ul>
 
@@ -364,7 +233,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://osbornemj.com">Michael J Osborne</a>.  Package fhir.osbornemj.ig#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Apr 13, 2026 13:22+1000">2026-04-13</span>
+          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://osbornemj.com">Michael J Osborne</a>.  Package fhir.osbornemj.ig#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Apr 13, 2026 14:16+1000">2026-04-13</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

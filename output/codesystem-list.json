@@ -21,6 +21,6 @@
     "status" : "draft",
     "name" : "PresentingComplaintCS",
     "title" : "Presenting Complaints",
-    "description" : "Presenting Complaint codes"
+    "description" : "Local code system specifying Presenting Complaint codes"
   }]
 }

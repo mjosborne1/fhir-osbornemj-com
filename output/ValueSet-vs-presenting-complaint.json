@@ -15,7 +15,7 @@
   "url" : "https://fhir.osbornemj.com/ig/ValueSet/vs-presenting-complaint",
   "version" : "0.1.0",
   "name" : "PresentingComplaintVS",
-  "title" : "Presenting Complaints ValueSet",
+  "title" : "Presenting Complaint",
   "status" : "draft",
   "experimental" : false,
   "date" : "2026-02-28",
@@ -27,7 +27,7 @@
       "value" : "http://osbornemj.com"
     }]
   }],
-  "description" : "Presenting Complaint codes",
+  "description" : "The Presenting Complaint value set includes codes for the presenting complaint in an ED presentation.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

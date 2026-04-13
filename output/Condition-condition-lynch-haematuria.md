@@ -35,7 +35,7 @@ Profile: [AU Core Condition](http://hl7.org.au/fhir/core/2.0.0/StructureDefiniti
   }],
   "code" : {
     "coding" : [{
-      "system" : "http://hosp.osbornemj.com/cs/ed-presenting-complaints",
+      "system" : "https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints",
       "code" : "9044679",
       "display" : "Haematuria"
     },

@@ -1,10 +1,10 @@
-# Presenting Complaints ValueSet - FHIR Implementation Guide for PUBLIC Testing v0.1.0
+# Presenting Complaint - FHIR Implementation Guide for PUBLIC Testing v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
-* **Presenting Complaints ValueSet**
+* **Presenting Complaint**
 
-## ValueSet: Presenting Complaints ValueSet 
+## ValueSet: Presenting Complaint 
 
 | | | |
 | :--- | :--- | :--- |
@@ -12,7 +12,7 @@
 | Draft as of 2026-02-28 | [Maturity Level](http://hl7.org/fhir/versions.html#maturity): 0 | *Computable Name*:PresentingComplaintVS |
 
  
-Presenting Complaint codes 
+The Presenting Complaint value set includes codes for the presenting complaint in an ED presentation. 
 
  **References** 
 
@@ -55,7 +55,7 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
   "url" : "https://fhir.osbornemj.com/ig/ValueSet/vs-presenting-complaint",
   "version" : "0.1.0",
   "name" : "PresentingComplaintVS",
-  "title" : "Presenting Complaints ValueSet",
+  "title" : "Presenting Complaint",
   "status" : "draft",
   "experimental" : false,
   "date" : "2026-02-28",
@@ -67,7 +67,7 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
       "value" : "http://osbornemj.com"
     }]
   }],
-  "description" : "Presenting Complaint codes",
+  "description" : "The Presenting Complaint value set includes codes for the presenting complaint in an ED presentation.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

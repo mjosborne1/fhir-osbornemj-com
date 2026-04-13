@@ -65,7 +65,7 @@
     "reference": "Patient/patient-lynch-alyce"
   },
   "encounter": {
-    "reference": "Encounter/encounter-teen-female-ed"
+    "reference": "Encounter/encounter-female-ed"
   },
   "occurrenceDateTime": "2023-02-04",
   "requester": {

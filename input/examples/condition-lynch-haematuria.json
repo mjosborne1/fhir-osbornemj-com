@@ -21,7 +21,7 @@
   "code": {
     "coding": [
       {
-        "system": "http://hosp.osbornemj.com/cs/ed-presenting-complaints",
+        "system": "https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints",
         "code": "9044679",
         "display": "Haematuria"
       },

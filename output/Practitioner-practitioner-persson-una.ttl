@@ -33,8 +33,8 @@
        fhir:text [ fhir:v "Hospital Provider Identifier" ]
      ] ;
      fhir:system [
-       fhir:v "http://ns.health.qld.gov.au/id/hpi"^^xsd:anyURI ;
-       fhir:l <http://ns.health.qld.gov.au/id/hpi>
+       fhir:v "http://fhir.osbornemj.com/id/hpi"^^xsd:anyURI ;
+       fhir:l <http://fhir.osbornemj.com/id/hpi>
      ] ;
      fhir:value [ fhir:v "PERS~PH" ]
   ] ) ; # 

@@ -47,7 +47,7 @@
        fhir:value [ fhir:v "http://osbornemj.com" ]
      ] )
   ] ) ; # 
-  fhir:description [ fhir:v "Presenting Complaint codes"] ; # 
+  fhir:description [ fhir:v "Local code system specifying Presenting Complaint codes"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
        fhir:system [

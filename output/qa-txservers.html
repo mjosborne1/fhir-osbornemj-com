@@ -12,7 +12,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Terminology Server Report for FHIROsbornemjIG</h1>
- <p>Generated Mon Apr 13 13:23:53 AEST 2026, FHIR version 4.0.1 for fhir.osbornemj.ig#0.1.0 (canonical = <a href="https://fhir.osbornemj.com/ig">https://fhir.osbornemj.com/ig</a> (<a href="https://fhir.osbornemj.com/ig/history.html">history</a>))</p>
+ <p>Generated Mon Apr 13 14:17:56 AEST 2026, FHIR version 4.0.1 for fhir.osbornemj.ig#0.1.0 (canonical = <a href="https://fhir.osbornemj.com/ig">https://fhir.osbornemj.com/ig</a> (<a href="https://fhir.osbornemj.com/ig/history.html">history</a>))</p>
 <p>This page provides a report on which terminology servers were used while publishing this IG. Note that terminology caching reduces the server hit count - this page only reports content that wasn't cached</p>
 <h2>Terminology Parameters</h2>
 <ul>
@@ -65,14 +65,14 @@
     <td>System not handled by any servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
     <td>null</td>
-    <td>http://ns.health.qld.gov.au/cs/qh-encounter-types</td>
+    <td>http://fhir.osbornemj.com/cs/qh-encounter-types</td>
     <td>auth = , candidates=</td>
   </tr>
   <tr>
     <td>Fallback: primary server</td>
     <td>https://tx.fhir.org/r4</td>
     <td>null</td>
-    <td>http://ns.health.qld.gov.au/cs/qh-encounter-types</td>
+    <td>http://fhir.osbornemj.com/cs/qh-encounter-types</td>
     <td>auth = , candidates=</td>
   </tr>
   <tr>
@@ -97,24 +97,10 @@
     <td>auth = https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir, candidates=http://tx.fhir.org/r4|https://terminologystandardsservice.ca/tx/fhir|https://smt.esante.gouv.fr/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir</td>
   </tr>
   <tr>
-    <td>System not handled by any servers. Using primary server</td>
-    <td>https://tx.fhir.org/r4</td>
-    <td>null</td>
-    <td>http://hosp.osbornemj.com/cs/ed-presenting-complaints</td>
-    <td>auth = , candidates=</td>
-  </tr>
-  <tr>
-    <td>Fallback: primary server</td>
-    <td>https://tx.fhir.org/r4</td>
-    <td>null</td>
-    <td>http://hosp.osbornemj.com/cs/ed-presenting-complaints</td>
-    <td>auth = , candidates=</td>
-  </tr>
-  <tr>
     <td>Use primary server for http://snomed.info/sct</td>
     <td>https://tx.fhir.org/r4</td>
     <td>https://healthterminologies.gov.au/fhir/ValueSet/clinical-condition-1|1.0.2</td>
-    <td>[http://hosp.osbornemj.com/cs/ed-presenting-complaints, http://snomed.info/sct]</td>
+    <td>[https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints, http://snomed.info/sct]</td>
     <td>[auth = , candidates=, auth = https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir, candidates=http://tx.fhir.org/r4|https://terminologystandardsservice.ca/tx/fhir|https://smt.esante.gouv.fr/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir]</td>
   </tr>
   <tr>
@@ -125,32 +111,46 @@
     <td>auth = https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir, candidates=http://tx.fhir.org/r4|https://terminologystandardsservice.ca/tx/fhir|https://smt.esante.gouv.fr/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir</td>
   </tr>
   <tr>
+    <td>Use primary server for http://snomed.info/sct</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>https://fhir.osbornemj.com/ig/ValueSet/vs-OSLAB-microbiology-report|0.1.0</td>
+    <td>[https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports, http://snomed.info/sct]</td>
+    <td>[auth = , candidates=, auth = https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir, candidates=http://tx.fhir.org/r4|https://terminologystandardsservice.ca/tx/fhir|https://smt.esante.gouv.fr/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir]</td>
+  </tr>
+  <tr>
     <td>System not handled by any servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
     <td>null</td>
-    <td>http://ns.health.qld.gov.au/cs/qh-encounter-types</td>
+    <td>http://fhir.osbornemj.com/cs/qh-encounter-types</td>
     <td>auth = , candidates=</td>
   </tr>
   <tr>
     <td>Fallback: primary server</td>
     <td>https://tx.fhir.org/r4</td>
     <td>null</td>
-    <td>http://ns.health.qld.gov.au/cs/qh-encounter-types</td>
+    <td>http://fhir.osbornemj.com/cs/qh-encounter-types</td>
     <td>auth = , candidates=</td>
   </tr>
   <tr>
     <td>System not handled by any servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
     <td>null</td>
-    <td>http://ns.health.qld.gov.au/cs/qh-ed-departure-statuses</td>
+    <td>http://fhir.osbornemj.com/cs/qh-encounter-types</td>
     <td>auth = , candidates=</td>
   </tr>
   <tr>
     <td>Fallback: primary server</td>
     <td>https://tx.fhir.org/r4</td>
     <td>null</td>
-    <td>http://ns.health.qld.gov.au/cs/qh-ed-departure-statuses</td>
+    <td>http://fhir.osbornemj.com/cs/qh-encounter-types</td>
     <td>auth = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server https://tx.hl7.org.au/fhir</td>
+    <td>https://tx.hl7.org.au/fhir</td>
+    <td>null</td>
+    <td>https://healthterminologies.gov.au/fhir/CodeSystem/separation-mode-1</td>
+    <td>auth = https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir, candidates=</td>
   </tr>
   <tr>
     <td>Use primary server for http://loinc.org</td>
@@ -221,21 +221,9 @@
     </th>
   </tr>
   <tr>
-    <td>http://hosp.osbornemj.com/cs/ed-presenting-complaints</td>
+    <td>http://fhir.osbornemj.com/cs/qh-encounter-types</td>
     <td>0</td>
-    <td>1</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>http://ns.health.qld.gov.au/cs/qh-ed-departure-statuses</td>
-    <td>0</td>
-    <td>1</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>http://ns.health.qld.gov.au/cs/qh-encounter-types</td>
-    <td>0</td>
-    <td>2</td>
+    <td>3</td>
     <td></td>
   </tr>
 </table>
@@ -263,6 +251,14 @@
     <td>9</td>
     <td>
       <a href="http://hl7.org/fhir/R4/codesystem-snomedct.html">SNOMED CT (all versions)</a>
+    </td>
+  </tr>
+  <tr>
+    <td>https://healthterminologies.gov.au/fhir/CodeSystem/separation-mode-1</td>
+    <td>0</td>
+    <td>1</td>
+    <td>
+      <a href="https://tx.hl7.org.au/fhir/ValueSet/separation-mode-1">Separation Mode</a>
     </td>
   </tr>
 </table>

@@ -27,7 +27,7 @@
       "value" : "http://osbornemj.com"
     }]
   }],
-  "description" : "Presenting Complaint codes",
+  "description" : "Local code system specifying Presenting Complaint codes",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

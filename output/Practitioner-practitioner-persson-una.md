@@ -1,10 +1,10 @@
-# practitioner-persson-una - FHIR Implementation Guide for PUBLIC Testing v0.1.0
+# Practitioner - Una Persson - FHIR Implementation Guide for PUBLIC Testing v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
-* **practitioner-persson-una**
+* **Practitioner - Una Persson**
 
-## Example Practitioner: practitioner-persson-una
+## Example Practitioner: Practitioner - Una Persson
 
 Profile: [AU Core Practitioner](http://hl7.org.au/fhir/core/2.0.0/StructureDefinition-au-core-practitioner.html)
 
@@ -33,7 +33,7 @@ Profile: [AU Core Practitioner](http://hl7.org.au/fhir/core/2.0.0/StructureDefin
       }],
       "text" : "Hospital Provider Identifier"
     },
-    "system" : "http://ns.health.qld.gov.au/id/hpi",
+    "system" : "http://fhir.osbornemj.com/id/hpi",
     "value" : "PERS~PH"
   }],
   "name" : [{

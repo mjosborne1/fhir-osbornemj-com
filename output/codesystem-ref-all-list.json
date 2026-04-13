@@ -52,10 +52,10 @@
     "status" : "draft",
     "name" : "PresentingComplaintCS",
     "title" : "Presenting Complaints",
-    "description" : "Presenting Complaint codes",
+    "description" : "Local code system specifying Presenting Complaint codes",
     "uses" : {
     },
-    "ValueSet-vs-presenting-complaint.html" : "Presenting Complaints ValueSet"
+    "ValueSet-vs-presenting-complaint.html" : "Presenting Complaint"
   },
   {
     "url" : "urn:ietf:bcp:47",

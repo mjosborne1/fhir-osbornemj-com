@@ -3,7 +3,7 @@
   "id": "diagnosticreport-urinemcs",
   "meta": {
     "profile": [
-      "http://.csiro.au/StructureDefinition/-diagnosticreport-microbiology"
+      "https://fhir.osbornemj.com/ig/StructureDefinition/diagnosticreport-microbiology"
     ]
   },
   "identifier": [   
@@ -49,7 +49,7 @@
         "display": "Urine microscopy, culture and sensitivities"
       },
       {
-        "system": "http://lab.osbornemj.com/cs/reports",
+        "system": "https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports",
         "code": "URINE",
         "display": "Urine Culture (M/C/S)"
       }
@@ -60,7 +60,7 @@
     "reference": "Patient/patient-lynch-alyce"
   },
   "encounter": {
-    "reference": "Encounter/encounter-teen-female-ed"
+    "reference": "Encounter/encounter-female-ed"
   },
   "effectiveDateTime": "2023-02-04T17:30:00+10:30",
   "result": [

@@ -3,8 +3,8 @@
 [condition-lynch-uti]: Condition-condition-lynch-uti.html
 [diagnosticreport-urinemcs]: DiagnosticReport-diagnosticreport-urinemcs.html
 [DiagnosticReportMicrobiology]: StructureDefinition-diagnosticreport-microbiology.html
+[encounter-female-ed]: Encounter-encounter-female-ed.html
 [location-hosp-ed]: Location-location-hosp-ed.html
-[encounter-teen-female-ed]: Encounter-encounter-teen-female-ed.html
 [observation-ecoli-amoxicillin]: Observation-observation-ecoli-amoxicillin.html
 [observation-ecoli-cephalexin]: Observation-observation-ecoli-cephalexin.html
 [observation-ecoli-colonycount]: Observation-observation-ecoli-colonycount.html
@@ -15,7 +15,7 @@
 [OSLABSpecimensCS]: CodeSystem-oslab-specimens.html
 [patient-lynch-alyce]: Patient-patient-lynch-alyce.html
 [practitioner-persson-una]: Practitioner-practitioner-persson-una.html
-[PresentingComplaintCS]: CodeSystem-presenting-complaints.html
 [PresentingComplaintVS]: ValueSet-vs-presenting-complaint.html
+[PresentingComplaintCS]: CodeSystem-presenting-complaints.html
 [servicerequest-urinemcs]: ServiceRequest-servicerequest-urinemcs.html
 [specimen-urine]: Specimen-specimen-urine.html

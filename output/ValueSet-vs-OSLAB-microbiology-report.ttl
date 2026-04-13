@@ -47,7 +47,7 @@
        fhir:value [ fhir:v "http://osbornemj.com" ]
      ] )
   ] ) ; # 
-  fhir:description [ fhir:v "The OS LAB Microbiology Report value set includes codes for Microbiology reports."] ; # 
+  fhir:description [ fhir:v "The OS LAB Microbiology Report value set includes codes for Microbiology reports, for example URINE - Urine M/C/S."] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
        fhir:system [

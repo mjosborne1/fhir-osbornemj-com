@@ -3,10 +3,10 @@
 <DiagnosticReport xmlns="http://hl7.org/fhir">
   <id value="diagnosticreport-urinemcs"/>
   <meta>
-    <profile value="http://.csiro.au/StructureDefinition/-diagnosticreport-microbiology"/>
+    <profile value="https://fhir.osbornemj.com/ig/StructureDefinition/diagnosticreport-microbiology"/>
   </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: DiagnosticReport diagnosticreport-urinemcs</b></p><a name="diagnosticreport-urinemcs"> </a><a name="hcdiagnosticreport-urinemcs"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <code>http://.csiro.au/StructureDefinition/-diagnosticreport-microbiology</code></p></div><h2><span title="Codes:{http://snomed.info/sct 401324008}, {http://lab.osbornemj.com/cs/reports URINE}">Measurement of Microscopy, culture and susceptibility in Urine</span> (<span title="Codes:{http://terminology.hl7.org/CodeSystem/v2-0074 MB}">Microbiology</span>) </h2><table class="grid"><tr><td>Subject</td><td>Alyce SHAUNA LYNCH (official) Female, DoB: 2009-12-02 ( Hospital Unique patient number: PC842914 (use: usual, ))</td></tr><tr><td>When For</td><td>2023-02-04 17:30:00+1030</td></tr><tr><td>Identifier</td><td> OBR-3-1: Laboratory Number/612964051 (use: official, )</td></tr></table><p><b>Report Details</b></p><table class="grid"><tr><td><b>Code</b></td><td><b>Value</b></td><td><b>Flags</b></td></tr><tr><td><a href="Observation-observation-ecoli.html"><span title="Codes:{http://loinc.org 630-4}">Organism</span></a></td><td><span title="Codes:{http://snomed.info/sct 112283007}">Escherichia coli</span></td><td>Final</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: DiagnosticReport diagnosticreport-urinemcs</b></p><a name="diagnosticreport-urinemcs"> </a><a name="hcdiagnosticreport-urinemcs"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-diagnosticreport-microbiology.html">DiagnosticReport Microbiology Profile</a></p></div><h2><span title="Codes:{http://snomed.info/sct 401324008}, {https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports URINE}">Measurement of Microscopy, culture and susceptibility in Urine</span> (<span title="Codes:{http://terminology.hl7.org/CodeSystem/v2-0074 MB}">Microbiology</span>) </h2><table class="grid"><tr><td>Subject</td><td>Alyce SHAUNA LYNCH (official) Female, DoB: 2009-12-02 ( Hospital Unique patient number: PC842914 (use: usual, ))</td></tr><tr><td>When For</td><td>2023-02-04 17:30:00+1030</td></tr><tr><td>Identifier</td><td> OBR-3-1: Laboratory Number/612964051 (use: official, )</td></tr></table><p><b>Report Details</b></p><table class="grid"><tr><td><b>Code</b></td><td><b>Value</b></td><td><b>Flags</b></td></tr><tr><td><a href="Observation-observation-ecoli.html"><span title="Codes:{http://loinc.org 630-4}">Organism</span></a></td><td><span title="Codes:{http://snomed.info/sct 112283007}">Escherichia coli</span></td><td>Final</td></tr></table></div>
   </text>
   <identifier>
     <use value="official"/>
@@ -40,7 +40,7 @@
       <display value="Urine microscopy, culture and sensitivities"/>
     </coding>
     <coding>
-      <system value="http://lab.osbornemj.com/cs/reports"/>
+      <system value="https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports"/>
       <code value="URINE"/>
       <display value="Urine Culture (M/C/S)"/>
     </coding>
@@ -50,7 +50,7 @@
     <reference value="Patient/patient-lynch-alyce"/>
   </subject>
   <encounter>
-    <reference value="Encounter/encounter-teen-female-ed"/>
+    <reference value="Encounter/encounter-female-ed"/>
   </encounter>
   <effectiveDateTime value="2023-02-04T17:30:00+10:30"/>
   <result>

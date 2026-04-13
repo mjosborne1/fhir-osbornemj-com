@@ -26,7 +26,7 @@
       <value value="http://osbornemj.com"/>
     </telecom>
   </contact>
-  <description value="The OS LAB Microbiology Report value set includes codes for Microbiology reports."/>
+  <description value="The OS LAB Microbiology Report value set includes codes for Microbiology reports, for example URINE - Urine M/C/S."/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>

@@ -35,7 +35,7 @@
   ] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "PresentingComplaintVS"] ; # 
-  fhir:title [ fhir:v "Presenting Complaints ValueSet"] ; # 
+  fhir:title [ fhir:v "Presenting Complaint"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v false] ; # 
   fhir:date [ fhir:v "2026-02-28"^^xsd:date] ; # 
@@ -47,7 +47,7 @@
        fhir:value [ fhir:v "http://osbornemj.com" ]
      ] )
   ] ) ; # 
-  fhir:description [ fhir:v "Presenting Complaint codes"] ; # 
+  fhir:description [ fhir:v "The Presenting Complaint value set includes codes for the presenting complaint in an ED presentation."] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
        fhir:system [

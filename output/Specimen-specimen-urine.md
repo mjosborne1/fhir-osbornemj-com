@@ -1,10 +1,10 @@
-# specimen-urine - FHIR Implementation Guide for PUBLIC Testing v0.1.0
+# Specimen - Urine - FHIR Implementation Guide for PUBLIC Testing v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
-* **specimen-urine**
+* **Specimen - Urine**
 
-## Example Specimen: specimen-urine
+## Example Specimen: Specimen - Urine
 
 Profile: [AU Base Specimen](http://hl7.org.au/fhir/6.0.0/StructureDefinition-au-specimen.html)
 

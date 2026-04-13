@@ -162,7 +162,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                   title="StructureDefinition/diagnosticreport-microbiology">DiagnosticReport Microbiology Profile</a>
             </td>
             <td>
-<p>The DiagnosticReport Microbiology Profile inherits from the AU Base DiagnosticReport <a href="https://build.fhir.org/ig/hl7au/au-fhir-base/StructureDefinition-au-diagnosticreport.html">AUBaseDiagnosticReport</a> resource; refer to it for scope and usage definitions. Laboratory results are grouped and summarized using the DiagnosticReport resource, which typically references Observation resource(s). Each Observation resource represents an individual laboratory test and result value or component result values or a nested panel (such as a microbial susceptibility panel) that references other observations. Laboratory results can also be presented in report form or as free text. This profile sets minimum expectations for the DiagnosticReport resource to record, search,  and fetch laboratory results associated with a patient. It specifies which core elements, extensions, vocabularies, and value sets <strong>SHALL</strong> be present and constrains how the elements are used. Providing the floor for standards development for specific use cases promotes interoperability and adoption.</p>
+<p>The DiagnosticReport Microbiology Profile inherits from the AU Base DiagnosticReport <a href="https://build.fhir.org/ig/hl7au/au-fhir-base/StructureDefinition-au-diagnosticreport.html">AUBaseDiagnosticReport</a> resource; refer to it for scope and usage definitions. Laboratory results are grouped and summarized using the DiagnosticReport resource, which typically references Observation resource(s). Each Observation resource represents an individual laboratory test and result value or component result values or a nested panel (such as a microbial susceptibility panel) that references other observations. Laboratory results can also be presented in report form or as free text.</p>
 </td>
          </tr>
       </tbody>
@@ -179,16 +179,16 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                   title="ValueSet/vs-OSLAB-microbiology-report">OS LAB Microbiology Report</a>
             </td>
             <td>
-<p>The OS LAB Microbiology Report value set includes codes for Microbiology reports.</p>
+<p>The OS LAB Microbiology Report value set includes codes for Microbiology reports, for example URINE - Urine M/C/S.</p>
 </td>
          </tr>
          <tr>
             <td style="column-width:30%">
                <a href="ValueSet-vs-presenting-complaint.html"
-                  title="ValueSet/vs-presenting-complaint">Presenting Complaints ValueSet</a>
+                  title="ValueSet/vs-presenting-complaint">Presenting Complaint</a>
             </td>
             <td>
-<p>Presenting Complaint codes</p>
+<p>The Presenting Complaint value set includes codes for the presenting complaint in an ED presentation.</p>
 </td>
          </tr>
       </tbody>
@@ -223,7 +223,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                   title="CodeSystem/presenting-complaints">Presenting Complaints</a>
             </td>
             <td>
-<p>Presenting Complaint codes</p>
+<p>Local code system specifying Presenting Complaint codes</p>
 </td>
          </tr>
       </tbody>
@@ -272,10 +272,19 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tr>
          <tr>
             <td style="column-width:30%">
-               <a href="Location-location-hosp-ed.html" title="Location/location-hosp-ed">Emergency Department (Hospital)</a>
+               <a href="Encounter-encounter-female-ed.html"
+                  title="Encounter/encounter-female-ed">Encounter - Female ED Presentation</a>
             </td>
             <td>
-<p>Ward where patient is located</p>
+<p>Ambulatory encounter for female patient Lynch at Hospital ED</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Location-location-hosp-ed.html" title="Location/location-hosp-ed">Location - Hospital Emergency Dept</a>
+            </td>
+            <td>
+<p>Hospital Emergency Department location</p>
 </td>
          </tr>
          <tr>
@@ -334,37 +343,28 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tr>
          <tr>
             <td style="column-width:30%">
-               <a href="Encounter-encounter-teen-female-ed.html"
-                  title="Encounter/encounter-teen-female-ed">encounter-teen-female-ed</a>
-            </td>
-            <td>
-
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
                <a href="Practitioner-practitioner-persson-una.html"
-                  title="Practitioner/practitioner-persson-una">practitioner-persson-una</a>
+                  title="Practitioner/practitioner-persson-una">Practitioner - Una Persson</a>
             </td>
             <td>
-
+<p>Practitioner Una Persson</p>
 </td>
          </tr>
          <tr>
             <td style="column-width:30%">
                <a href="ServiceRequest-servicerequest-urinemcs.html"
-                  title="ServiceRequest/servicerequest-urinemcs">servicerequest-urinemcs</a>
+                  title="ServiceRequest/servicerequest-urinemcs">ServiceRequest - Urine MCS</a>
             </td>
             <td>
-
+<p>Lab order for urine microscopy, culture and sensitivity panel</p>
 </td>
          </tr>
          <tr>
             <td style="column-width:30%">
-               <a href="Specimen-specimen-urine.html" title="Specimen/specimen-urine">specimen-urine</a>
+               <a href="Specimen-specimen-urine.html" title="Specimen/specimen-urine">Specimen - Urine</a>
             </td>
             <td>
-
+<p>Urine specimen for patient Lynch</p>
 </td>
          </tr>
       </tbody>
@@ -387,7 +387,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://osbornemj.com">Michael J Osborne</a>.  Package fhir.osbornemj.ig#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Apr 13, 2026 13:22+1000">2026-04-13</span>
+          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://osbornemj.com">Michael J Osborne</a>.  Package fhir.osbornemj.ig#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Apr 13, 2026 14:16+1000">2026-04-13</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

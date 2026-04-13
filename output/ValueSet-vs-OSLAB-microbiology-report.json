@@ -27,7 +27,7 @@
       "value" : "http://osbornemj.com"
     }]
   }],
-  "description" : "The OS LAB Microbiology Report value set includes codes for Microbiology reports.",
+  "description" : "The OS LAB Microbiology Report value set includes codes for Microbiology reports, for example URINE - Urine M/C/S.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

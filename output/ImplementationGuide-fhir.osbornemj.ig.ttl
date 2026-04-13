@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "FHIROsbornemjIG"] ; # 
   fhir:title [ fhir:v "FHIR Implementation Guide for PUBLIC Testing"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2026-04-13T13:22:11+10:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-04-13T14:16:09+10:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Michael J Osborne"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Michael J Osborne" ] ;
@@ -42,7 +42,7 @@
      ] )
   ] ) ; # 
   fhir:packageId [ fhir:v "fhir.osbornemj.ig"] ; # 
-  fhir:license [ fhir:v "CC0-1.0"] ; # 
+  fhir:license [ fhir:v "MIT"] ; # 
   fhir:fhirVersion ( [ fhir:v "4.0.1"] ) ; # 
   fhir:dependsOn ( [
      fhir:id [ fhir:v "hl7tx" ] ;
@@ -1450,8 +1450,9 @@
        fhir:name [ fhir:v "DiagnosticReport - Urine MCS" ] ;
        fhir:description [ fhir:v "Microbiology report for urine microscopy, culture and sensitivities" ] ;
        fhir:example [
-         a fhir:Boolean ;
-         fhir:v true
+         a fhir:Canonical ;
+         fhir:v "https://fhir.osbornemj.com/ig/StructureDefinition/diagnosticreport-microbiology"^^xsd:anyURI ;
+         fhir:l <https://fhir.osbornemj.com/ig/StructureDefinition/diagnosticreport-microbiology>
        ]
      ] [
        fhir:extension ( [
@@ -1469,10 +1470,32 @@
          fhir:reference [ fhir:v "StructureDefinition/diagnosticreport-microbiology" ]
        ] ;
        fhir:name [ fhir:v "DiagnosticReport Microbiology Profile" ] ;
-       fhir:description [ fhir:v "The DiagnosticReport Microbiology Profile inherits from the AU Base DiagnosticReport [AUBaseDiagnosticReport](https://build.fhir.org/ig/hl7au/au-fhir-base/StructureDefinition-au-diagnosticreport.html) resource; refer to it for scope and usage definitions. Laboratory results are grouped and summarized using the DiagnosticReport resource, which typically references Observation resource(s). Each Observation resource represents an individual laboratory test and result value or component result values or a nested panel (such as a microbial susceptibility panel) that references other observations. Laboratory results can also be presented in report form or as free text. This profile sets minimum expectations for the DiagnosticReport resource to record, search,  and fetch laboratory results associated with a patient. It specifies which core elements, extensions, vocabularies, and value sets **SHALL** be present and constrains how the elements are used. Providing the floor for standards development for specific use cases promotes interoperability and adoption." ] ;
+       fhir:description [ fhir:v "The DiagnosticReport Microbiology Profile inherits from the AU Base DiagnosticReport [AUBaseDiagnosticReport](https://build.fhir.org/ig/hl7au/au-fhir-base/StructureDefinition-au-diagnosticreport.html) resource; refer to it for scope and usage definitions. Laboratory results are grouped and summarized using the DiagnosticReport resource, which typically references Observation resource(s). Each Observation resource represents an individual laboratory test and result value or component result values or a nested panel (such as a microbial susceptibility panel) that references other observations. Laboratory results can also be presented in report form or as free text." ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "Encounter"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://fhir.osbornemj.com/ig/Encounter/encounter-female-ed> ;
+         fhir:reference [ fhir:v "Encounter/encounter-female-ed" ]
+       ] ;
+       fhir:name [ fhir:v "Encounter - Female ED Presentation" ] ;
+       fhir:description [ fhir:v "Ambulatory encounter for female patient Lynch at Hospital ED" ] ;
+       fhir:example [
+         a fhir:Canonical ;
+         fhir:v "http://hl7.org.au/fhir/core/StructureDefinition/au-core-encounter"^^xsd:anyURI ;
+         fhir:l <http://hl7.org.au/fhir/core/StructureDefinition/au-core-encounter>
        ]
      ] [
        fhir:extension ( [
@@ -1489,32 +1512,12 @@
          fhir:l <https://fhir.osbornemj.com/ig/Location/location-hosp-ed> ;
          fhir:reference [ fhir:v "Location/location-hosp-ed" ]
        ] ;
-       fhir:name [ fhir:v "Emergency Department (Hospital)" ] ;
-       fhir:description [ fhir:v "Ward where patient is located" ] ;
+       fhir:name [ fhir:v "Location - Hospital Emergency Dept" ] ;
+       fhir:description [ fhir:v "Hospital Emergency Department location" ] ;
        fhir:example [
          a fhir:Canonical ;
          fhir:v "http://hl7.org.au/fhir/core/StructureDefinition/au-core-location"^^xsd:anyURI ;
          fhir:l <http://hl7.org.au/fhir/core/StructureDefinition/au-core-location>
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "Encounter"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <https://fhir.osbornemj.com/ig/Encounter/encounter-teen-female-ed> ;
-         fhir:reference [ fhir:v "Encounter/encounter-teen-female-ed" ]
-       ] ;
-       fhir:name [ fhir:v "encounter-teen-female-ed" ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v true
        ]
      ] [
        fhir:extension ( [
@@ -1642,7 +1645,7 @@
          fhir:reference [ fhir:v "ValueSet/vs-OSLAB-microbiology-report" ]
        ] ;
        fhir:name [ fhir:v "OS LAB Microbiology Report" ] ;
-       fhir:description [ fhir:v "The OS LAB Microbiology Report value set includes codes for Microbiology reports." ] ;
+       fhir:description [ fhir:v "The OS LAB Microbiology Report value set includes codes for Microbiology reports, for example URINE - Urine M/C/S." ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -1726,11 +1729,33 @@
          fhir:l <https://fhir.osbornemj.com/ig/Practitioner/practitioner-persson-una> ;
          fhir:reference [ fhir:v "Practitioner/practitioner-persson-una" ]
        ] ;
-       fhir:name [ fhir:v "practitioner-persson-una" ] ;
+       fhir:name [ fhir:v "Practitioner - Una Persson" ] ;
+       fhir:description [ fhir:v "Practitioner Una Persson" ] ;
        fhir:example [
          a fhir:Canonical ;
          fhir:v "http://hl7.org.au/fhir/core/StructureDefinition/au-core-practitioner"^^xsd:anyURI ;
          fhir:l <http://hl7.org.au/fhir/core/StructureDefinition/au-core-practitioner>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://fhir.osbornemj.com/ig/ValueSet/vs-presenting-complaint> ;
+         fhir:reference [ fhir:v "ValueSet/vs-presenting-complaint" ]
+       ] ;
+       fhir:name [ fhir:v "Presenting Complaint" ] ;
+       fhir:description [ fhir:v "The Presenting Complaint value set includes codes for the presenting complaint in an ED presentation." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
        ]
      ] [
        fhir:extension ( [
@@ -1748,28 +1773,7 @@
          fhir:reference [ fhir:v "CodeSystem/presenting-complaints" ]
        ] ;
        fhir:name [ fhir:v "Presenting Complaints" ] ;
-       fhir:description [ fhir:v "Presenting Complaint codes" ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <https://fhir.osbornemj.com/ig/ValueSet/vs-presenting-complaint> ;
-         fhir:reference [ fhir:v "ValueSet/vs-presenting-complaint" ]
-       ] ;
-       fhir:name [ fhir:v "Presenting Complaints ValueSet" ] ;
-       fhir:description [ fhir:v "Presenting Complaint codes" ] ;
+       fhir:description [ fhir:v "Local code system specifying Presenting Complaint codes" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -1789,7 +1793,8 @@
          fhir:l <https://fhir.osbornemj.com/ig/ServiceRequest/servicerequest-urinemcs> ;
          fhir:reference [ fhir:v "ServiceRequest/servicerequest-urinemcs" ]
        ] ;
-       fhir:name [ fhir:v "servicerequest-urinemcs" ] ;
+       fhir:name [ fhir:v "ServiceRequest - Urine MCS" ] ;
+       fhir:description [ fhir:v "Lab order for urine microscopy, culture and sensitivity panel" ] ;
        fhir:example [
          a fhir:Canonical ;
          fhir:v "http://hl7.org.au/fhir/StructureDefinition/au-servicerequest"^^xsd:anyURI ;
@@ -1810,7 +1815,8 @@
          fhir:l <https://fhir.osbornemj.com/ig/Specimen/specimen-urine> ;
          fhir:reference [ fhir:v "Specimen/specimen-urine" ]
        ] ;
-       fhir:name [ fhir:v "specimen-urine" ] ;
+       fhir:name [ fhir:v "Specimen - Urine" ] ;
+       fhir:description [ fhir:v "Urine specimen for patient Lynch" ] ;
        fhir:example [
          a fhir:Canonical ;
          fhir:v "http://hl7.org.au/fhir/StructureDefinition/au-specimen"^^xsd:anyURI ;

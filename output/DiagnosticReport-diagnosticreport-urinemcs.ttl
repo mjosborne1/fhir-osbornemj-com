@@ -12,13 +12,13 @@
   fhir:id [ fhir:v "diagnosticreport-urinemcs"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://.csiro.au/StructureDefinition/-diagnosticreport-microbiology"^^xsd:anyURI ;
-       fhir:l <http://.csiro.au/StructureDefinition/-diagnosticreport-microbiology>
+       fhir:v "https://fhir.osbornemj.com/ig/StructureDefinition/diagnosticreport-microbiology"^^xsd:anyURI ;
+       fhir:l <https://fhir.osbornemj.com/ig/StructureDefinition/diagnosticreport-microbiology>
      ] )
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: DiagnosticReport diagnosticreport-urinemcs</b></p><a name=\"diagnosticreport-urinemcs\"> </a><a name=\"hcdiagnosticreport-urinemcs\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <code>http://.csiro.au/StructureDefinition/-diagnosticreport-microbiology</code></p></div><h2><span title=\"Codes:{http://snomed.info/sct 401324008}, {http://lab.osbornemj.com/cs/reports URINE}\">Measurement of Microscopy, culture and susceptibility in Urine</span> (<span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v2-0074 MB}\">Microbiology</span>) </h2><table class=\"grid\"><tr><td>Subject</td><td>Alyce SHAUNA LYNCH (official) Female, DoB: 2009-12-02 ( Hospital Unique patient number: PC842914 (use: usual, ))</td></tr><tr><td>When For</td><td>2023-02-04 17:30:00+1030</td></tr><tr><td>Identifier</td><td> OBR-3-1: Laboratory Number/612964051 (use: official, )</td></tr></table><p><b>Report Details</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>Value</b></td><td><b>Flags</b></td></tr><tr><td><a href=\"Observation-observation-ecoli.html\"><span title=\"Codes:{http://loinc.org 630-4}\">Organism</span></a></td><td><span title=\"Codes:{http://snomed.info/sct 112283007}\">Escherichia coli</span></td><td>Final</td></tr></table></div>"^^rdf:XMLLiteral ]
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: DiagnosticReport diagnosticreport-urinemcs</b></p><a name=\"diagnosticreport-urinemcs\"> </a><a name=\"hcdiagnosticreport-urinemcs\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-diagnosticreport-microbiology.html\">DiagnosticReport Microbiology Profile</a></p></div><h2><span title=\"Codes:{http://snomed.info/sct 401324008}, {https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports URINE}\">Measurement of Microscopy, culture and susceptibility in Urine</span> (<span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v2-0074 MB}\">Microbiology</span>) </h2><table class=\"grid\"><tr><td>Subject</td><td>Alyce SHAUNA LYNCH (official) Female, DoB: 2009-12-02 ( Hospital Unique patient number: PC842914 (use: usual, ))</td></tr><tr><td>When For</td><td>2023-02-04 17:30:00+1030</td></tr><tr><td>Identifier</td><td> OBR-3-1: Laboratory Number/612964051 (use: official, )</td></tr></table><p><b>Report Details</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>Value</b></td><td><b>Flags</b></td></tr><tr><td><a href=\"Observation-observation-ecoli.html\"><span title=\"Codes:{http://loinc.org 630-4}\">Organism</span></a></td><td><span title=\"Codes:{http://snomed.info/sct 112283007}\">Escherichia coli</span></td><td>Final</td></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:identifier ( [
      fhir:use [ fhir:v "official" ] ;
@@ -66,8 +66,8 @@
        fhir:display [ fhir:v "Urine microscopy, culture and sensitivities" ]
      ] [
        fhir:system [
-         fhir:v "http://lab.osbornemj.com/cs/reports"^^xsd:anyURI ;
-         fhir:l <http://lab.osbornemj.com/cs/reports>
+         fhir:v "https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports"^^xsd:anyURI ;
+         fhir:l <https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports>
        ] ;
        fhir:code [ fhir:v "URINE" ] ;
        fhir:display [ fhir:v "Urine Culture (M/C/S)" ]
@@ -79,8 +79,8 @@
      fhir:reference [ fhir:v "Patient/patient-lynch-alyce" ]
   ] ; # 
   fhir:encounter [
-     fhir:l <https://fhir.osbornemj.com/ig/Encounter/encounter-teen-female-ed> ;
-     fhir:reference [ fhir:v "Encounter/encounter-teen-female-ed" ]
+     fhir:l <https://fhir.osbornemj.com/ig/Encounter/encounter-female-ed> ;
+     fhir:reference [ fhir:v "Encounter/encounter-female-ed" ]
   ] ; # 
   fhir:effective [
      a fhir:DateTime ;

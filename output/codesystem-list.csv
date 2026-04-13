@@ -1,4 +1,4 @@
 URL,Version,Status,OIDs,Name,Title,Description,Used
 https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports,0.1.0,draft,,OSLABMicrobiologyReportsCS,OS LAB Microbiology Reports,"The OS LAB Microbiology Reports code system includes codes for reporting of microbiology results.",
 https://fhir.osbornemj.com/ig/CodeSystem/oslab-specimens,0.1.0,draft,,OSLABSpecimensCS,OS LAB Microbiology Specimens CodeSystem,"The OS Lab Microbiology Specimens CodeSystem includes codes for specimens for use in a Laboratory Observation.",
-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints,0.1.0,draft,,PresentingComplaintCS,Presenting Complaints,"Presenting Complaint codes",
+https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints,0.1.0,draft,,PresentingComplaintCS,Presenting Complaints,"Local code system specifying Presenting Complaint codes",

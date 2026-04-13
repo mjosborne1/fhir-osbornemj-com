@@ -11,7 +11,7 @@
   <name value="FHIROsbornemjIG"/>
   <title value="FHIR Implementation Guide for PUBLIC Testing"/>
   <status value="draft"/>
-  <date value="2026-04-13T13:22:11+10:00"/>
+  <date value="2026-04-13T14:16:09+10:00"/>
   <publisher value="Michael J Osborne"/>
   <contact>
     <name value="Michael J Osborne"/>
@@ -29,7 +29,7 @@
     </coding>
   </jurisdiction>
   <packageId value="fhir.osbornemj.ig"/>
-  <license value="CC0-1.0"/>
+  <license value="MIT"/>
   <fhirVersion value="4.0.1"/>
   <dependsOn id="hl7tx">
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
@@ -524,7 +524,7 @@
       </reference>
       <name value="DiagnosticReport - Urine MCS"/>
       <description value="Microbiology report for urine microscopy, culture and sensitivities"/>
-      <exampleBoolean value="true"/>
+      <exampleCanonical value="https://fhir.osbornemj.com/ig/StructureDefinition/diagnosticreport-microbiology"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -534,8 +534,19 @@
         <reference value="StructureDefinition/diagnosticreport-microbiology"/>
       </reference>
       <name value="DiagnosticReport Microbiology Profile"/>
-      <description value="The DiagnosticReport Microbiology Profile inherits from the AU Base DiagnosticReport [AUBaseDiagnosticReport](https://build.fhir.org/ig/hl7au/au-fhir-base/StructureDefinition-au-diagnosticreport.html) resource; refer to it for scope and usage definitions. Laboratory results are grouped and summarized using the DiagnosticReport resource, which typically references Observation resource(s). Each Observation resource represents an individual laboratory test and result value or component result values or a nested panel (such as a microbial susceptibility panel) that references other observations. Laboratory results can also be presented in report form or as free text. This profile sets minimum expectations for the DiagnosticReport resource to record, search,  and fetch laboratory results associated with a patient. It specifies which core elements, extensions, vocabularies, and value sets **SHALL** be present and constrains how the elements are used. Providing the floor for standards development for specific use cases promotes interoperability and adoption."/>
+      <description value="The DiagnosticReport Microbiology Profile inherits from the AU Base DiagnosticReport [AUBaseDiagnosticReport](https://build.fhir.org/ig/hl7au/au-fhir-base/StructureDefinition-au-diagnosticreport.html) resource; refer to it for scope and usage definitions. Laboratory results are grouped and summarized using the DiagnosticReport resource, which typically references Observation resource(s). Each Observation resource represents an individual laboratory test and result value or component result values or a nested panel (such as a microbial susceptibility panel) that references other observations. Laboratory results can also be presented in report form or as free text."/>
       <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Encounter"/>
+      </extension>
+      <reference>
+        <reference value="Encounter/encounter-female-ed"/>
+      </reference>
+      <name value="Encounter - Female ED Presentation"/>
+      <description value="Ambulatory encounter for female patient Lynch at Hospital ED"/>
+      <exampleCanonical value="http://hl7.org.au/fhir/core/StructureDefinition/au-core-encounter"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -544,19 +555,9 @@
       <reference>
         <reference value="Location/location-hosp-ed"/>
       </reference>
-      <name value="Emergency Department (Hospital)"/>
-      <description value="Ward where patient is located"/>
+      <name value="Location - Hospital Emergency Dept"/>
+      <description value="Hospital Emergency Department location"/>
       <exampleCanonical value="http://hl7.org.au/fhir/core/StructureDefinition/au-core-location"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Encounter"/>
-      </extension>
-      <reference>
-        <reference value="Encounter/encounter-teen-female-ed"/>
-      </reference>
-      <name value="encounter-teen-female-ed"/>
-      <exampleBoolean value="true"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -621,7 +622,7 @@
         <reference value="ValueSet/vs-OSLAB-microbiology-report"/>
       </reference>
       <name value="OS LAB Microbiology Report"/>
-      <description value="The OS LAB Microbiology Report value set includes codes for Microbiology reports."/>
+      <description value="The OS LAB Microbiology Report value set includes codes for Microbiology reports, for example URINE - Urine M/C/S."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -664,8 +665,20 @@
       <reference>
         <reference value="Practitioner/practitioner-persson-una"/>
       </reference>
-      <name value="practitioner-persson-una"/>
+      <name value="Practitioner - Una Persson"/>
+      <description value="Practitioner Una Persson"/>
       <exampleCanonical value="http://hl7.org.au/fhir/core/StructureDefinition/au-core-practitioner"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-presenting-complaint"/>
+      </reference>
+      <name value="Presenting Complaint"/>
+      <description value="The Presenting Complaint value set includes codes for the presenting complaint in an ED presentation."/>
+      <exampleBoolean value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -675,18 +688,7 @@
         <reference value="CodeSystem/presenting-complaints"/>
       </reference>
       <name value="Presenting Complaints"/>
-      <description value="Presenting Complaint codes"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/vs-presenting-complaint"/>
-      </reference>
-      <name value="Presenting Complaints ValueSet"/>
-      <description value="Presenting Complaint codes"/>
+      <description value="Local code system specifying Presenting Complaint codes"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -696,7 +698,8 @@
       <reference>
         <reference value="ServiceRequest/servicerequest-urinemcs"/>
       </reference>
-      <name value="servicerequest-urinemcs"/>
+      <name value="ServiceRequest - Urine MCS"/>
+      <description value="Lab order for urine microscopy, culture and sensitivity panel"/>
       <exampleCanonical value="http://hl7.org.au/fhir/StructureDefinition/au-servicerequest"/>
     </resource>
     <resource>
@@ -706,7 +709,8 @@
       <reference>
         <reference value="Specimen/specimen-urine"/>
       </reference>
-      <name value="specimen-urine"/>
+      <name value="Specimen - Urine"/>
+      <description value="Urine specimen for patient Lynch"/>
       <exampleCanonical value="http://hl7.org.au/fhir/StructureDefinition/au-specimen"/>
     </resource>
     <page>

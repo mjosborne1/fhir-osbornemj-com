@@ -12,7 +12,7 @@
 | Draft as of 2026-02-28 | [Maturity Level](http://hl7.org/fhir/versions.html#maturity): 0 | *Computable Name*:PresentingComplaintCS |
 
  
-Presenting Complaint codes 
+Local code system specifying Presenting Complaint codes 
 
  This Code system is referenced in the content logical definition of the following value sets: 
 
@@ -48,7 +48,7 @@ Presenting Complaint codes
       "value" : "http://osbornemj.com"
     }]
   }],
-  "description" : "Presenting Complaint codes",
+  "description" : "Local code system specifying Presenting Complaint codes",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
