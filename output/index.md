@@ -14,9 +14,7 @@
 
 ## Overview
 
-This is an Implementation Guide (IG) test harness for testing Australian content, based on good work by [Daniel Foulkes](https://www.linkedin.com/in/daniel-foulkes/) (see Acknowledgments below to access the original repo). It provides a basic structure with a set of commonly used base FHIR profiles that can be readily modified and/or extended to meet the project requirements.
-
-This version of the template includes dependencies on AU Base (v6.0.0) and AU Core (v2.0.0).
+This is an Implementation Guide (IG) test harness for testing Australian content, based on good work by [Daniel Foulkes](https://www.linkedin.com/in/daniel-foulkes/) (see Acknowledgments below to access the original repo). It provides a basic structure with a set of commonly used base FHIR profiles that can be readily modified and/or extended to meet the project requirements. The repository for [this build](https://fhir-osbornemj-com.onrender.com/) is located at [fhir-osbornemj-com](https://github.com/mjosborne1/fhir-osbornemj-com) This version of the template includes dependencies on AU Base (v6.0.0) and AU Core (v2.0.0).
 
 ### License
 
@@ -45,7 +43,7 @@ Distributed under the MIT License. See [LICENSE.txt](https://au-ig-template.heal
   "name" : "FHIROsbornemjIG",
   "title" : "FHIR Implementation Guide for PUBLIC Testing",
   "status" : "draft",
-  "date" : "2026-04-13T14:28:28+10:00",
+  "date" : "2026-04-13T14:37:32+10:00",
   "publisher" : "Michael J Osborne",
   "contact" : [{
     "name" : "Michael J Osborne",

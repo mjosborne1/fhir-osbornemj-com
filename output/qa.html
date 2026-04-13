@@ -47,7 +47,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Validation Results for FHIROsbornemjIG</h1>
- <p>Generated Mon Apr 13 14:30:04 AEST 2026, FHIR version 4.0.1 for fhir.osbornemj.ig#0.1.0 (canonical = <a href="https://fhir.osbornemj.com/ig">https://fhir.osbornemj.com/ig</a> (<a href="https://fhir.osbornemj.com/ig/history.html">history</a>)). See <a href="qa.min.html">Errors Only</a> &amp; <a href="qa-ipreview.html">IP</a></p>
+ <p>Generated Mon Apr 13 14:39:28 AEST 2026, FHIR version 4.0.1 for fhir.osbornemj.ig#0.1.0 (canonical = <a href="https://fhir.osbornemj.com/ig">https://fhir.osbornemj.com/ig</a> (<a href="https://fhir.osbornemj.com/ig/history.html">history</a>)). See <a href="qa.min.html">Errors Only</a> &amp; <a href="qa-ipreview.html">IP</a></p>
 <table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
  <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v2.2.6</span></td></tr>
  <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = fhir.osbornemj.ig, Canonical = https://fhir.osbornemj.com/ig</td></tr>
@@ -393,10 +393,10 @@ hl7.fhir.uv.extensions.r4#5.2.0:     <a href="http://hl7.org/fhir/extensions/5.2
    </tr>
    <tr style="background-color: #ffffe6">
      <td><b>Condition.code (l21/c4)</b></td><td><b>information</b></td><td><b>Reference to draft CodeSystem https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints|0.1.0</b> (from <a href="qa-txservers.html#https://tx.fhir.org/r4">https://tx.fhir.org/r4</a>, see <a href="qa-tx.html#l7">log</a>, or see <a href="#vmi10" onClick="document.getElementById('vmi10').style.display='block'">the servers logic</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy">MSG_DRAFT</span><div id="vmi10" style="display:none"><br/><pre>0ms tx-op
-0ms https://healthterminologies.gov.au/fhir/ValueSet/clinical-condition-1|1.0.2: Analysing https://healthterminologies.gov.au/fhir/ValueSet/clinical-condition-1|1.0.2 for validation purposes
-0ms https://healthterminologies.gov.au/fhir/ValueSet/clinical-condition-1|1.0.2: Parameters: disp-lang=en-AU, generate-narrative, default-to-latest
-0ms https://healthterminologies.gov.au/fhir/ValueSet/clinical-condition-1|1.0.2: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/32506021000036107
-0ms https://healthterminologies.gov.au/fhir/ValueSet/clinical-condition-1|1.0.2: Prepare include[0]: "(http://snomed.info/sct)(conceptin32570581000036105)"
+1ms https://healthterminologies.gov.au/fhir/ValueSet/clinical-condition-1|1.0.2: Analysing https://healthterminologies.gov.au/fhir/ValueSet/clinical-condition-1|1.0.2 for validation purposes
+1ms https://healthterminologies.gov.au/fhir/ValueSet/clinical-condition-1|1.0.2: Parameters: disp-lang=en-AU, generate-narrative, default-to-latest
+1ms https://healthterminologies.gov.au/fhir/ValueSet/clinical-condition-1|1.0.2: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/32506021000036107
+1ms https://healthterminologies.gov.au/fhir/ValueSet/clinical-condition-1|1.0.2: Prepare include[0]: "(http://snomed.info/sct)(conceptin32570581000036105)"
 1ms https://healthterminologies.gov.au/fhir/ValueSet/clinical-condition-1|1.0.2: CodeSystem version http://snomed.info/sct/32506021000036107 not found: "http://snomed.info/sct"
 1ms https://healthterminologies.gov.au/fhir/ValueSet/clinical-condition-1|1.0.2: Validate "[https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints#9044679 ("Haematuria"), http://snomed.info/sct#34436003 ("Haematuria")]"
 1ms https://healthterminologies.gov.au/fhir/ValueSet/clinical-condition-1|1.0.2: Check "https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints#9044679"
@@ -405,10 +405,10 @@ hl7.fhir.uv.extensions.r4#5.2.0:     <a href="http://hl7.org/fhir/extensions/5.2
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>Condition&#8203;.code&#8203;.coding[1]&#8203;.system (l21&#8203;/c4)</b></td><td><b>warning</b></td><td><b>A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/32506021000036107' could not be found, so the code cannot be validated. Valid versions: http://snomed.info/sct/11000146104/version/20240930, http://snomed.info/sct/2011000195101/version/20230607, http://snomed.info/sct/731000124108/version/20230301, http://snomed.info/sct/731000124108/version/20240301, http://snomed.info/sct/731000124108/version/20250901, http://snomed.info/sct/827022005/version/20241216, http://snomed.info/sct/83821000000107/version/20230412, http://snomed.info/sct/900000000000207008/version/20240201, http://snomed.info/sct/900000000000207008/version/20250201 and http://snomed.info/xsct/900000000000207008/version/20250814</b> (from <a href="qa-txservers.html#https://tx.fhir.org/r4">https://tx.fhir.org/r4</a>, see <a href="qa-tx.html#l7">log</a>, or see <a href="#vmi11" onClick="document.getElementById('vmi11').style.display='block'">the servers logic</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNKNOWN_CODESYSTEM_VERSION</span><div id="vmi11" style="display:none"><br/><pre>0ms tx-op
-0ms https://healthterminologies.gov.au/fhir/ValueSet/clinical-condition-1|1.0.2: Analysing https://healthterminologies.gov.au/fhir/ValueSet/clinical-condition-1|1.0.2 for validation purposes
-0ms https://healthterminologies.gov.au/fhir/ValueSet/clinical-condition-1|1.0.2: Parameters: disp-lang=en-AU, generate-narrative, default-to-latest
-0ms https://healthterminologies.gov.au/fhir/ValueSet/clinical-condition-1|1.0.2: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/32506021000036107
-0ms https://healthterminologies.gov.au/fhir/ValueSet/clinical-condition-1|1.0.2: Prepare include[0]: "(http://snomed.info/sct)(conceptin32570581000036105)"
+1ms https://healthterminologies.gov.au/fhir/ValueSet/clinical-condition-1|1.0.2: Analysing https://healthterminologies.gov.au/fhir/ValueSet/clinical-condition-1|1.0.2 for validation purposes
+1ms https://healthterminologies.gov.au/fhir/ValueSet/clinical-condition-1|1.0.2: Parameters: disp-lang=en-AU, generate-narrative, default-to-latest
+1ms https://healthterminologies.gov.au/fhir/ValueSet/clinical-condition-1|1.0.2: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/32506021000036107
+1ms https://healthterminologies.gov.au/fhir/ValueSet/clinical-condition-1|1.0.2: Prepare include[0]: "(http://snomed.info/sct)(conceptin32570581000036105)"
 1ms https://healthterminologies.gov.au/fhir/ValueSet/clinical-condition-1|1.0.2: CodeSystem version http://snomed.info/sct/32506021000036107 not found: "http://snomed.info/sct"
 1ms https://healthterminologies.gov.au/fhir/ValueSet/clinical-condition-1|1.0.2: Validate "[https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints#9044679 ("Haematuria"), http://snomed.info/sct#34436003 ("Haematuria")]"
 1ms https://healthterminologies.gov.au/fhir/ValueSet/clinical-condition-1|1.0.2: Check "https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints#9044679"
@@ -417,10 +417,10 @@ hl7.fhir.uv.extensions.r4#5.2.0:     <a href="http://hl7.org/fhir/extensions/5.2
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>Condition&#8203;.code&#8203;.coding[1]&#8203;.system (l21&#8203;/c4)</b></td><td><b>warning</b></td><td><b>A definition for CodeSystem 'http://snomed.info/sct' could not be found, so the code cannot be validated</b> (from <a href="qa-txservers.html#https://tx.fhir.org/r4">https://tx.fhir.org/r4</a>, see <a href="qa-tx.html#l7">log</a>, or see <a href="#vmi12" onClick="document.getElementById('vmi12').style.display='block'">the servers logic</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNKNOWN_CODESYSTEM</span><div id="vmi12" style="display:none"><br/><pre>0ms tx-op
-0ms https://healthterminologies.gov.au/fhir/ValueSet/clinical-condition-1|1.0.2: Analysing https://healthterminologies.gov.au/fhir/ValueSet/clinical-condition-1|1.0.2 for validation purposes
-0ms https://healthterminologies.gov.au/fhir/ValueSet/clinical-condition-1|1.0.2: Parameters: disp-lang=en-AU, generate-narrative, default-to-latest
-0ms https://healthterminologies.gov.au/fhir/ValueSet/clinical-condition-1|1.0.2: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/32506021000036107
-0ms https://healthterminologies.gov.au/fhir/ValueSet/clinical-condition-1|1.0.2: Prepare include[0]: "(http://snomed.info/sct)(conceptin32570581000036105)"
+1ms https://healthterminologies.gov.au/fhir/ValueSet/clinical-condition-1|1.0.2: Analysing https://healthterminologies.gov.au/fhir/ValueSet/clinical-condition-1|1.0.2 for validation purposes
+1ms https://healthterminologies.gov.au/fhir/ValueSet/clinical-condition-1|1.0.2: Parameters: disp-lang=en-AU, generate-narrative, default-to-latest
+1ms https://healthterminologies.gov.au/fhir/ValueSet/clinical-condition-1|1.0.2: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/32506021000036107
+1ms https://healthterminologies.gov.au/fhir/ValueSet/clinical-condition-1|1.0.2: Prepare include[0]: "(http://snomed.info/sct)(conceptin32570581000036105)"
 1ms https://healthterminologies.gov.au/fhir/ValueSet/clinical-condition-1|1.0.2: CodeSystem version http://snomed.info/sct/32506021000036107 not found: "http://snomed.info/sct"
 1ms https://healthterminologies.gov.au/fhir/ValueSet/clinical-condition-1|1.0.2: Validate "[https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints#9044679 ("Haematuria"), http://snomed.info/sct#34436003 ("Haematuria")]"
 1ms https://healthterminologies.gov.au/fhir/ValueSet/clinical-condition-1|1.0.2: Check "https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints#9044679"
@@ -462,7 +462,7 @@ hl7.fhir.uv.extensions.r4#5.2.0:     <a href="http://hl7.org/fhir/extensions/5.2
 0ms https://fhir.osbornemj.com/ig/ValueSet/vs-OSLAB-microbiology-report|0.1.0: Parameters: disp-lang=en-AU, generate-narrative, default-to-latest
 0ms https://fhir.osbornemj.com/ig/ValueSet/vs-OSLAB-microbiology-report|0.1.0: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/32506021000036107
 0ms https://fhir.osbornemj.com/ig/ValueSet/vs-OSLAB-microbiology-report|0.1.0: Prepare include[0]: "(https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports)"
-1ms https://fhir.osbornemj.com/ig/ValueSet/vs-OSLAB-microbiology-report|0.1.0: CodeSystem found: "https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports|0.1.0"
+0ms https://fhir.osbornemj.com/ig/ValueSet/vs-OSLAB-microbiology-report|0.1.0: CodeSystem found: "https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports|0.1.0"
 1ms https://fhir.osbornemj.com/ig/ValueSet/vs-OSLAB-microbiology-report|0.1.0: Validate "[http://snomed.info/sct#401324008 ("Urine microscopy, culture and sensitivities"), https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports#URINE ("Urine Culture (M/C/S)")]"
 1ms https://fhir.osbornemj.com/ig/ValueSet/vs-OSLAB-microbiology-report|0.1.0: Check "http://snomed.info/sct#401324008"
 1ms https://fhir.osbornemj.com/ig/ValueSet/vs-OSLAB-microbiology-report|0.1.0: Check "https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports#URINE"
@@ -673,8 +673,8 @@ hl7.fhir.uv.extensions.r4#5.2.0:     <a href="http://hl7.org/fhir/extensions/5.2
 0ms https://healthterminologies.gov.au/fhir/ValueSet/specimen-type-1|1.0.2: Parameters: disp-lang=en-AU, generate-narrative, default-to-latest
 0ms https://healthterminologies.gov.au/fhir/ValueSet/specimen-type-1|1.0.2: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/32506021000036107
 0ms https://healthterminologies.gov.au/fhir/ValueSet/specimen-type-1|1.0.2: Prepare include[0]: "(http://snomed.info/sct)(conceptin4021000036102)"
-1ms https://healthterminologies.gov.au/fhir/ValueSet/specimen-type-1|1.0.2: CodeSystem version http://snomed.info/sct/32506021000036107 not found: "http://snomed.info/sct"
-1ms https://healthterminologies.gov.au/fhir/ValueSet/specimen-type-1|1.0.2: Validate "[http://snomed.info/sct#122575003 ("Urine specimen"), http://fhir.osbornemj.com/cs/oslab-specimens#Urine ("Urine specimen")]"
+0ms https://healthterminologies.gov.au/fhir/ValueSet/specimen-type-1|1.0.2: CodeSystem version http://snomed.info/sct/32506021000036107 not found: "http://snomed.info/sct"
+0ms https://healthterminologies.gov.au/fhir/ValueSet/specimen-type-1|1.0.2: Validate "[http://snomed.info/sct#122575003 ("Urine specimen"), http://fhir.osbornemj.com/cs/oslab-specimens#Urine ("Urine specimen")]"
 1ms https://healthterminologies.gov.au/fhir/ValueSet/specimen-type-1|1.0.2: Check "http://snomed.info/sct#122575003"
 1ms https://healthterminologies.gov.au/fhir/ValueSet/specimen-type-1|1.0.2: CodeSystem not found: http://snomed.info/sct|http://snomed.info/sct/32506021000036107
 1ms https://healthterminologies.gov.au/fhir/ValueSet/specimen-type-1|1.0.2: Check "http://fhir.osbornemj.com/cs/oslab-specimens#Urine"</pre></div></td><td><a href="http://hl7.org.au/fhir/6.0.0/StructureDefinition-au-specimen.html">AU Base Specimen</a></td>
@@ -685,8 +685,8 @@ hl7.fhir.uv.extensions.r4#5.2.0:     <a href="http://hl7.org/fhir/extensions/5.2
 0ms https://healthterminologies.gov.au/fhir/ValueSet/specimen-type-1|1.0.2: Parameters: disp-lang=en-AU, generate-narrative, default-to-latest
 0ms https://healthterminologies.gov.au/fhir/ValueSet/specimen-type-1|1.0.2: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/32506021000036107
 0ms https://healthterminologies.gov.au/fhir/ValueSet/specimen-type-1|1.0.2: Prepare include[0]: "(http://snomed.info/sct)(conceptin4021000036102)"
-1ms https://healthterminologies.gov.au/fhir/ValueSet/specimen-type-1|1.0.2: CodeSystem version http://snomed.info/sct/32506021000036107 not found: "http://snomed.info/sct"
-1ms https://healthterminologies.gov.au/fhir/ValueSet/specimen-type-1|1.0.2: Validate "[http://snomed.info/sct#122575003 ("Urine specimen"), http://fhir.osbornemj.com/cs/oslab-specimens#Urine ("Urine specimen")]"
+0ms https://healthterminologies.gov.au/fhir/ValueSet/specimen-type-1|1.0.2: CodeSystem version http://snomed.info/sct/32506021000036107 not found: "http://snomed.info/sct"
+0ms https://healthterminologies.gov.au/fhir/ValueSet/specimen-type-1|1.0.2: Validate "[http://snomed.info/sct#122575003 ("Urine specimen"), http://fhir.osbornemj.com/cs/oslab-specimens#Urine ("Urine specimen")]"
 1ms https://healthterminologies.gov.au/fhir/ValueSet/specimen-type-1|1.0.2: Check "http://snomed.info/sct#122575003"
 1ms https://healthterminologies.gov.au/fhir/ValueSet/specimen-type-1|1.0.2: CodeSystem not found: http://snomed.info/sct|http://snomed.info/sct/32506021000036107
 1ms https://healthterminologies.gov.au/fhir/ValueSet/specimen-type-1|1.0.2: Check "http://fhir.osbornemj.com/cs/oslab-specimens#Urine"</pre></div></td><td><a href="http://hl7.org.au/fhir/6.0.0/StructureDefinition-au-specimen.html">AU Base Specimen</a></td>
@@ -697,8 +697,8 @@ hl7.fhir.uv.extensions.r4#5.2.0:     <a href="http://hl7.org/fhir/extensions/5.2
 0ms https://healthterminologies.gov.au/fhir/ValueSet/specimen-type-1|1.0.2: Parameters: disp-lang=en-AU, generate-narrative, default-to-latest
 0ms https://healthterminologies.gov.au/fhir/ValueSet/specimen-type-1|1.0.2: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/32506021000036107
 0ms https://healthterminologies.gov.au/fhir/ValueSet/specimen-type-1|1.0.2: Prepare include[0]: "(http://snomed.info/sct)(conceptin4021000036102)"
-1ms https://healthterminologies.gov.au/fhir/ValueSet/specimen-type-1|1.0.2: CodeSystem version http://snomed.info/sct/32506021000036107 not found: "http://snomed.info/sct"
-1ms https://healthterminologies.gov.au/fhir/ValueSet/specimen-type-1|1.0.2: Validate "[http://snomed.info/sct#122575003 ("Urine specimen"), http://fhir.osbornemj.com/cs/oslab-specimens#Urine ("Urine specimen")]"
+0ms https://healthterminologies.gov.au/fhir/ValueSet/specimen-type-1|1.0.2: CodeSystem version http://snomed.info/sct/32506021000036107 not found: "http://snomed.info/sct"
+0ms https://healthterminologies.gov.au/fhir/ValueSet/specimen-type-1|1.0.2: Validate "[http://snomed.info/sct#122575003 ("Urine specimen"), http://fhir.osbornemj.com/cs/oslab-specimens#Urine ("Urine specimen")]"
 1ms https://healthterminologies.gov.au/fhir/ValueSet/specimen-type-1|1.0.2: Check "http://snomed.info/sct#122575003"
 1ms https://healthterminologies.gov.au/fhir/ValueSet/specimen-type-1|1.0.2: CodeSystem not found: http://snomed.info/sct|http://snomed.info/sct/32506021000036107
 1ms https://healthterminologies.gov.au/fhir/ValueSet/specimen-type-1|1.0.2: Check "http://fhir.osbornemj.com/cs/oslab-specimens#Urine"</pre></div></td><td><a href="http://hl7.org.au/fhir/6.0.0/StructureDefinition-au-specimen.html">AU Base Specimen</a></td>

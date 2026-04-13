@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "FHIROsbornemjIG"] ; # 
   fhir:title [ fhir:v "FHIR Implementation Guide for PUBLIC Testing"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2026-04-13T14:28:28+10:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-04-13T14:37:32+10:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Michael J Osborne"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Michael J Osborne" ] ;

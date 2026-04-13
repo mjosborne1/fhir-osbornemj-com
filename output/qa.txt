@@ -3,7 +3,7 @@ FHIROsbornemjIG : Validation Results
 
 err = 0, warn = 42, info = 6
 IG Publisher Version: 2.2.6
-Generated Mon Apr 13 14:30:04 AEST 2026. FHIR version 4.0.1 for fhir.osbornemj.ig#0.1.0 (canonical = https://fhir.osbornemj.com/ig)
+Generated Mon Apr 13 14:39:28 AEST 2026. FHIR version 4.0.1 for fhir.osbornemj.ig#0.1.0 (canonical = https://fhir.osbornemj.com/ig)
  Build Errors : 0 / 5 / 0
  /Users/osb074/Development/fhir-osbornemj-ig/fsh-generated/resources/CodeSystem-OSLAB-microbiology-reports : 0 / 0 / 1
  /Users/osb074/Development/fhir-osbornemj-ig/fsh-generated/resources/CodeSystem-oslab-specimens : 0 / 0 / 1
