@@ -1,0 +1,156 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "OSLAB-microbiology-reports",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem OSLAB-microbiology-reports</b></p><a name=\"OSLAB-microbiology-reports\"> </a><a name=\"hcOSLAB-microbiology-reports\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p>This case-insensitive code system <code>https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">ADFUNG<a name=\"OSLAB-microbiology-reports-ADFUNG\"> </a></td><td>Fungal Culture (M/C/S)</td><td>Fungal Culture (M/C/S)</td></tr><tr><td style=\"white-space:nowrap\">BC<a name=\"OSLAB-microbiology-reports-BC\"> </a></td><td>Blood Culture (M/C/S)</td><td>Blood Culture (M/C/S)</td></tr><tr><td style=\"white-space:nowrap\">CAS<a name=\"OSLAB-microbiology-reports-CAS\"> </a></td><td>Candida auris Screen Culture</td><td>Candida auris Screen Culture</td></tr><tr><td style=\"white-space:nowrap\">CSF<a name=\"OSLAB-microbiology-reports-CSF\"> </a></td><td>CSF Culture (M/C/S)</td><td>CSF Culture (M/C/S)</td></tr><tr><td style=\"white-space:nowrap\">CSFS<a name=\"OSLAB-microbiology-reports-CSFS\"> </a></td><td>CSF Subarachnoid Culture (M/C/S)</td><td>CSF Subarachnoid Culture (M/C/S)</td></tr><tr><td style=\"white-space:nowrap\">ENT<a name=\"OSLAB-microbiology-reports-ENT\"> </a></td><td>Ear, Nose, Throat and Conjunctival Swab</td><td>Ear, Nose, Throat and Conjunctival Swab</td></tr><tr><td style=\"white-space:nowrap\">EYE<a name=\"OSLAB-microbiology-reports-EYE\"> </a></td><td>Eye Invasive Culture (M/C/S)</td><td>Eye Invasive Culture (M/C/S)</td></tr><tr><td style=\"white-space:nowrap\">FAEMIC<a name=\"OSLAB-microbiology-reports-FAEMIC\"> </a></td><td>Faeces Microscopy (RBC,WBC) Only</td><td>Faeces Microscopy (RBC,WBC) Only</td></tr><tr><td style=\"white-space:nowrap\">FLBCM<a name=\"OSLAB-microbiology-reports-FLBCM\"> </a></td><td>Sterile Fluid Culture in Blood Culture M</td><td>Sterile Fluid Culture in Blood Culture M</td></tr><tr><td style=\"white-space:nowrap\">FLPLUS<a name=\"OSLAB-microbiology-reports-FLPLUS\"> </a></td><td>Sterile Fluid Culture plus Fluid in Bloo</td><td>Sterile Fluid Culture plus Fluid in Bloo</td></tr><tr><td style=\"white-space:nowrap\">FLUID<a name=\"OSLAB-microbiology-reports-FLUID\"> </a></td><td>Sterile Fluid Culture (M/C/S)</td><td>Sterile Fluid Culture (M/C/S)</td></tr><tr><td style=\"white-space:nowrap\">FUNGI<a name=\"OSLAB-microbiology-reports-FUNGI\"> </a></td><td>Skin, Hair, Nail Dermatophyte Culture (M</td><td>Skin, Hair, Nail Dermatophyte Culture (M</td></tr><tr><td style=\"white-space:nowrap\">GBS<a name=\"OSLAB-microbiology-reports-GBS\"> </a></td><td>Group B Streptococcus Culture Screen (M/</td><td>Group B Streptococcus Culture Screen (M/</td></tr><tr><td style=\"white-space:nowrap\">GENIT<a name=\"OSLAB-microbiology-reports-GENIT\"> </a></td><td>Genital Swab Culture (M/C/S)</td><td>Genital Swab Culture (M/C/S)</td></tr><tr><td style=\"white-space:nowrap\">MRSA<a name=\"OSLAB-microbiology-reports-MRSA\"> </a></td><td>MRSA Screen Culture</td><td>MRSA Screen Culture</td></tr><tr><td style=\"white-space:nowrap\">PUS<a name=\"OSLAB-microbiology-reports-PUS\"> </a></td><td>Deep Invasive Pus or Swab Culture (M/C/S</td><td>Deep Invasive Pus or Swab Culture (M/C/S</td></tr><tr><td style=\"white-space:nowrap\">RESP<a name=\"OSLAB-microbiology-reports-RESP\"> </a></td><td>Respiratory Sputum or ETT Culture (M/C/S</td><td>Respiratory Sputum or ETT Culture (M/C/S</td></tr><tr><td style=\"white-space:nowrap\">RESPF<a name=\"OSLAB-microbiology-reports-RESPF\"> </a></td><td>Respiratory Bronchoscopic Collection Cul</td><td>Respiratory Bronchoscopic Collection Cul</td></tr><tr><td style=\"white-space:nowrap\">SITE<a name=\"OSLAB-microbiology-reports-SITE\"> </a></td><td>Superficial Pus or Swab Culture (M/C/S)</td><td>Superficial Pus or Swab Culture (M/C/S)</td></tr><tr><td style=\"white-space:nowrap\">TIP<a name=\"OSLAB-microbiology-reports-TIP\"> </a></td><td>Tip Culture (M/C/S)</td><td>Tip Culture (M/C/S)</td></tr><tr><td style=\"white-space:nowrap\">TIS<a name=\"OSLAB-microbiology-reports-TIS\"> </a></td><td>Tissue Culture (M/C/S)</td><td>Tissue Culture (M/C/S)</td></tr><tr><td style=\"white-space:nowrap\">URINE<a name=\"OSLAB-microbiology-reports-URINE\"> </a></td><td>Urine Culture (M/C/S)</td><td>Urine Culture (M/C/S)</td></tr><tr><td style=\"white-space:nowrap\">VRES<a name=\"OSLAB-microbiology-reports-VRES\"> </a></td><td>VRE Screen Culture</td><td>VRE Screen Culture</td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 0
+  }],
+  "url" : "https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports",
+  "version" : "0.1.0",
+  "name" : "OSLABMicrobiologyReportsCS",
+  "title" : "OS LAB Microbiology Reports",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2026-02-28",
+  "publisher" : "Michael J Osborne",
+  "contact" : [{
+    "name" : "Michael J Osborne",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://osbornemj.com"
+    }]
+  }],
+  "description" : "The OS LAB Microbiology Reports code system includes codes for reporting of microbiology results.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "AUS",
+      "display" : "Australia"
+    }]
+  }],
+  "caseSensitive" : false,
+  "content" : "complete",
+  "count" : 23,
+  "concept" : [{
+    "code" : "ADFUNG",
+    "display" : "Fungal Culture (M/C/S)",
+    "definition" : "Fungal Culture (M/C/S)"
+  },
+  {
+    "code" : "BC",
+    "display" : "Blood Culture (M/C/S)",
+    "definition" : "Blood Culture (M/C/S)"
+  },
+  {
+    "code" : "CAS",
+    "display" : "Candida auris Screen Culture",
+    "definition" : "Candida auris Screen Culture"
+  },
+  {
+    "code" : "CSF",
+    "display" : "CSF Culture (M/C/S)",
+    "definition" : "CSF Culture (M/C/S)"
+  },
+  {
+    "code" : "CSFS",
+    "display" : "CSF Subarachnoid Culture (M/C/S)",
+    "definition" : "CSF Subarachnoid Culture (M/C/S)"
+  },
+  {
+    "code" : "ENT",
+    "display" : "Ear, Nose, Throat and Conjunctival Swab",
+    "definition" : "Ear, Nose, Throat and Conjunctival Swab"
+  },
+  {
+    "code" : "EYE",
+    "display" : "Eye Invasive Culture (M/C/S)",
+    "definition" : "Eye Invasive Culture (M/C/S)"
+  },
+  {
+    "code" : "FAEMIC",
+    "display" : "Faeces Microscopy (RBC,WBC) Only",
+    "definition" : "Faeces Microscopy (RBC,WBC) Only"
+  },
+  {
+    "code" : "FLBCM",
+    "display" : "Sterile Fluid Culture in Blood Culture M",
+    "definition" : "Sterile Fluid Culture in Blood Culture M"
+  },
+  {
+    "code" : "FLPLUS",
+    "display" : "Sterile Fluid Culture plus Fluid in Bloo",
+    "definition" : "Sterile Fluid Culture plus Fluid in Bloo"
+  },
+  {
+    "code" : "FLUID",
+    "display" : "Sterile Fluid Culture (M/C/S)",
+    "definition" : "Sterile Fluid Culture (M/C/S)"
+  },
+  {
+    "code" : "FUNGI",
+    "display" : "Skin, Hair, Nail Dermatophyte Culture (M",
+    "definition" : "Skin, Hair, Nail Dermatophyte Culture (M"
+  },
+  {
+    "code" : "GBS",
+    "display" : "Group B Streptococcus Culture Screen (M/",
+    "definition" : "Group B Streptococcus Culture Screen (M/"
+  },
+  {
+    "code" : "GENIT",
+    "display" : "Genital Swab Culture (M/C/S)",
+    "definition" : "Genital Swab Culture (M/C/S)"
+  },
+  {
+    "code" : "MRSA",
+    "display" : "MRSA Screen Culture",
+    "definition" : "MRSA Screen Culture"
+  },
+  {
+    "code" : "PUS",
+    "display" : "Deep Invasive Pus or Swab Culture (M/C/S",
+    "definition" : "Deep Invasive Pus or Swab Culture (M/C/S"
+  },
+  {
+    "code" : "RESP",
+    "display" : "Respiratory Sputum or ETT Culture (M/C/S",
+    "definition" : "Respiratory Sputum or ETT Culture (M/C/S"
+  },
+  {
+    "code" : "RESPF",
+    "display" : "Respiratory Bronchoscopic Collection Cul",
+    "definition" : "Respiratory Bronchoscopic Collection Cul"
+  },
+  {
+    "code" : "SITE",
+    "display" : "Superficial Pus or Swab Culture (M/C/S)",
+    "definition" : "Superficial Pus or Swab Culture (M/C/S)"
+  },
+  {
+    "code" : "TIP",
+    "display" : "Tip Culture (M/C/S)",
+    "definition" : "Tip Culture (M/C/S)"
+  },
+  {
+    "code" : "TIS",
+    "display" : "Tissue Culture (M/C/S)",
+    "definition" : "Tissue Culture (M/C/S)"
+  },
+  {
+    "code" : "URINE",
+    "display" : "Urine Culture (M/C/S)",
+    "definition" : "Urine Culture (M/C/S)"
+  },
+  {
+    "code" : "VRES",
+    "display" : "VRE Screen Culture",
+    "definition" : "VRE Screen Culture"
+  }]
+}

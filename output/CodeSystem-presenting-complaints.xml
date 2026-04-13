@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="presenting-complaints"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem presenting-complaints</b></p><a name="presenting-complaints"> </a><a name="hcpresenting-complaints"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="http://hl7.org/fhir/R4/shareablecodesystem.html">Shareable CodeSystem</a></p></div><p>This case-insensitive code system <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">1081207063<a name="presenting-complaints-1081207063"> </a></td><td>Homicidal ideation</td><td>Homicidal ideation</td></tr><tr><td style="white-space:nowrap">22235260<a name="presenting-complaints-22235260"> </a></td><td>Back pain</td><td>Back pain</td></tr><tr><td style="white-space:nowrap">22235265<a name="presenting-complaints-22235265"> </a></td><td>Cough/rhinorrhoea</td><td>Cough/rhinorrhoea</td></tr><tr><td style="white-space:nowrap">22235269<a name="presenting-complaints-22235269"> </a></td><td>Crash other</td><td>Crash other</td></tr><tr><td style="white-space:nowrap">22235301<a name="presenting-complaints-22235301"> </a></td><td>MBC/quadbike-driver</td><td>MBC/quadbike-driver</td></tr><tr><td style="white-space:nowrap">22235306<a name="presenting-complaints-22235306"> </a></td><td>MBC/quadbike-passenger</td><td>MBC/quadbike-passenger</td></tr><tr><td style="white-space:nowrap">22235311<a name="presenting-complaints-22235311"> </a></td><td>Multiple pain</td><td>Multiple pain</td></tr><tr><td style="white-space:nowrap">22235320<a name="presenting-complaints-22235320"> </a></td><td>MVC-passenger</td><td>MVC-passenger</td></tr><tr><td style="white-space:nowrap">22235324<a name="presenting-complaints-22235324"> </a></td><td>Nausea/vomiting</td><td>Nausea/vomiting</td></tr><tr><td style="white-space:nowrap">22235330<a name="presenting-complaints-22235330"> </a></td><td>Neck/throat pain</td><td>Neck/throat pain</td></tr><tr><td style="white-space:nowrap">22235336<a name="presenting-complaints-22235336"> </a></td><td>Overdose/toxic exposure</td><td>Overdose/toxic exposure</td></tr><tr><td style="white-space:nowrap">22235341<a name="presenting-complaints-22235341"> </a></td><td>Palpitations/abnormal heart rate</td><td>Palpitations/abnormal heart rate</td></tr><tr><td style="white-space:nowrap">22235345<a name="presenting-complaints-22235345"> </a></td><td>Pedestrian vs</td><td>Pedestrian vs</td></tr><tr><td style="white-space:nowrap">22235356<a name="presenting-complaints-22235356"> </a></td><td>Planned ED recall or review</td><td>Planned ED recall or review</td></tr><tr><td style="white-space:nowrap">22235362<a name="presenting-complaints-22235362"> </a></td><td>Possible allergy</td><td>Possible allergy</td></tr><tr><td style="white-space:nowrap">22235374<a name="presenting-complaints-22235374"> </a></td><td>PV bleeding</td><td>PV bleeding</td></tr><tr><td style="white-space:nowrap">22235384<a name="presenting-complaints-22235384"> </a></td><td>Sexual assault</td><td>Sexual assault</td></tr><tr><td style="white-space:nowrap">22235387<a name="presenting-complaints-22235387"> </a></td><td>Sleep disturbance</td><td>Sleep disturbance</td></tr><tr><td style="white-space:nowrap">22235397<a name="presenting-complaints-22235397"> </a></td><td>Swelling/oedema/lump</td><td>Swelling/oedema/lump</td></tr><tr><td style="white-space:nowrap">22235496<a name="presenting-complaints-22235496"> </a></td><td>Cyanosis</td><td>Cyanosis</td></tr><tr><td style="white-space:nowrap">22235501<a name="presenting-complaints-22235501"> </a></td><td>Cycle related</td><td>Cycle related</td></tr><tr><td style="white-space:nowrap">22235514<a name="presenting-complaints-22235514"> </a></td><td>Urinary symptoms</td><td>Urinary symptoms</td></tr><tr><td style="white-space:nowrap">22235519<a name="presenting-complaints-22235519"> </a></td><td>Weight gain/loss</td><td>Weight gain/loss</td></tr><tr><td style="white-space:nowrap">22235526<a name="presenting-complaints-22235526"> </a></td><td>Wheeled device</td><td>Wheeled device</td></tr><tr><td style="white-space:nowrap">22236068<a name="presenting-complaints-22236068"> </a></td><td>Abdo/pelvis/perineal pain</td><td>Abdo/pelvis/perineal pain</td></tr><tr><td style="white-space:nowrap">22236074<a name="presenting-complaints-22236074"> </a></td><td>Aggression</td><td>Aggression</td></tr><tr><td style="white-space:nowrap">22236226<a name="presenting-complaints-22236226"> </a></td><td>Altered level of consciousness</td><td>Altered level of consciousness</td></tr><tr><td style="white-space:nowrap">22236240<a name="presenting-complaints-22236240"> </a></td><td>Anxiety/agitation</td><td>Anxiety/agitation</td></tr><tr><td style="white-space:nowrap">22236310<a name="presenting-complaints-22236310"> </a></td><td>Eye pain</td><td>Eye pain</td></tr><tr><td style="white-space:nowrap">22236317<a name="presenting-complaints-22236317"> </a></td><td>Feeding difficulties/concerns</td><td>Feeding difficulties/concerns</td></tr><tr><td style="white-space:nowrap">22236321<a name="presenting-complaints-22236321"> </a></td><td>Fever/hypothermia</td><td>Fever/hypothermia</td></tr><tr><td style="white-space:nowrap">22236326<a name="presenting-complaints-22236326"> </a></td><td>Gait disturbance</td><td>Gait disturbance</td></tr><tr><td style="white-space:nowrap">22236338<a name="presenting-complaints-22236338"> </a></td><td>GI bleed</td><td>GI bleed</td></tr><tr><td style="white-space:nowrap">22236345<a name="presenting-complaints-22236345"> </a></td><td>Haemoptysis</td><td>Haemoptysis</td></tr><tr><td style="white-space:nowrap">22236366<a name="presenting-complaints-22236366"> </a></td><td>Immersion</td><td>Immersion</td></tr><tr><td style="white-space:nowrap">22236370<a name="presenting-complaints-22236370"> </a></td><td>Increased respiratory effort/distress</td><td>Increased respiratory effort/distress</td></tr><tr><td style="white-space:nowrap">22236386<a name="presenting-complaints-22236386"> </a></td><td>Inpatient team review</td><td>Inpatient team review</td></tr><tr><td style="white-space:nowrap">22236398<a name="presenting-complaints-22236398"> </a></td><td>Laceration/skin tear</td><td>Laceration/skin tear</td></tr><tr><td style="white-space:nowrap">23774122<a name="presenting-complaints-23774122"> </a></td><td>Disaster</td><td>Disaster</td></tr><tr><td style="white-space:nowrap">9044662<a name="presenting-complaints-9044662"> </a></td><td>Bite/sting</td><td>Bite/sting</td></tr><tr><td style="white-space:nowrap">9044663<a name="presenting-complaints-9044663"> </a></td><td>Admission/transfer</td><td>Admission/transfer</td></tr><tr><td style="white-space:nowrap">9044664<a name="presenting-complaints-9044664"> </a></td><td>Apnoea</td><td>Apnoea</td></tr><tr><td style="white-space:nowrap">9044665<a name="presenting-complaints-9044665"> </a></td><td>Arrest</td><td>Arrest</td></tr><tr><td style="white-space:nowrap">9044667<a name="presenting-complaints-9044667"> </a></td><td>Burn/scald</td><td>Burn/scald</td></tr><tr><td style="white-space:nowrap">9044669<a name="presenting-complaints-9044669"> </a></td><td>Constipation</td><td>Constipation</td></tr><tr><td style="white-space:nowrap">9044670<a name="presenting-complaints-9044670"> </a></td><td>Dizziness/vertigo</td><td>Dizziness/vertigo</td></tr><tr><td style="white-space:nowrap">9044671<a name="presenting-complaints-9044671"> </a></td><td>Ear pain</td><td>Ear pain</td></tr><tr><td style="white-space:nowrap">9044672<a name="presenting-complaints-9044672"> </a></td><td>Eating disorder</td><td>Eating disorder</td></tr><tr><td style="white-space:nowrap">9044673<a name="presenting-complaints-9044673"> </a></td><td>Electrocution</td><td>Electrocution</td></tr><tr><td style="white-space:nowrap">9044674<a name="presenting-complaints-9044674"> </a></td><td>Epistaxis (nose)</td><td>Epistaxis (nose)</td></tr><tr><td style="white-space:nowrap">9044675<a name="presenting-complaints-9044675"> </a></td><td>Erythema/rash or other skin complaint</td><td>Erythema/rash or other skin complaint</td></tr><tr><td style="white-space:nowrap">9044676<a name="presenting-complaints-9044676"> </a></td><td>Eye or vision problems</td><td>Eye or vision problems</td></tr><tr><td style="white-space:nowrap">9044677<a name="presenting-complaints-9044677"> </a></td><td>Face-other pain</td><td>Face-other pain</td></tr><tr><td style="white-space:nowrap">9044678<a name="presenting-complaints-9044678"> </a></td><td>Fall</td><td>Fall</td></tr><tr><td style="white-space:nowrap">9044679<a name="presenting-complaints-9044679"> </a></td><td>Haematuria</td><td>Haematuria</td></tr><tr><td style="white-space:nowrap">9044680<a name="presenting-complaints-9044680"> </a></td><td>Hyper/hypoglycaemia</td><td>Hyper/hypoglycaemia</td></tr><tr><td style="white-space:nowrap">9044681<a name="presenting-complaints-9044681"> </a></td><td>Hypertension/hypotension</td><td>Hypertension/hypotension</td></tr><tr><td style="white-space:nowrap">9044682<a name="presenting-complaints-9044682"> </a></td><td>Limb/joint pain</td><td>Limb/joint pain</td></tr><tr><td style="white-space:nowrap">9044683<a name="presenting-complaints-9044683"> </a></td><td>Mood disturbance</td><td>Mood disturbance</td></tr><tr><td style="white-space:nowrap">9044684<a name="presenting-complaints-9044684"> </a></td><td>Request medication/cert/result/procedure</td><td>Request medication/cert/result/procedure</td></tr><tr><td style="white-space:nowrap">9044685<a name="presenting-complaints-9044685"> </a></td><td>Social concern incl child protection</td><td>Social concern incl child protection</td></tr><tr><td style="white-space:nowrap">9044688<a name="presenting-complaints-9044688"> </a></td><td>Suspected FB: non airways</td><td>Suspected FB: non airways</td></tr><tr><td style="white-space:nowrap">9044689<a name="presenting-complaints-9044689"> </a></td><td>Swallowing difficulty</td><td>Swallowing difficulty</td></tr><tr><td style="white-space:nowrap">9044690<a name="presenting-complaints-9044690"> </a></td><td>Temperature stress</td><td>Temperature stress</td></tr><tr><td style="white-space:nowrap">9044691<a name="presenting-complaints-9044691"> </a></td><td>Unplanned ED representation</td><td>Unplanned ED representation</td></tr><tr><td style="white-space:nowrap">9044692<a name="presenting-complaints-9044692"> </a></td><td>Unsettled</td><td>Unsettled</td></tr><tr><td style="white-space:nowrap">9044699<a name="presenting-complaints-9044699"> </a></td><td>Diarrhoea</td><td>Diarrhoea</td></tr><tr><td style="white-space:nowrap">9044711<a name="presenting-complaints-9044711"> </a></td><td>Penetrating injury</td><td>Penetrating injury</td></tr><tr><td style="white-space:nowrap">9044718<a name="presenting-complaints-9044718"> </a></td><td>Headache</td><td>Headache</td></tr><tr><td style="white-space:nowrap">9044723<a name="presenting-complaints-9044723"> </a></td><td>Jaundice</td><td>Jaundice</td></tr><tr><td style="white-space:nowrap">9044748<a name="presenting-complaints-9044748"> </a></td><td>Altered sensation</td><td>Altered sensation</td></tr><tr><td style="white-space:nowrap">9044749<a name="presenting-complaints-9044749"> </a></td><td>Collapse</td><td>Collapse</td></tr><tr><td style="white-space:nowrap">9044758<a name="presenting-complaints-9044758"> </a></td><td>Seizure</td><td>Seizure</td></tr><tr><td style="white-space:nowrap">9044764<a name="presenting-complaints-9044764"> </a></td><td>Stridor</td><td>Stridor</td></tr><tr><td style="white-space:nowrap">9044765<a name="presenting-complaints-9044765"> </a></td><td>Suicidal ideation</td><td>Suicidal ideation</td></tr><tr><td style="white-space:nowrap">9044776<a name="presenting-complaints-9044776"> </a></td><td>Weakness</td><td>Weakness</td></tr><tr><td style="white-space:nowrap">9044782<a name="presenting-complaints-9044782"> </a></td><td>Addiction/dependency</td><td>Addiction/dependency</td></tr><tr><td style="white-space:nowrap">9044783<a name="presenting-complaints-9044783"> </a></td><td>Bruising/other</td><td>Bruising/other</td></tr><tr><td style="white-space:nowrap">9044784<a name="presenting-complaints-9044784"> </a></td><td>Chest pain</td><td>Chest pain</td></tr><tr><td style="white-space:nowrap">9044798<a name="presenting-complaints-9044798"> </a></td><td>Blunt injury</td><td>Blunt injury</td></tr><tr><td style="white-space:nowrap">9044799<a name="presenting-complaints-9044799"> </a></td><td>Hallucinations</td><td>Hallucinations</td></tr><tr><td style="white-space:nowrap">9044800<a name="presenting-complaints-9044800"> </a></td><td>Requesting investigation</td><td>Requesting investigation</td></tr><tr><td style="white-space:nowrap">9044802<a name="presenting-complaints-9044802"> </a></td><td>Suspected FB: airways/choking</td><td>Suspected FB: airways/choking</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0"/>
+  </extension>
+  <url value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+  <version value="0.1.0"/>
+  <name value="PresentingComplaintCS"/>
+  <title value="Presenting Complaints"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2026-02-28"/>
+  <publisher value="Michael J Osborne"/>
+  <contact>
+    <name value="Michael J Osborne"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://osbornemj.com"/>
+    </telecom>
+  </contact>
+  <description value="Presenting Complaint codes"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="AUS"/>
+      <display value="Australia"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="false"/>
+  <content value="complete"/>
+  <count value="83"/>
+  <concept>
+    <code value="1081207063"/>
+    <display value="Homicidal ideation"/>
+    <definition value="Homicidal ideation"/>
+  </concept>
+  <concept>
+    <code value="22235260"/>
+    <display value="Back pain"/>
+    <definition value="Back pain"/>
+  </concept>
+  <concept>
+    <code value="22235265"/>
+    <display value="Cough/rhinorrhoea"/>
+    <definition value="Cough/rhinorrhoea"/>
+  </concept>
+  <concept>
+    <code value="22235269"/>
+    <display value="Crash other"/>
+    <definition value="Crash other"/>
+  </concept>
+  <concept>
+    <code value="22235301"/>
+    <display value="MBC/quadbike-driver"/>
+    <definition value="MBC/quadbike-driver"/>
+  </concept>
+  <concept>
+    <code value="22235306"/>
+    <display value="MBC/quadbike-passenger"/>
+    <definition value="MBC/quadbike-passenger"/>
+  </concept>
+  <concept>
+    <code value="22235311"/>
+    <display value="Multiple pain"/>
+    <definition value="Multiple pain"/>
+  </concept>
+  <concept>
+    <code value="22235320"/>
+    <display value="MVC-passenger"/>
+    <definition value="MVC-passenger"/>
+  </concept>
+  <concept>
+    <code value="22235324"/>
+    <display value="Nausea/vomiting"/>
+    <definition value="Nausea/vomiting"/>
+  </concept>
+  <concept>
+    <code value="22235330"/>
+    <display value="Neck/throat pain"/>
+    <definition value="Neck/throat pain"/>
+  </concept>
+  <concept>
+    <code value="22235336"/>
+    <display value="Overdose/toxic exposure"/>
+    <definition value="Overdose/toxic exposure"/>
+  </concept>
+  <concept>
+    <code value="22235341"/>
+    <display value="Palpitations/abnormal heart rate"/>
+    <definition value="Palpitations/abnormal heart rate"/>
+  </concept>
+  <concept>
+    <code value="22235345"/>
+    <display value="Pedestrian vs"/>
+    <definition value="Pedestrian vs"/>
+  </concept>
+  <concept>
+    <code value="22235356"/>
+    <display value="Planned ED recall or review"/>
+    <definition value="Planned ED recall or review"/>
+  </concept>
+  <concept>
+    <code value="22235362"/>
+    <display value="Possible allergy"/>
+    <definition value="Possible allergy"/>
+  </concept>
+  <concept>
+    <code value="22235374"/>
+    <display value="PV bleeding"/>
+    <definition value="PV bleeding"/>
+  </concept>
+  <concept>
+    <code value="22235384"/>
+    <display value="Sexual assault"/>
+    <definition value="Sexual assault"/>
+  </concept>
+  <concept>
+    <code value="22235387"/>
+    <display value="Sleep disturbance"/>
+    <definition value="Sleep disturbance"/>
+  </concept>
+  <concept>
+    <code value="22235397"/>
+    <display value="Swelling/oedema/lump"/>
+    <definition value="Swelling/oedema/lump"/>
+  </concept>
+  <concept>
+    <code value="22235496"/>
+    <display value="Cyanosis"/>
+    <definition value="Cyanosis"/>
+  </concept>
+  <concept>
+    <code value="22235501"/>
+    <display value="Cycle related"/>
+    <definition value="Cycle related"/>
+  </concept>
+  <concept>
+    <code value="22235514"/>
+    <display value="Urinary symptoms"/>
+    <definition value="Urinary symptoms"/>
+  </concept>
+  <concept>
+    <code value="22235519"/>
+    <display value="Weight gain/loss"/>
+    <definition value="Weight gain/loss"/>
+  </concept>
+  <concept>
+    <code value="22235526"/>
+    <display value="Wheeled device"/>
+    <definition value="Wheeled device"/>
+  </concept>
+  <concept>
+    <code value="22236068"/>
+    <display value="Abdo/pelvis/perineal pain"/>
+    <definition value="Abdo/pelvis/perineal pain"/>
+  </concept>
+  <concept>
+    <code value="22236074"/>
+    <display value="Aggression"/>
+    <definition value="Aggression"/>
+  </concept>
+  <concept>
+    <code value="22236226"/>
+    <display value="Altered level of consciousness"/>
+    <definition value="Altered level of consciousness"/>
+  </concept>
+  <concept>
+    <code value="22236240"/>
+    <display value="Anxiety/agitation"/>
+    <definition value="Anxiety/agitation"/>
+  </concept>
+  <concept>
+    <code value="22236310"/>
+    <display value="Eye pain"/>
+    <definition value="Eye pain"/>
+  </concept>
+  <concept>
+    <code value="22236317"/>
+    <display value="Feeding difficulties/concerns"/>
+    <definition value="Feeding difficulties/concerns"/>
+  </concept>
+  <concept>
+    <code value="22236321"/>
+    <display value="Fever/hypothermia"/>
+    <definition value="Fever/hypothermia"/>
+  </concept>
+  <concept>
+    <code value="22236326"/>
+    <display value="Gait disturbance"/>
+    <definition value="Gait disturbance"/>
+  </concept>
+  <concept>
+    <code value="22236338"/>
+    <display value="GI bleed"/>
+    <definition value="GI bleed"/>
+  </concept>
+  <concept>
+    <code value="22236345"/>
+    <display value="Haemoptysis"/>
+    <definition value="Haemoptysis"/>
+  </concept>
+  <concept>
+    <code value="22236366"/>
+    <display value="Immersion"/>
+    <definition value="Immersion"/>
+  </concept>
+  <concept>
+    <code value="22236370"/>
+    <display value="Increased respiratory effort/distress"/>
+    <definition value="Increased respiratory effort/distress"/>
+  </concept>
+  <concept>
+    <code value="22236386"/>
+    <display value="Inpatient team review"/>
+    <definition value="Inpatient team review"/>
+  </concept>
+  <concept>
+    <code value="22236398"/>
+    <display value="Laceration/skin tear"/>
+    <definition value="Laceration/skin tear"/>
+  </concept>
+  <concept>
+    <code value="23774122"/>
+    <display value="Disaster"/>
+    <definition value="Disaster"/>
+  </concept>
+  <concept>
+    <code value="9044662"/>
+    <display value="Bite/sting"/>
+    <definition value="Bite/sting"/>
+  </concept>
+  <concept>
+    <code value="9044663"/>
+    <display value="Admission/transfer"/>
+    <definition value="Admission/transfer"/>
+  </concept>
+  <concept>
+    <code value="9044664"/>
+    <display value="Apnoea"/>
+    <definition value="Apnoea"/>
+  </concept>
+  <concept>
+    <code value="9044665"/>
+    <display value="Arrest"/>
+    <definition value="Arrest"/>
+  </concept>
+  <concept>
+    <code value="9044667"/>
+    <display value="Burn/scald"/>
+    <definition value="Burn/scald"/>
+  </concept>
+  <concept>
+    <code value="9044669"/>
+    <display value="Constipation"/>
+    <definition value="Constipation"/>
+  </concept>
+  <concept>
+    <code value="9044670"/>
+    <display value="Dizziness/vertigo"/>
+    <definition value="Dizziness/vertigo"/>
+  </concept>
+  <concept>
+    <code value="9044671"/>
+    <display value="Ear pain"/>
+    <definition value="Ear pain"/>
+  </concept>
+  <concept>
+    <code value="9044672"/>
+    <display value="Eating disorder"/>
+    <definition value="Eating disorder"/>
+  </concept>
+  <concept>
+    <code value="9044673"/>
+    <display value="Electrocution"/>
+    <definition value="Electrocution"/>
+  </concept>
+  <concept>
+    <code value="9044674"/>
+    <display value="Epistaxis (nose)"/>
+    <definition value="Epistaxis (nose)"/>
+  </concept>
+  <concept>
+    <code value="9044675"/>
+    <display value="Erythema/rash or other skin complaint"/>
+    <definition value="Erythema/rash or other skin complaint"/>
+  </concept>
+  <concept>
+    <code value="9044676"/>
+    <display value="Eye or vision problems"/>
+    <definition value="Eye or vision problems"/>
+  </concept>
+  <concept>
+    <code value="9044677"/>
+    <display value="Face-other pain"/>
+    <definition value="Face-other pain"/>
+  </concept>
+  <concept>
+    <code value="9044678"/>
+    <display value="Fall"/>
+    <definition value="Fall"/>
+  </concept>
+  <concept>
+    <code value="9044679"/>
+    <display value="Haematuria"/>
+    <definition value="Haematuria"/>
+  </concept>
+  <concept>
+    <code value="9044680"/>
+    <display value="Hyper/hypoglycaemia"/>
+    <definition value="Hyper/hypoglycaemia"/>
+  </concept>
+  <concept>
+    <code value="9044681"/>
+    <display value="Hypertension/hypotension"/>
+    <definition value="Hypertension/hypotension"/>
+  </concept>
+  <concept>
+    <code value="9044682"/>
+    <display value="Limb/joint pain"/>
+    <definition value="Limb/joint pain"/>
+  </concept>
+  <concept>
+    <code value="9044683"/>
+    <display value="Mood disturbance"/>
+    <definition value="Mood disturbance"/>
+  </concept>
+  <concept>
+    <code value="9044684"/>
+    <display value="Request medication/cert/result/procedure"/>
+    <definition value="Request medication/cert/result/procedure"/>
+  </concept>
+  <concept>
+    <code value="9044685"/>
+    <display value="Social concern incl child protection"/>
+    <definition value="Social concern incl child protection"/>
+  </concept>
+  <concept>
+    <code value="9044688"/>
+    <display value="Suspected FB: non airways"/>
+    <definition value="Suspected FB: non airways"/>
+  </concept>
+  <concept>
+    <code value="9044689"/>
+    <display value="Swallowing difficulty"/>
+    <definition value="Swallowing difficulty"/>
+  </concept>
+  <concept>
+    <code value="9044690"/>
+    <display value="Temperature stress"/>
+    <definition value="Temperature stress"/>
+  </concept>
+  <concept>
+    <code value="9044691"/>
+    <display value="Unplanned ED representation"/>
+    <definition value="Unplanned ED representation"/>
+  </concept>
+  <concept>
+    <code value="9044692"/>
+    <display value="Unsettled"/>
+    <definition value="Unsettled"/>
+  </concept>
+  <concept>
+    <code value="9044699"/>
+    <display value="Diarrhoea"/>
+    <definition value="Diarrhoea"/>
+  </concept>
+  <concept>
+    <code value="9044711"/>
+    <display value="Penetrating injury"/>
+    <definition value="Penetrating injury"/>
+  </concept>
+  <concept>
+    <code value="9044718"/>
+    <display value="Headache"/>
+    <definition value="Headache"/>
+  </concept>
+  <concept>
+    <code value="9044723"/>
+    <display value="Jaundice"/>
+    <definition value="Jaundice"/>
+  </concept>
+  <concept>
+    <code value="9044748"/>
+    <display value="Altered sensation"/>
+    <definition value="Altered sensation"/>
+  </concept>
+  <concept>
+    <code value="9044749"/>
+    <display value="Collapse"/>
+    <definition value="Collapse"/>
+  </concept>
+  <concept>
+    <code value="9044758"/>
+    <display value="Seizure"/>
+    <definition value="Seizure"/>
+  </concept>
+  <concept>
+    <code value="9044764"/>
+    <display value="Stridor"/>
+    <definition value="Stridor"/>
+  </concept>
+  <concept>
+    <code value="9044765"/>
+    <display value="Suicidal ideation"/>
+    <definition value="Suicidal ideation"/>
+  </concept>
+  <concept>
+    <code value="9044776"/>
+    <display value="Weakness"/>
+    <definition value="Weakness"/>
+  </concept>
+  <concept>
+    <code value="9044782"/>
+    <display value="Addiction/dependency"/>
+    <definition value="Addiction/dependency"/>
+  </concept>
+  <concept>
+    <code value="9044783"/>
+    <display value="Bruising/other"/>
+    <definition value="Bruising/other"/>
+  </concept>
+  <concept>
+    <code value="9044784"/>
+    <display value="Chest pain"/>
+    <definition value="Chest pain"/>
+  </concept>
+  <concept>
+    <code value="9044798"/>
+    <display value="Blunt injury"/>
+    <definition value="Blunt injury"/>
+  </concept>
+  <concept>
+    <code value="9044799"/>
+    <display value="Hallucinations"/>
+    <definition value="Hallucinations"/>
+  </concept>
+  <concept>
+    <code value="9044800"/>
+    <display value="Requesting investigation"/>
+    <definition value="Requesting investigation"/>
+  </concept>
+  <concept>
+    <code value="9044802"/>
+    <display value="Suspected FB: airways/choking"/>
+    <definition value="Suspected FB: airways/choking"/>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="vs-OSLAB-microbiology-report"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet vs-OSLAB-microbiology-report</b></p><a name="vs-OSLAB-microbiology-report"> </a><a name="hcvs-OSLAB-microbiology-report"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="http://hl7.org/fhir/R4/shareablevalueset.html">Shareable ValueSet</a></p></div><ul><li>Include all codes defined in <a href="CodeSystem-OSLAB-microbiology-reports.html"><code>https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;0.1.0</span></li></ul></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0"/>
+  </extension>
+  <url value="https://fhir.osbornemj.com/ig/ValueSet/vs-OSLAB-microbiology-report"/>
+  <version value="0.1.0"/>
+  <name value="OSLABMicrobiologyOrdersVS"/>
+  <title value="OS LAB Microbiology Report"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2026-02-28"/>
+  <publisher value="Michael J Osborne"/>
+  <contact>
+    <name value="Michael J Osborne"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://osbornemj.com"/>
+    </telecom>
+  </contact>
+  <description value="The OS LAB Microbiology Report value set includes codes for Microbiology reports."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="AUS"/>
+      <display value="Australia"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports"/>
+    </include>
+  </compose>
+</ValueSet>

@@ -1,0 +1,4 @@
+URL,Version,Status,OIDs,Name,Title,Description,Uses,Used,Sources
+http://hl7.org/fhir/ValueSet/diagnostic-report-status,4.0.1,draft,"2.16.840.1.113883.4.642.3.235",DiagnosticReportStatus,DiagnosticReportStatus,"The status of the diagnostic report.","StructureDefinition/diagnosticreport-microbiology","hl7.fhir.r4.core"
+https://fhir.osbornemj.com/ig/ValueSet/vs-OSLAB-microbiology-report,0.1.0,draft,,OSLABMicrobiologyOrdersVS,OS LAB Microbiology Report,"The OS LAB Microbiology Report value set includes codes for Microbiology reports.","StructureDefinition/diagnosticreport-microbiology","Internal"
+https://fhir.osbornemj.com/ig/ValueSet/vs-presenting-complaint,0.1.0,draft,,PresentingComplaintVS,Presenting Complaints ValueSet,"Presenting Complaint codes",,"Internal"

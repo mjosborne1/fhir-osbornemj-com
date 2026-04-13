@@ -1,0 +1,79 @@
+{
+  "codeSystems" : [{
+    "url" : "http://hl7.org/fhir/ValueSet/diagnostic-report-status",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "DiagnosticReportStatus",
+    "title" : "DiagnosticReportStatus",
+    "description" : "The status of the diagnostic report.",
+    "systems" : ["http://hl7.org/fhir/diagnostic-report-status"],
+    "oids" : ["2.16.840.1.113883.4.642.3.235"],
+    "sources" : ["2.16.840.1.113883.4.642.3.235"],
+    "uses" : {
+    },
+    "StructureDefinition-diagnosticreport-microbiology.html" : "DiagnosticReport Microbiology Profile"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/diagnostic-service-sections",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "DiagnosticServiceSectionCodes",
+    "title" : "Diagnostic Service Section Codes",
+    "description" : "This value set includes all the codes in HL7 V2 table 0074.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0074"],
+    "oids" : ["2.16.840.1.113883.4.642.3.234"],
+    "sources" : ["2.16.840.1.113883.4.642.3.234"],
+    "uses" : {
+    },
+    "StructureDefinition-diagnosticreport-microbiology.html" : "DiagnosticReport Microbiology Profile"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/languages",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "CommonLanguages",
+    "title" : "Common Languages",
+    "description" : "This value set includes common codes from BCP-47 (http://tools.ietf.org/html/bcp47)",
+    "systems" : ["urn:ietf:bcp:47"],
+    "oids" : ["2.16.840.1.113883.4.642.3.20"],
+    "sources" : ["2.16.840.1.113883.4.642.3.20"],
+    "uses" : {
+    },
+    "StructureDefinition-diagnosticreport-microbiology.html" : "DiagnosticReport Microbiology Profile"
+  },
+  {
+    "url" : "https://fhir.osbornemj.com/ig/ValueSet/vs-OSLAB-microbiology-report",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "OSLABMicrobiologyOrdersVS",
+    "title" : "OS LAB Microbiology Report",
+    "description" : "The OS LAB Microbiology Report value set includes codes for Microbiology reports.",
+    "systems" : ["https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports"],
+    "uses" : {
+    },
+    "StructureDefinition-diagnosticreport-microbiology.html" : "DiagnosticReport Microbiology Profile"
+  },
+  {
+    "url" : "https://fhir.osbornemj.com/ig/ValueSet/vs-presenting-complaint",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "PresentingComplaintVS",
+    "title" : "Presenting Complaints ValueSet",
+    "description" : "Presenting Complaint codes",
+    "systems" : ["https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"]
+  },
+  {
+    "url" : "https://healthterminologies.gov.au/fhir/ValueSet/clinical-finding-1",
+    "version" : "1.0.2",
+    "status" : "active",
+    "name" : "ClinicalFinding",
+    "title" : "Clinical Finding",
+    "description" : "The Clinical Finding value set includes a broad range of values that support the recording of disorders and clinical findings, including observations, judgments or assessments about subjects of care.",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["1.2.36.1.2001.1004.201.10037"],
+    "sources" : ["1.2.36.1.2001.1004.201.10037"],
+    "uses" : {
+    },
+    "StructureDefinition-diagnosticreport-microbiology.html" : "DiagnosticReport Microbiology Profile"
+  }]
+}

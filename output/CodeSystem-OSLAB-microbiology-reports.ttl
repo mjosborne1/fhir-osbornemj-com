@@ -1,0 +1,159 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "OSLAB-microbiology-reports"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem OSLAB-microbiology-reports</b></p><a name=\"OSLAB-microbiology-reports\"> </a><a name=\"hcOSLAB-microbiology-reports\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p>This case-insensitive code system <code>https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">ADFUNG<a name=\"OSLAB-microbiology-reports-ADFUNG\"> </a></td><td>Fungal Culture (M/C/S)</td><td>Fungal Culture (M/C/S)</td></tr><tr><td style=\"white-space:nowrap\">BC<a name=\"OSLAB-microbiology-reports-BC\"> </a></td><td>Blood Culture (M/C/S)</td><td>Blood Culture (M/C/S)</td></tr><tr><td style=\"white-space:nowrap\">CAS<a name=\"OSLAB-microbiology-reports-CAS\"> </a></td><td>Candida auris Screen Culture</td><td>Candida auris Screen Culture</td></tr><tr><td style=\"white-space:nowrap\">CSF<a name=\"OSLAB-microbiology-reports-CSF\"> </a></td><td>CSF Culture (M/C/S)</td><td>CSF Culture (M/C/S)</td></tr><tr><td style=\"white-space:nowrap\">CSFS<a name=\"OSLAB-microbiology-reports-CSFS\"> </a></td><td>CSF Subarachnoid Culture (M/C/S)</td><td>CSF Subarachnoid Culture (M/C/S)</td></tr><tr><td style=\"white-space:nowrap\">ENT<a name=\"OSLAB-microbiology-reports-ENT\"> </a></td><td>Ear, Nose, Throat and Conjunctival Swab</td><td>Ear, Nose, Throat and Conjunctival Swab</td></tr><tr><td style=\"white-space:nowrap\">EYE<a name=\"OSLAB-microbiology-reports-EYE\"> </a></td><td>Eye Invasive Culture (M/C/S)</td><td>Eye Invasive Culture (M/C/S)</td></tr><tr><td style=\"white-space:nowrap\">FAEMIC<a name=\"OSLAB-microbiology-reports-FAEMIC\"> </a></td><td>Faeces Microscopy (RBC,WBC) Only</td><td>Faeces Microscopy (RBC,WBC) Only</td></tr><tr><td style=\"white-space:nowrap\">FLBCM<a name=\"OSLAB-microbiology-reports-FLBCM\"> </a></td><td>Sterile Fluid Culture in Blood Culture M</td><td>Sterile Fluid Culture in Blood Culture M</td></tr><tr><td style=\"white-space:nowrap\">FLPLUS<a name=\"OSLAB-microbiology-reports-FLPLUS\"> </a></td><td>Sterile Fluid Culture plus Fluid in Bloo</td><td>Sterile Fluid Culture plus Fluid in Bloo</td></tr><tr><td style=\"white-space:nowrap\">FLUID<a name=\"OSLAB-microbiology-reports-FLUID\"> </a></td><td>Sterile Fluid Culture (M/C/S)</td><td>Sterile Fluid Culture (M/C/S)</td></tr><tr><td style=\"white-space:nowrap\">FUNGI<a name=\"OSLAB-microbiology-reports-FUNGI\"> </a></td><td>Skin, Hair, Nail Dermatophyte Culture (M</td><td>Skin, Hair, Nail Dermatophyte Culture (M</td></tr><tr><td style=\"white-space:nowrap\">GBS<a name=\"OSLAB-microbiology-reports-GBS\"> </a></td><td>Group B Streptococcus Culture Screen (M/</td><td>Group B Streptococcus Culture Screen (M/</td></tr><tr><td style=\"white-space:nowrap\">GENIT<a name=\"OSLAB-microbiology-reports-GENIT\"> </a></td><td>Genital Swab Culture (M/C/S)</td><td>Genital Swab Culture (M/C/S)</td></tr><tr><td style=\"white-space:nowrap\">MRSA<a name=\"OSLAB-microbiology-reports-MRSA\"> </a></td><td>MRSA Screen Culture</td><td>MRSA Screen Culture</td></tr><tr><td style=\"white-space:nowrap\">PUS<a name=\"OSLAB-microbiology-reports-PUS\"> </a></td><td>Deep Invasive Pus or Swab Culture (M/C/S</td><td>Deep Invasive Pus or Swab Culture (M/C/S</td></tr><tr><td style=\"white-space:nowrap\">RESP<a name=\"OSLAB-microbiology-reports-RESP\"> </a></td><td>Respiratory Sputum or ETT Culture (M/C/S</td><td>Respiratory Sputum or ETT Culture (M/C/S</td></tr><tr><td style=\"white-space:nowrap\">RESPF<a name=\"OSLAB-microbiology-reports-RESPF\"> </a></td><td>Respiratory Bronchoscopic Collection Cul</td><td>Respiratory Bronchoscopic Collection Cul</td></tr><tr><td style=\"white-space:nowrap\">SITE<a name=\"OSLAB-microbiology-reports-SITE\"> </a></td><td>Superficial Pus or Swab Culture (M/C/S)</td><td>Superficial Pus or Swab Culture (M/C/S)</td></tr><tr><td style=\"white-space:nowrap\">TIP<a name=\"OSLAB-microbiology-reports-TIP\"> </a></td><td>Tip Culture (M/C/S)</td><td>Tip Culture (M/C/S)</td></tr><tr><td style=\"white-space:nowrap\">TIS<a name=\"OSLAB-microbiology-reports-TIS\"> </a></td><td>Tissue Culture (M/C/S)</td><td>Tissue Culture (M/C/S)</td></tr><tr><td style=\"white-space:nowrap\">URINE<a name=\"OSLAB-microbiology-reports-URINE\"> </a></td><td>Urine Culture (M/C/S)</td><td>Urine Culture (M/C/S)</td></tr><tr><td style=\"white-space:nowrap\">VRES<a name=\"OSLAB-microbiology-reports-VRES\"> </a></td><td>VRE Screen Culture</td><td>VRE Screen Culture</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports"^^xsd:anyURI ;
+     fhir:l <https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "OSLABMicrobiologyReportsCS"] ; # 
+  fhir:title [ fhir:v "OS LAB Microbiology Reports"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-28"^^xsd:date] ; # 
+  fhir:publisher [ fhir:v "Michael J Osborne"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Michael J Osborne" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://osbornemj.com" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "The OS LAB Microbiology Reports code system includes codes for reporting of microbiology results."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
+         fhir:l <urn:iso:std:iso:3166>
+       ] ;
+       fhir:code [ fhir:v "AUS" ] ;
+       fhir:display [ fhir:v "Australia" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v false] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "23"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "ADFUNG" ] ;
+     fhir:display [ fhir:v "Fungal Culture (M/C/S)" ] ;
+     fhir:definition [ fhir:v "Fungal Culture (M/C/S)" ]
+  ] [
+     fhir:code [ fhir:v "BC" ] ;
+     fhir:display [ fhir:v "Blood Culture (M/C/S)" ] ;
+     fhir:definition [ fhir:v "Blood Culture (M/C/S)" ]
+  ] [
+     fhir:code [ fhir:v "CAS" ] ;
+     fhir:display [ fhir:v "Candida auris Screen Culture" ] ;
+     fhir:definition [ fhir:v "Candida auris Screen Culture" ]
+  ] [
+     fhir:code [ fhir:v "CSF" ] ;
+     fhir:display [ fhir:v "CSF Culture (M/C/S)" ] ;
+     fhir:definition [ fhir:v "CSF Culture (M/C/S)" ]
+  ] [
+     fhir:code [ fhir:v "CSFS" ] ;
+     fhir:display [ fhir:v "CSF Subarachnoid Culture (M/C/S)" ] ;
+     fhir:definition [ fhir:v "CSF Subarachnoid Culture (M/C/S)" ]
+  ] [
+     fhir:code [ fhir:v "ENT" ] ;
+     fhir:display [ fhir:v "Ear, Nose, Throat and Conjunctival Swab" ] ;
+     fhir:definition [ fhir:v "Ear, Nose, Throat and Conjunctival Swab" ]
+  ] [
+     fhir:code [ fhir:v "EYE" ] ;
+     fhir:display [ fhir:v "Eye Invasive Culture (M/C/S)" ] ;
+     fhir:definition [ fhir:v "Eye Invasive Culture (M/C/S)" ]
+  ] [
+     fhir:code [ fhir:v "FAEMIC" ] ;
+     fhir:display [ fhir:v "Faeces Microscopy (RBC,WBC) Only" ] ;
+     fhir:definition [ fhir:v "Faeces Microscopy (RBC,WBC) Only" ]
+  ] [
+     fhir:code [ fhir:v "FLBCM" ] ;
+     fhir:display [ fhir:v "Sterile Fluid Culture in Blood Culture M" ] ;
+     fhir:definition [ fhir:v "Sterile Fluid Culture in Blood Culture M" ]
+  ] [
+     fhir:code [ fhir:v "FLPLUS" ] ;
+     fhir:display [ fhir:v "Sterile Fluid Culture plus Fluid in Bloo" ] ;
+     fhir:definition [ fhir:v "Sterile Fluid Culture plus Fluid in Bloo" ]
+  ] [
+     fhir:code [ fhir:v "FLUID" ] ;
+     fhir:display [ fhir:v "Sterile Fluid Culture (M/C/S)" ] ;
+     fhir:definition [ fhir:v "Sterile Fluid Culture (M/C/S)" ]
+  ] [
+     fhir:code [ fhir:v "FUNGI" ] ;
+     fhir:display [ fhir:v "Skin, Hair, Nail Dermatophyte Culture (M" ] ;
+     fhir:definition [ fhir:v "Skin, Hair, Nail Dermatophyte Culture (M" ]
+  ] [
+     fhir:code [ fhir:v "GBS" ] ;
+     fhir:display [ fhir:v "Group B Streptococcus Culture Screen (M/" ] ;
+     fhir:definition [ fhir:v "Group B Streptococcus Culture Screen (M/" ]
+  ] [
+     fhir:code [ fhir:v "GENIT" ] ;
+     fhir:display [ fhir:v "Genital Swab Culture (M/C/S)" ] ;
+     fhir:definition [ fhir:v "Genital Swab Culture (M/C/S)" ]
+  ] [
+     fhir:code [ fhir:v "MRSA" ] ;
+     fhir:display [ fhir:v "MRSA Screen Culture" ] ;
+     fhir:definition [ fhir:v "MRSA Screen Culture" ]
+  ] [
+     fhir:code [ fhir:v "PUS" ] ;
+     fhir:display [ fhir:v "Deep Invasive Pus or Swab Culture (M/C/S" ] ;
+     fhir:definition [ fhir:v "Deep Invasive Pus or Swab Culture (M/C/S" ]
+  ] [
+     fhir:code [ fhir:v "RESP" ] ;
+     fhir:display [ fhir:v "Respiratory Sputum or ETT Culture (M/C/S" ] ;
+     fhir:definition [ fhir:v "Respiratory Sputum or ETT Culture (M/C/S" ]
+  ] [
+     fhir:code [ fhir:v "RESPF" ] ;
+     fhir:display [ fhir:v "Respiratory Bronchoscopic Collection Cul" ] ;
+     fhir:definition [ fhir:v "Respiratory Bronchoscopic Collection Cul" ]
+  ] [
+     fhir:code [ fhir:v "SITE" ] ;
+     fhir:display [ fhir:v "Superficial Pus or Swab Culture (M/C/S)" ] ;
+     fhir:definition [ fhir:v "Superficial Pus or Swab Culture (M/C/S)" ]
+  ] [
+     fhir:code [ fhir:v "TIP" ] ;
+     fhir:display [ fhir:v "Tip Culture (M/C/S)" ] ;
+     fhir:definition [ fhir:v "Tip Culture (M/C/S)" ]
+  ] [
+     fhir:code [ fhir:v "TIS" ] ;
+     fhir:display [ fhir:v "Tissue Culture (M/C/S)" ] ;
+     fhir:definition [ fhir:v "Tissue Culture (M/C/S)" ]
+  ] [
+     fhir:code [ fhir:v "URINE" ] ;
+     fhir:display [ fhir:v "Urine Culture (M/C/S)" ] ;
+     fhir:definition [ fhir:v "Urine Culture (M/C/S)" ]
+  ] [
+     fhir:code [ fhir:v "VRES" ] ;
+     fhir:display [ fhir:v "VRE Screen Culture" ] ;
+     fhir:definition [ fhir:v "VRE Screen Culture" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,59 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://fhir.osbornemj.com/ig/Condition/condition-lynch-haematuria> a fhir:Condition ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "condition-lynch-haematuria"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org.au/fhir/core/StructureDefinition/au-core-condition"^^xsd:anyURI ;
+       fhir:l <http://hl7.org.au/fhir/core/StructureDefinition/au-core-condition>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Condition condition-lynch-haematuria</b></p><a name=\"condition-lynch-haematuria\"> </a><a name=\"hccondition-lynch-haematuria\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org.au/fhir/core/2.0.0/StructureDefinition-au-core-condition.html\">AU Core Condition</a></p></div><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-category problem-list-item}\">Encounter</span></p><p><b>code</b>: <span title=\"Codes:{http://hosp.osbornemj.com/cs/ed-presenting-complaints 9044679}, {http://snomed.info/sct 34436003}\">Haematuria</span></p><p><b>subject</b>: <a href=\"Patient-patient-lynch-alyce.html\">Alyce SHAUNA LYNCH (official) Female, DoB: 2009-12-02 ( Hospital Unique patient number: PC842914 (use: usual, ))</a></p></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:category ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/condition-category"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/condition-category>
+       ] ;
+       fhir:code [ fhir:v "problem-list-item" ] ;
+       fhir:display [ fhir:v "Problem List Item" ]
+     ] ) ;
+     fhir:text [ fhir:v "Encounter" ]
+  ] ) ; # 
+  fhir:code [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://hosp.osbornemj.com/cs/ed-presenting-complaints"^^xsd:anyURI ;
+         fhir:l <http://hosp.osbornemj.com/cs/ed-presenting-complaints>
+       ] ;
+       fhir:code [ fhir:v "9044679" ] ;
+       fhir:display [ fhir:v "Haematuria" ]
+     ] [
+       a sct:34436003 ;
+       fhir:system [
+         fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+         fhir:l <http://snomed.info/sct>
+       ] ;
+       fhir:code [ fhir:v "34436003" ] ;
+       fhir:display [ fhir:v "Haematuria" ]
+     ] ) ;
+     fhir:text [ fhir:v "Haematuria" ]
+  ] ; # 
+  fhir:subject [
+     fhir:l <https://fhir.osbornemj.com/ig/Patient/patient-lynch-alyce> ;
+     fhir:reference [ fhir:v "Patient/patient-lynch-alyce" ]
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

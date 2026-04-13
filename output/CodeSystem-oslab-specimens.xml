@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="oslab-specimens"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem oslab-specimens</b></p><a name="oslab-specimens"> </a><a name="hcoslab-specimens"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="http://hl7.org/fhir/R4/shareablecodesystem.html">Shareable CodeSystem</a></p></div><p>This case-insensitive code system <code>https://fhir.osbornemj.com/ig/CodeSystem/oslab-specimens</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">Swab<a name="oslab-specimens-Swab"> </a></td><td>Swab</td><td>Swab</td></tr><tr><td style="white-space:nowrap">Tissue<a name="oslab-specimens-Tissue"> </a></td><td>Tissue specimen</td><td>Tissue specimen</td></tr><tr><td style="white-space:nowrap">LeftNeckTissue<a name="oslab-specimens-LeftNeckTissue"> </a></td><td>Tissue specimen</td><td>Tissue specimen</td></tr><tr><td style="white-space:nowrap">Fluid<a name="oslab-specimens-Fluid"> </a></td><td>Fluid sample</td><td>Fluid sample</td></tr><tr><td style="white-space:nowrap">AsciticFluid<a name="oslab-specimens-AsciticFluid"> </a></td><td>Ascitic fluid</td><td>Ascitic fluid</td></tr><tr><td style="white-space:nowrap">Mesh<a name="oslab-specimens-Mesh"> </a></td><td>Mesh</td><td>Mesh</td></tr><tr><td style="white-space:nowrap">Pus<a name="oslab-specimens-Pus"> </a></td><td>Pus specimen</td><td>Pus specimen</td></tr><tr><td style="white-space:nowrap">Blood<a name="oslab-specimens-Blood"> </a></td><td>Blood specimen</td><td>Blood specimen</td></tr><tr><td style="white-space:nowrap">Urine<a name="oslab-specimens-Urine"> </a></td><td>Urine specimen</td><td>Urine specimen</td></tr><tr><td style="white-space:nowrap">Tip<a name="oslab-specimens-Tip"> </a></td><td>Specimen from drain tip</td><td>Specimen from drain tip</td></tr><tr><td style="white-space:nowrap">Washing<a name="oslab-specimens-Washing"> </a></td><td>Specimen obtained by lavage</td><td>Specimen obtained by lavage</td></tr><tr><td style="white-space:nowrap">Washings<a name="oslab-specimens-Washings"> </a></td><td>Specimen obtained by lavage</td><td>Specimen obtained by lavage</td></tr><tr><td style="white-space:nowrap">Lavage<a name="oslab-specimens-Lavage"> </a></td><td>Specimen obtained by lavage</td><td>Specimen obtained by lavage</td></tr><tr><td style="white-space:nowrap">Bone<a name="oslab-specimens-Bone"> </a></td><td>Specimen from bone</td><td>Specimen from bone</td></tr><tr><td style="white-space:nowrap">Aspirate<a name="oslab-specimens-Aspirate"> </a></td><td>Specimen obtained by aspiration</td><td>Specimen obtained by aspiration</td></tr><tr><td style="white-space:nowrap">Sputum<a name="oslab-specimens-Sputum"> </a></td><td>Sputum specimen</td><td>Sputum specimen</td></tr><tr><td style="white-space:nowrap">Isolate<a name="oslab-specimens-Isolate"> </a></td><td>Microbial isolate</td><td>Microbial isolate</td></tr><tr><td style="white-space:nowrap">Faeces<a name="oslab-specimens-Faeces"> </a></td><td>Faeces specimen</td><td>Faeces specimen</td></tr><tr><td style="white-space:nowrap">Drain<a name="oslab-specimens-Drain"> </a></td><td>Swab of building drain</td><td>Swab of building drain</td></tr><tr><td style="white-space:nowrap">Shower<a name="oslab-specimens-Shower"> </a></td><td>Swab of building shower</td><td>Swab of building shower</td></tr><tr><td style="white-space:nowrap">Sink<a name="oslab-specimens-Sink"> </a></td><td>Swab of building sink</td><td>Swab of building sink</td></tr><tr><td style="white-space:nowrap">Room<a name="oslab-specimens-Room"> </a></td><td>Swab of building room</td><td>Swab of building room</td></tr><tr><td style="white-space:nowrap">Wound<a name="oslab-specimens-Wound"> </a></td><td>Specimen from wound</td><td>Specimen from wound</td></tr><tr><td style="white-space:nowrap">Device<a name="oslab-specimens-Device"> </a></td><td>Specimen from device</td><td>Specimen from device</td></tr><tr><td style="white-space:nowrap">Burn<a name="oslab-specimens-Burn"> </a></td><td>Burn tissue</td><td>Burn tissue</td></tr><tr><td style="white-space:nowrap">Abscess<a name="oslab-specimens-Abscess"> </a></td><td>Specimen from abscess</td><td>Specimen from abscess</td></tr><tr><td style="white-space:nowrap">AbdominalAbscess<a name="oslab-specimens-AbdominalAbscess"> </a></td><td>Specimen from intra-abdominal abscess</td><td>Specimen from intra-abdominal abscess</td></tr><tr><td style="white-space:nowrap">AbdomenAbscess<a name="oslab-specimens-AbdomenAbscess"> </a></td><td>Specimen from intra-abdominal abscess</td><td>Specimen from intra-abdominal abscess</td></tr><tr><td style="white-space:nowrap">?Collection<a name="oslab-specimens-.63Collection"> </a></td><td>Specimen of unknown material</td><td>Specimen of unknown material</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0"/>
+  </extension>
+  <url value="https://fhir.osbornemj.com/ig/CodeSystem/oslab-specimens"/>
+  <version value="0.1.0"/>
+  <name value="OSLABSpecimensCS"/>
+  <title value="OS LAB Microbiology Specimens CodeSystem"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2026-02-28"/>
+  <publisher value="Michael J Osborne"/>
+  <contact>
+    <name value="Michael J Osborne"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://osbornemj.com"/>
+    </telecom>
+  </contact>
+  <description value="The OS Lab Microbiology Specimens CodeSystem includes codes for specimens for use in a Laboratory Observation."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="AUS"/>
+      <display value="Australia"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="false"/>
+  <content value="complete"/>
+  <count value="29"/>
+  <concept>
+    <code value="Swab"/>
+    <display value="Swab"/>
+    <definition value="Swab"/>
+  </concept>
+  <concept>
+    <code value="Tissue"/>
+    <display value="Tissue specimen"/>
+    <definition value="Tissue specimen"/>
+  </concept>
+  <concept>
+    <code value="LeftNeckTissue"/>
+    <display value="Tissue specimen"/>
+    <definition value="Tissue specimen"/>
+  </concept>
+  <concept>
+    <code value="Fluid"/>
+    <display value="Fluid sample"/>
+    <definition value="Fluid sample"/>
+  </concept>
+  <concept>
+    <code value="AsciticFluid"/>
+    <display value="Ascitic fluid"/>
+    <definition value="Ascitic fluid"/>
+  </concept>
+  <concept>
+    <code value="Mesh"/>
+    <display value="Mesh"/>
+    <definition value="Mesh"/>
+  </concept>
+  <concept>
+    <code value="Pus"/>
+    <display value="Pus specimen"/>
+    <definition value="Pus specimen"/>
+  </concept>
+  <concept>
+    <code value="Blood"/>
+    <display value="Blood specimen"/>
+    <definition value="Blood specimen"/>
+  </concept>
+  <concept>
+    <code value="Urine"/>
+    <display value="Urine specimen"/>
+    <definition value="Urine specimen"/>
+  </concept>
+  <concept>
+    <code value="Tip"/>
+    <display value="Specimen from drain tip"/>
+    <definition value="Specimen from drain tip"/>
+  </concept>
+  <concept>
+    <code value="Washing"/>
+    <display value="Specimen obtained by lavage"/>
+    <definition value="Specimen obtained by lavage"/>
+  </concept>
+  <concept>
+    <code value="Washings"/>
+    <display value="Specimen obtained by lavage"/>
+    <definition value="Specimen obtained by lavage"/>
+  </concept>
+  <concept>
+    <code value="Lavage"/>
+    <display value="Specimen obtained by lavage"/>
+    <definition value="Specimen obtained by lavage"/>
+  </concept>
+  <concept>
+    <code value="Bone"/>
+    <display value="Specimen from bone"/>
+    <definition value="Specimen from bone"/>
+  </concept>
+  <concept>
+    <code value="Aspirate"/>
+    <display value="Specimen obtained by aspiration"/>
+    <definition value="Specimen obtained by aspiration"/>
+  </concept>
+  <concept>
+    <code value="Sputum"/>
+    <display value="Sputum specimen"/>
+    <definition value="Sputum specimen"/>
+  </concept>
+  <concept>
+    <code value="Isolate"/>
+    <display value="Microbial isolate"/>
+    <definition value="Microbial isolate"/>
+  </concept>
+  <concept>
+    <code value="Faeces"/>
+    <display value="Faeces specimen"/>
+    <definition value="Faeces specimen"/>
+  </concept>
+  <concept>
+    <code value="Drain"/>
+    <display value="Swab of building drain"/>
+    <definition value="Swab of building drain"/>
+  </concept>
+  <concept>
+    <code value="Shower"/>
+    <display value="Swab of building shower"/>
+    <definition value="Swab of building shower"/>
+  </concept>
+  <concept>
+    <code value="Sink"/>
+    <display value="Swab of building sink"/>
+    <definition value="Swab of building sink"/>
+  </concept>
+  <concept>
+    <code value="Room"/>
+    <display value="Swab of building room"/>
+    <definition value="Swab of building room"/>
+  </concept>
+  <concept>
+    <code value="Wound"/>
+    <display value="Specimen from wound"/>
+    <definition value="Specimen from wound"/>
+  </concept>
+  <concept>
+    <code value="Device"/>
+    <display value="Specimen from device"/>
+    <definition value="Specimen from device"/>
+  </concept>
+  <concept>
+    <code value="Burn"/>
+    <display value="Burn tissue"/>
+    <definition value="Burn tissue"/>
+  </concept>
+  <concept>
+    <code value="Abscess"/>
+    <display value="Specimen from abscess"/>
+    <definition value="Specimen from abscess"/>
+  </concept>
+  <concept>
+    <code value="AbdominalAbscess"/>
+    <display value="Specimen from intra-abdominal abscess"/>
+    <definition value="Specimen from intra-abdominal abscess"/>
+  </concept>
+  <concept>
+    <code value="AbdomenAbscess"/>
+    <display value="Specimen from intra-abdominal abscess"/>
+    <definition value="Specimen from intra-abdominal abscess"/>
+  </concept>
+  <concept>
+    <code value="?Collection"/>
+    <display value="Specimen of unknown material"/>
+    <definition value="Specimen of unknown material"/>
+  </concept>
+</CodeSystem>

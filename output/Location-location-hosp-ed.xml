@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Location xmlns="http://hl7.org/fhir">
+  <id value="location-hosp-ed"/>
+  <meta>
+    <profile value="http://hl7.org.au/fhir/core/StructureDefinition/au-core-location"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Location location-hosp-ed</b></p><a name="location-hosp-ed"> </a><a name="hclocation-hosp-ed"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="http://hl7.org.au/fhir/core/2.0.0/StructureDefinition-au-core-location.html">AU Core Location</a></p></div><p><b>identifier</b>: <code>http://fhir.osbornemj.com/id/location</code>/ED~HOSP (use: official, )</p><p><b>status</b>: Active</p><p><b>name</b>: Emergency Department (Hospital)</p><p><b>description</b>: Ward where patient is located</p><p><b>physicalType</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/location-physical-type wa}">Ward</span></p></div>
+  </text>
+  <identifier>
+    <use value="official"/>
+    <system value="http://fhir.osbornemj.com/id/location"/>
+    <value value="ED~HOSP"/>
+  </identifier>
+  <status value="active"/>
+  <name value="Emergency Department (Hospital)"/>
+  <description value="Ward where patient is located"/>
+  <physicalType>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+      <code value="wa"/>
+      <display value="Ward"/>
+    </coding>
+  </physicalType>
+</Location>

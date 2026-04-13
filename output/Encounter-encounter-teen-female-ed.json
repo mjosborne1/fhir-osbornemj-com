@@ -1,0 +1,109 @@
+{
+  "resourceType" : "Encounter",
+  "id" : "encounter-teen-female-ed",
+  "meta" : {
+    "profile" : ["http://cureator.csiro.au/StructureDefinition/cureator-encounter"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Encounter encounter-teen-female-ed</b></p><a name=\"encounter-teen-female-ed\"> </a><a name=\"hcencounter-teen-female-ed\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <code>http://cureator.csiro.au/StructureDefinition/cureator-encounter</code></p></div><p><b>identifier</b>: Lab Number/612964051\u00a0(use:\u00a0official,\u00a0)</p><p><b>status</b>: Finished</p><p><b>class</b>: <a href=\"http://terminology.hl7.org/7.1.0/CodeSystem-v3-ActCode.html#v3-ActCode-AMB\">ActCode: AMB</a> (ambulatory)</p><p><b>type</b>: <span title=\"Codes:{http://ns.health.qld.gov.au/cs/qh-encounter-types E}\">Emergency presentation</span></p><p><b>subject</b>: <a href=\"Patient-patient-lynch-alyce.html\">Alyce SHAUNA LYNCH (official) Female, DoB: 2009-12-02 ( Hospital Unique patient number:\u00a0PC842914\u00a0(use:\u00a0usual,\u00a0))</a></p><h3>Participants</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Type</b></td><td><b>Individual</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-ParticipationType ATND}\">Attending physician</span></td><td><a href=\"Practitioner-practitioner-persson-una.html\">Practitioner Una Persson </a></td></tr></table><p><b>period</b>: 2023-02-04 09:30:00+1030 --&gt; 2023-02-04 18:30:00+1030</p><p><b>reasonReference</b>: <a href=\"Condition-condition-lynch-haematuria.html\">Condition Haematuria</a></p><blockquote><p><b>diagnosis</b></p><p><b>condition</b>: <a href=\"Condition-condition-lynch-ckd.html\">Condition Chronic renal failure</a></p><p><b>use</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/diagnosis-role DD}\">Discharge diagnosis</span></p><p><b>rank</b>: 1</p></blockquote><blockquote><p><b>diagnosis</b></p><p><b>condition</b>: <a href=\"Condition-condition-lynch-uti.html\">Condition Urinary tract infection</a></p><p><b>use</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/diagnosis-role DD}\">Discharge diagnosis</span></p><p><b>rank</b>: 2</p></blockquote><h3>Hospitalizations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>DischargeDisposition</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://ns.health.qld.gov.au/cs/qh-ed-departure-statuses H}, {https://healthterminologies.gov.au/fhir/CodeSystem/separation-mode-1 9}\">Home / Usual Residence</span></td></tr></table><h3>Locations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Location</b></td><td><b>Status</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"Location-location-hosp-ed.html\">Location Emergency Department (Hospital)</a></td><td>Active</td></tr></table></div>"
+  },
+  "identifier" : [{
+    "use" : "official",
+    "type" : {
+      "coding" : [{
+        "system" : "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "code" : "LACSN",
+        "display" : "Laboratory Accession ID"
+      }],
+      "text" : "Lab Number"
+    },
+    "system" : "http://ns.health.qld.gov.au/id/pq-lab-no",
+    "value" : "612964051"
+  }],
+  "status" : "finished",
+  "class" : {
+    "system" : "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+    "code" : "AMB",
+    "display" : "ambulatory"
+  },
+  "type" : [{
+    "coding" : [{
+      "system" : "http://ns.health.qld.gov.au/cs/qh-encounter-types",
+      "code" : "E"
+    }],
+    "text" : "Emergency presentation"
+  }],
+  "subject" : {
+    "reference" : "Patient/patient-lynch-alyce"
+  },
+  "participant" : [{
+    "type" : [{
+      "coding" : [{
+        "system" : "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+        "code" : "ATND",
+        "display" : "attender"
+      }],
+      "text" : "Attending physician"
+    }],
+    "individual" : {
+      "reference" : "Practitioner/practitioner-persson-una"
+    }
+  }],
+  "period" : {
+    "start" : "2023-02-04T09:30:00+10:30",
+    "end" : "2023-02-04T18:30:00+10:30"
+  },
+  "reasonReference" : [{
+    "reference" : "Condition/condition-lynch-haematuria"
+  }],
+  "diagnosis" : [{
+    "condition" : {
+      "reference" : "Condition/condition-lynch-ckd"
+    },
+    "use" : {
+      "coding" : [{
+        "system" : "http://terminology.hl7.org/CodeSystem/diagnosis-role",
+        "code" : "DD",
+        "display" : "Discharge diagnosis"
+      }],
+      "text" : "Discharge diagnosis"
+    },
+    "rank" : 1
+  },
+  {
+    "condition" : {
+      "reference" : "Condition/condition-lynch-uti"
+    },
+    "use" : {
+      "coding" : [{
+        "system" : "http://terminology.hl7.org/CodeSystem/diagnosis-role",
+        "code" : "DD",
+        "display" : "Discharge diagnosis"
+      }],
+      "text" : "Discharge diagnosis"
+    },
+    "rank" : 2
+  }],
+  "hospitalization" : {
+    "dischargeDisposition" : {
+      "coding" : [{
+        "system" : "http://ns.health.qld.gov.au/cs/qh-ed-departure-statuses",
+        "code" : "H",
+        "display" : "Home"
+      },
+      {
+        "system" : "https://healthterminologies.gov.au/fhir/CodeSystem/separation-mode-1",
+        "code" : "9",
+        "display" : "Other/Home"
+      }],
+      "text" : "Home / Usual Residence"
+    }
+  },
+  "location" : [{
+    "location" : {
+      "reference" : "Location/location-hosp-ed"
+    },
+    "status" : "active"
+  }]
+}

@@ -1,0 +1,833 @@
+{
+  "date" : "Mon, 13 Apr, 2026 13:22:11 +1000",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [{
+    "name" : "/fsh-generated/resources/ImplementationGuide-fhir.osbornemj.ig.json",
+    "size" : 9516,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 31,
+      "length" : 5
+    },
+    {
+      "activity" : "loadDepInfo",
+      "start" : 32,
+      "length" : 1
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 32,
+      "length" : 7
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 32,
+      "length" : 40
+    },
+    {
+      "activity" : "validate",
+      "start" : 38,
+      "length" : 19037
+    },
+    {
+      "activity" : "generateLogicalMaps",
+      "start" : 57,
+      "length" : 1
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 57,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 66,
+      "length" : 87
+    },
+    {
+      "activity" : "generate2",
+      "start" : 72,
+      "length" : 111
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 91,
+      "length" : 2
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 101,
+      "length" : 2
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-OSLAB-microbiology-reports.json",
+    "size" : 3990,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 31,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 31,
+      "length" : 4
+    },
+    {
+      "activity" : "load-configure",
+      "start" : 32,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 32,
+      "length" : 8
+    },
+    {
+      "activity" : "validate",
+      "start" : 37,
+      "length" : 49
+    },
+    {
+      "activity" : "checkConformanceResources",
+      "start" : 57,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 66,
+      "length" : 33
+    },
+    {
+      "activity" : "generate2",
+      "start" : 72,
+      "length" : 85
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 91,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-oslab-specimens.json",
+    "size" : 4244,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 31,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 31,
+      "length" : 3
+    },
+    {
+      "activity" : "load-configure",
+      "start" : 32,
+      "length" : 1
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 32,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 32,
+      "length" : 6
+    },
+    {
+      "activity" : "validate",
+      "start" : 37,
+      "length" : 19
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 57,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 66,
+      "length" : 30
+    },
+    {
+      "activity" : "generate2",
+      "start" : 72,
+      "length" : 50
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-presenting-complaints.json",
+    "size" : 10255,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 31,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 31,
+      "length" : 5
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 32,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 32,
+      "length" : 7
+    },
+    {
+      "activity" : "validate",
+      "start" : 37,
+      "length" : 33
+    },
+    {
+      "activity" : "generate1",
+      "start" : 66,
+      "length" : 71
+    },
+    {
+      "activity" : "generate2",
+      "start" : 72,
+      "length" : 58
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 91,
+      "length" : 3
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-diagnosticreport-microbiology.json",
+    "size" : 4579,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 31,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 31,
+      "length" : 3
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 31,
+      "length" : 42
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 32,
+      "length" : 26
+    },
+    {
+      "activity" : "validate",
+      "start" : 37,
+      "length" : 210
+    },
+    {
+      "activity" : "checkConformanceResources",
+      "start" : 57,
+      "length" : 2
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 57,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 66,
+      "length" : 260
+    },
+    {
+      "activity" : "generate2",
+      "start" : 72,
+      "length" : 1282
+    },
+    {
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 1629
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 91,
+      "length" : 7
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 101,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-vs-OSLAB-microbiology-report.json",
+    "size" : 821,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 31,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 31,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 32,
+      "length" : 62
+    },
+    {
+      "activity" : "validate",
+      "start" : 37,
+      "length" : 10
+    },
+    {
+      "activity" : "generate1",
+      "start" : 67,
+      "length" : 12
+    },
+    {
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 42
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 91,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-vs-presenting-complaint.json",
+    "size" : 768,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 31,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 31,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 32,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 37,
+      "length" : 4
+    },
+    {
+      "activity" : "generate1",
+      "start" : 67,
+      "length" : 17
+    },
+    {
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 34
+    }]
+  },
+  {
+    "name" : "input/examples/condition-lynch-ckd.json",
+    "size" : 686,
+    "processes" : [{
+      "activity" : "generateNarratives",
+      "start" : 32,
+      "length" : 1014
+    },
+    {
+      "activity" : "validate",
+      "start" : 57,
+      "length" : 554
+    },
+    {
+      "activity" : "generate1",
+      "start" : 67,
+      "length" : 65
+    },
+    {
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 9
+    }]
+  },
+  {
+    "name" : "input/examples/condition-lynch-haematuria.json",
+    "size" : 861,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 31,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 33,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 57,
+      "length" : 941
+    },
+    {
+      "activity" : "generate1",
+      "start" : 67,
+      "length" : 15
+    },
+    {
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 7
+    }]
+  },
+  {
+    "name" : "input/examples/condition-lynch-uti.json",
+    "size" : 693,
+    "processes" : [{
+      "activity" : "generateNarratives",
+      "start" : 33,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 58,
+      "length" : 416
+    },
+    {
+      "activity" : "generate1",
+      "start" : 67,
+      "length" : 10
+    },
+    {
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 7
+    }]
+  },
+  {
+    "name" : "input/examples/diagnosticreport-urinemcs.json",
+    "size" : 1646,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 31,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 33,
+      "length" : 10
+    },
+    {
+      "activity" : "validate",
+      "start" : 59,
+      "length" : 53
+    },
+    {
+      "activity" : "generate1",
+      "start" : 67,
+      "length" : 71
+    },
+    {
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 10
+    }]
+  },
+  {
+    "name" : "input/examples/encounter-teen-female-ed.json",
+    "size" : 3045,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 31,
+      "length" : 1
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 32,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 33,
+      "length" : 2450
+    },
+    {
+      "activity" : "validate",
+      "start" : 59,
+      "length" : 2900
+    },
+    {
+      "activity" : "generate1",
+      "start" : 67,
+      "length" : 25
+    },
+    {
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 16
+    }]
+  },
+  {
+    "name" : "input/examples/location-hosp-ed.json",
+    "size" : 626,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 31,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 36,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 62,
+      "length" : 15
+    },
+    {
+      "activity" : "generate1",
+      "start" : 67,
+      "length" : 11
+    },
+    {
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 7
+    }]
+  },
+  {
+    "name" : "input/examples/observation-ecoli-amoxicillin.json",
+    "size" : 1034,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 31,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 36,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 62,
+      "length" : 23
+    },
+    {
+      "activity" : "generate1",
+      "start" : 67,
+      "length" : 24
+    },
+    {
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 9
+    }]
+  },
+  {
+    "name" : "input/examples/observation-ecoli-cephalexin.json",
+    "size" : 1032,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 31,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 36,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 62,
+      "length" : 20
+    },
+    {
+      "activity" : "generate1",
+      "start" : 67,
+      "length" : 34
+    },
+    {
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 5
+    }]
+  },
+  {
+    "name" : "input/examples/observation-ecoli-colonycount.json",
+    "size" : 828,
+    "processes" : [{
+      "activity" : "generateNarratives",
+      "start" : 36,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 62,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 67,
+      "length" : 12
+    },
+    {
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 6
+    }]
+  },
+  {
+    "name" : "input/examples/observation-ecoli-cotrimoxazole.json",
+    "size" : 1058,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 31,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 36,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 62,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 67,
+      "length" : 21
+    },
+    {
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 6
+    }]
+  },
+  {
+    "name" : "input/examples/observation-ecoli.json",
+    "size" : 1336,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 31,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 36,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 62,
+      "length" : 599
+    },
+    {
+      "activity" : "generate1",
+      "start" : 67,
+      "length" : 26
+    },
+    {
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 10
+    }]
+  },
+  {
+    "name" : "input/examples/patient-lynch-alyce.json",
+    "size" : 2900,
+    "processes" : [{
+      "activity" : "load-configure",
+      "start" : 32,
+      "length" : 1
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 32,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 36,
+      "length" : 50
+    },
+    {
+      "activity" : "validate",
+      "start" : 62,
+      "length" : 267
+    },
+    {
+      "activity" : "generate1",
+      "start" : 67,
+      "length" : 28
+    },
+    {
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 10
+    }]
+  },
+  {
+    "name" : "input/examples/practitioner-persson-una.json",
+    "size" : 808,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 31,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 36,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 62,
+      "length" : 11
+    },
+    {
+      "activity" : "generate1",
+      "start" : 67,
+      "length" : 7
+    },
+    {
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 11
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 101,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "input/examples/servicerequest-urinemcs.json",
+    "size" : 2051,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 31,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 36,
+      "length" : 1285
+    },
+    {
+      "activity" : "validate",
+      "start" : 62,
+      "length" : 1884
+    },
+    {
+      "activity" : "generate1",
+      "start" : 67,
+      "length" : 15
+    },
+    {
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 12
+    }]
+  },
+  {
+    "name" : "input/examples/specimen-urine.json",
+    "size" : 736,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 31,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 37,
+      "length" : 3
+    },
+    {
+      "activity" : "validate",
+      "start" : 64,
+      "length" : 1303
+    },
+    {
+      "activity" : "generate1",
+      "start" : 67,
+      "length" : 10
+    },
+    {
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 8
+    }]
+  },
+  {
+    "name" : "/fsh-generated/includes/fsh-link-references.md",
+    "size" : 1416,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 57,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/fsh-generated/includes/menu.xml",
+    "size" : 1043
+  },
+  {
+    "name" : "/input/pagecontent/index.md",
+    "size" : 5419
+  },
+  {
+    "name" : "/fsh-generated/includes",
+    "size" : 0
+  },
+  {
+    "name" : "/fsh-generated/includes/fsh-link-references.md",
+    "size" : 1416,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/fsh-generated/includes/menu.xml",
+    "size" : 1043
+  },
+  {
+    "name" : "/template/config",
+    "size" : 0
+  },
+  {
+    "name" : "/template/config/_config.yml",
+    "size" : 140
+  },
+  {
+    "name" : "/temp/pages/_includes/artifacts.xml",
+    "size" : 11176,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 1
+    }]
+  }]
+}

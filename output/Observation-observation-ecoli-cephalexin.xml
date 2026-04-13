@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="observation-ecoli-cephalexin"/>
+  <meta>
+    <profile value="http://hl7.org.au/fhir/core/StructureDefinition/au-core-diagnosticresult-path"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Observation observation-ecoli-cephalexin</b></p><a name="observation-ecoli-cephalexin"> </a><a name="hcobservation-ecoli-cephalexin"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="http://hl7.org.au/fhir/core/2.0.0/StructureDefinition-au-core-diagnosticresult-path.html">AU Core Pathology Result Observation</a></p></div><p><b>status</b>: Final</p><p><b>category</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span></p><p><b>code</b>: <span title="Codes:{http://loinc.org 18897-9}">Cephalexin</span></p><p><b>subject</b>: <a href="Patient-patient-lynch-alyce.html">Alyce SHAUNA LYNCH (official) Female, DoB: 2009-12-02 ( Hospital Unique patient number: PC842914 (use: usual, ))</a></p><p><b>effective</b>: 2023-02-04 17:30:00+1030</p><p><b>value</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation S}">Susceptible</span></p></div>
+  </text>
+  <status value="final"/>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+      <code value="laboratory"/>
+      <display value="Laboratory"/>
+    </coding>
+    <text value="Laboratory"/>
+  </category>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="18897-9"/>
+      <display value="Cephalexin [Susceptibility]"/>
+    </coding>
+    <text value="Cephalexin"/>
+  </code>
+  <subject>
+    <reference value="Patient/patient-lynch-alyce"/>
+  </subject>
+  <effectiveDateTime value="2023-02-04T17:30:00+10:30"/>
+  <valueCodeableConcept>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"/>
+      <code value="S"/>
+      <display value="Susceptible"/>
+    </coding>
+    <text value="Susceptible"/>
+  </valueCodeableConcept>
+</Observation>

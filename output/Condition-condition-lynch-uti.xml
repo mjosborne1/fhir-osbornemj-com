@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Condition xmlns="http://hl7.org/fhir">
+  <id value="condition-lynch-uti"/>
+  <meta>
+    <profile value="http://hl7.org.au/fhir/core/StructureDefinition/au-core-condition"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Condition condition-lynch-uti</b></p><a name="condition-lynch-uti"> </a><a name="hccondition-lynch-uti"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="http://hl7.org.au/fhir/core/2.0.0/StructureDefinition-au-core-condition.html">AU Core Condition</a></p></div><p><b>category</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/condition-category encounter-diagnosis}">Diagnosis</span></p><p><b>code</b>: <span title="Codes:{http://snomed.info/sct 68566005}">UTI - Urinary tract infection</span></p><p><b>subject</b>: <a href="Patient-patient-lynch-alyce.html">Alyce SHAUNA LYNCH (official) Female, DoB: 2009-12-02 ( Hospital Unique patient number: PC842914 (use: usual, ))</a></p></div>
+  </text>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/condition-category"/>
+      <code value="encounter-diagnosis"/>
+      <display value="Encounter Diagnosis"/>
+    </coding>
+    <text value="Diagnosis"/>
+  </category>
+  <code>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="68566005"/>
+    </coding>
+    <text value="UTI - Urinary tract infection"/>
+  </code>
+  <subject>
+    <reference value="Patient/patient-lynch-alyce"/>
+  </subject>
+</Condition>

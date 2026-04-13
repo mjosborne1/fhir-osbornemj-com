@@ -1,0 +1,45 @@
+# fhir.osbornemj.ig#0.1.0: FHIR Implementation Guide for PUBLIC Testing
+
+## Pages
+
+* [Home](index.md)
+* [Artifacts Summary](artifacts.md)
+
+## Resources
+
+### CodeSystems
+
+* [OS LAB Microbiology Reports](CodeSystem-OSLAB-microbiology-reports.md)
+* [OS LAB Microbiology Specimens CodeSystem](CodeSystem-oslab-specimens.md)
+* [Presenting Complaints](CodeSystem-presenting-complaints.md)
+
+### ValueSets
+
+* [OS LAB Microbiology Report](ValueSet-vs-OSLAB-microbiology-report.md)
+* [Presenting Complaints ValueSet](ValueSet-vs-presenting-complaint.md)
+
+### Resource Profiles
+
+* [DiagnosticReport Microbiology Profile](StructureDefinition-diagnosticreport-microbiology.md)
+
+### ImplementationGuides
+
+* [FHIR Implementation Guide for PUBLIC Testing](index.md)
+
+### Examples
+
+* [condition-lynch-ckd (Condition)](Condition-condition-lynch-ckd.md)
+* [condition-lynch-haematuria (Condition)](Condition-condition-lynch-haematuria.md)
+* [condition-lynch-uti (Condition)](Condition-condition-lynch-uti.md)
+* [diagnosticreport-urinemcs (DiagnosticReport)](DiagnosticReport-diagnosticreport-urinemcs.md)
+* [encounter-teen-female-ed (Encounter)](Encounter-encounter-teen-female-ed.md)
+* [Emergency Department (Hospital) (Location)](Location-location-hosp-ed.md)
+* [observation-ecoli-amoxicillin (Observation)](Observation-observation-ecoli-amoxicillin.md)
+* [observation-ecoli-cephalexin (Observation)](Observation-observation-ecoli-cephalexin.md)
+* [observation-ecoli-colonycount (Observation)](Observation-observation-ecoli-colonycount.md)
+* [observation-ecoli-cotrimoxazole (Observation)](Observation-observation-ecoli-cotrimoxazole.md)
+* [observation-ecoli (Observation)](Observation-observation-ecoli.md)
+* [patient-lynch-alyce (Patient)](Patient-patient-lynch-alyce.md)
+* [practitioner-persson-una (Practitioner)](Practitioner-practitioner-persson-una.md)
+* [servicerequest-urinemcs (ServiceRequest)](ServiceRequest-servicerequest-urinemcs.md)
+* [specimen-urine (Specimen)](Specimen-specimen-urine.md)

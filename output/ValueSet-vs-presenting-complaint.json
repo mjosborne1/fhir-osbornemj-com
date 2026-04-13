@@ -1,0 +1,43 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "vs-presenting-complaint",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet vs-presenting-complaint</b></p><a name=\"vs-presenting-complaint\"> </a><a name=\"hcvs-presenting-complaint\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include all codes defined in <a href=\"CodeSystem-presenting-complaints.html\"><code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span></li></ul></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 0
+  }],
+  "url" : "https://fhir.osbornemj.com/ig/ValueSet/vs-presenting-complaint",
+  "version" : "0.1.0",
+  "name" : "PresentingComplaintVS",
+  "title" : "Presenting Complaints ValueSet",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2026-02-28",
+  "publisher" : "Michael J Osborne",
+  "contact" : [{
+    "name" : "Michael J Osborne",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://osbornemj.com"
+    }]
+  }],
+  "description" : "Presenting Complaint codes",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "AUS",
+      "display" : "Australia"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"
+    }]
+  }
+}

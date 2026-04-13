@@ -1,0 +1,20 @@
+{
+  "codeSystems" : [{
+    "url" : "https://fhir.osbornemj.com/ig/ValueSet/vs-OSLAB-microbiology-report",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "OSLABMicrobiologyOrdersVS",
+    "title" : "OS LAB Microbiology Report",
+    "description" : "The OS LAB Microbiology Report value set includes codes for Microbiology reports.",
+    "systems" : ["https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports"]
+  },
+  {
+    "url" : "https://fhir.osbornemj.com/ig/ValueSet/vs-presenting-complaint",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "PresentingComplaintVS",
+    "title" : "Presenting Complaints ValueSet",
+    "description" : "Presenting Complaint codes",
+    "systems" : ["https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"]
+  }]
+}

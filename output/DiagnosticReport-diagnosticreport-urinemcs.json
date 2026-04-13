@@ -1,0 +1,59 @@
+{
+  "resourceType" : "DiagnosticReport",
+  "id" : "diagnosticreport-urinemcs",
+  "meta" : {
+    "profile" : ["http://.csiro.au/StructureDefinition/-diagnosticreport-microbiology"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: DiagnosticReport diagnosticreport-urinemcs</b></p><a name=\"diagnosticreport-urinemcs\"> </a><a name=\"hcdiagnosticreport-urinemcs\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <code>http://.csiro.au/StructureDefinition/-diagnosticreport-microbiology</code></p></div><h2><span title=\"Codes:{http://snomed.info/sct 401324008}, {http://lab.osbornemj.com/cs/reports URINE}\">Measurement of Microscopy, culture and susceptibility in Urine</span> (<span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v2-0074 MB}\">Microbiology</span>) </h2><table class=\"grid\"><tr><td>Subject</td><td>Alyce SHAUNA LYNCH (official) Female, DoB: 2009-12-02 ( Hospital Unique patient number:\u00a0PC842914\u00a0(use:\u00a0usual,\u00a0))</td></tr><tr><td>When For</td><td>2023-02-04 17:30:00+1030</td></tr><tr><td>Identifier</td><td> OBR-3-1: Laboratory Number/612964051\u00a0(use:\u00a0official,\u00a0)</td></tr></table><p><b>Report Details</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>Value</b></td><td><b>Flags</b></td></tr><tr><td><a href=\"Observation-observation-ecoli.html\"><span title=\"Codes:{http://loinc.org 630-4}\">Organism</span></a></td><td><span title=\"Codes:{http://snomed.info/sct 112283007}\">Escherichia coli</span></td><td>Final</td></tr></table></div>"
+  },
+  "identifier" : [{
+    "use" : "official",
+    "type" : {
+      "coding" : [{
+        "system" : "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "code" : "FILL",
+        "display" : "Filler Identifier"
+      }],
+      "text" : "OBR-3-1: Laboratory Number"
+    },
+    "system" : "http://lab.osbornemj.com/id/flrnum",
+    "value" : "612964051"
+  }],
+  "basedOn" : [{
+    "reference" : "ServiceRequest/servicerequest-urinemcs"
+  }],
+  "status" : "final",
+  "category" : [{
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/v2-0074",
+      "code" : "MB",
+      "display" : "Microbiology"
+    }],
+    "text" : "Microbiology"
+  }],
+  "code" : {
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "401324008",
+      "display" : "Urine microscopy, culture and sensitivities"
+    },
+    {
+      "system" : "http://lab.osbornemj.com/cs/reports",
+      "code" : "URINE",
+      "display" : "Urine Culture (M/C/S)"
+    }],
+    "text" : "Measurement of Microscopy, culture and susceptibility in Urine"
+  },
+  "subject" : {
+    "reference" : "Patient/patient-lynch-alyce"
+  },
+  "encounter" : {
+    "reference" : "Encounter/encounter-teen-female-ed"
+  },
+  "effectiveDateTime" : "2023-02-04T17:30:00+10:30",
+  "result" : [{
+    "reference" : "Observation/observation-ecoli"
+  }]
+}

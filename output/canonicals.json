@@ -1,0 +1,49 @@
+[{
+  "id" : "OSLAB-microbiology-reports",
+  "type" : "CodeSystem",
+  "url" : "https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports",
+  "version" : "0.1.0",
+  "name" : "OSLABMicrobiologyReportsCS"
+},
+{
+  "id" : "oslab-specimens",
+  "type" : "CodeSystem",
+  "url" : "https://fhir.osbornemj.com/ig/CodeSystem/oslab-specimens",
+  "version" : "0.1.0",
+  "name" : "OSLABSpecimensCS"
+},
+{
+  "id" : "presenting-complaints",
+  "type" : "CodeSystem",
+  "url" : "https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints",
+  "version" : "0.1.0",
+  "name" : "PresentingComplaintCS"
+},
+{
+  "id" : "fhir.osbornemj.ig",
+  "type" : "ImplementationGuide",
+  "url" : "https://fhir.osbornemj.com/ig/ImplementationGuide/fhir.osbornemj.ig",
+  "version" : "0.1.0",
+  "name" : "FHIROsbornemjIG"
+},
+{
+  "id" : "diagnosticreport-microbiology",
+  "type" : "StructureDefinition",
+  "url" : "https://fhir.osbornemj.com/ig/StructureDefinition/diagnosticreport-microbiology",
+  "version" : "0.1.0",
+  "name" : "DiagnosticReportMicrobiology"
+},
+{
+  "id" : "vs-OSLAB-microbiology-report",
+  "type" : "ValueSet",
+  "url" : "https://fhir.osbornemj.com/ig/ValueSet/vs-OSLAB-microbiology-report",
+  "version" : "0.1.0",
+  "name" : "OSLABMicrobiologyOrdersVS"
+},
+{
+  "id" : "vs-presenting-complaint",
+  "type" : "ValueSet",
+  "url" : "https://fhir.osbornemj.com/ig/ValueSet/vs-presenting-complaint",
+  "version" : "0.1.0",
+  "name" : "PresentingComplaintVS"
+}]

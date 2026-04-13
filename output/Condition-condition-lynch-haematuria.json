@@ -1,0 +1,35 @@
+{
+  "resourceType" : "Condition",
+  "id" : "condition-lynch-haematuria",
+  "meta" : {
+    "profile" : ["http://hl7.org.au/fhir/core/StructureDefinition/au-core-condition"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Condition condition-lynch-haematuria</b></p><a name=\"condition-lynch-haematuria\"> </a><a name=\"hccondition-lynch-haematuria\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org.au/fhir/core/2.0.0/StructureDefinition-au-core-condition.html\">AU Core Condition</a></p></div><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-category problem-list-item}\">Encounter</span></p><p><b>code</b>: <span title=\"Codes:{http://hosp.osbornemj.com/cs/ed-presenting-complaints 9044679}, {http://snomed.info/sct 34436003}\">Haematuria</span></p><p><b>subject</b>: <a href=\"Patient-patient-lynch-alyce.html\">Alyce SHAUNA LYNCH (official) Female, DoB: 2009-12-02 ( Hospital Unique patient number:\u00a0PC842914\u00a0(use:\u00a0usual,\u00a0))</a></p></div>"
+  },
+  "category" : [{
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/condition-category",
+      "code" : "problem-list-item",
+      "display" : "Problem List Item"
+    }],
+    "text" : "Encounter"
+  }],
+  "code" : {
+    "coding" : [{
+      "system" : "http://hosp.osbornemj.com/cs/ed-presenting-complaints",
+      "code" : "9044679",
+      "display" : "Haematuria"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "34436003",
+      "display" : "Haematuria"
+    }],
+    "text" : "Haematuria"
+  },
+  "subject" : {
+    "reference" : "Patient/patient-lynch-alyce"
+  }
+}

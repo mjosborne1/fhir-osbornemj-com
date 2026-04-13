@@ -4,7 +4,7 @@ node_modules/
 # Generated FSH JSON
 fsh-generated/
 # Generated IG output
-output/
+# output/
 # IG Publisher JAR (we download/cache in workflow)
 publisher.jar
 # Temporary files

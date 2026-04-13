@@ -1,0 +1,399 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "presenting-complaints"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem presenting-complaints</b></p><a name=\"presenting-complaints\"> </a><a name=\"hcpresenting-complaints\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p>This case-insensitive code system <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">1081207063<a name=\"presenting-complaints-1081207063\"> </a></td><td>Homicidal ideation</td><td>Homicidal ideation</td></tr><tr><td style=\"white-space:nowrap\">22235260<a name=\"presenting-complaints-22235260\"> </a></td><td>Back pain</td><td>Back pain</td></tr><tr><td style=\"white-space:nowrap\">22235265<a name=\"presenting-complaints-22235265\"> </a></td><td>Cough/rhinorrhoea</td><td>Cough/rhinorrhoea</td></tr><tr><td style=\"white-space:nowrap\">22235269<a name=\"presenting-complaints-22235269\"> </a></td><td>Crash other</td><td>Crash other</td></tr><tr><td style=\"white-space:nowrap\">22235301<a name=\"presenting-complaints-22235301\"> </a></td><td>MBC/quadbike-driver</td><td>MBC/quadbike-driver</td></tr><tr><td style=\"white-space:nowrap\">22235306<a name=\"presenting-complaints-22235306\"> </a></td><td>MBC/quadbike-passenger</td><td>MBC/quadbike-passenger</td></tr><tr><td style=\"white-space:nowrap\">22235311<a name=\"presenting-complaints-22235311\"> </a></td><td>Multiple pain</td><td>Multiple pain</td></tr><tr><td style=\"white-space:nowrap\">22235320<a name=\"presenting-complaints-22235320\"> </a></td><td>MVC-passenger</td><td>MVC-passenger</td></tr><tr><td style=\"white-space:nowrap\">22235324<a name=\"presenting-complaints-22235324\"> </a></td><td>Nausea/vomiting</td><td>Nausea/vomiting</td></tr><tr><td style=\"white-space:nowrap\">22235330<a name=\"presenting-complaints-22235330\"> </a></td><td>Neck/throat pain</td><td>Neck/throat pain</td></tr><tr><td style=\"white-space:nowrap\">22235336<a name=\"presenting-complaints-22235336\"> </a></td><td>Overdose/toxic exposure</td><td>Overdose/toxic exposure</td></tr><tr><td style=\"white-space:nowrap\">22235341<a name=\"presenting-complaints-22235341\"> </a></td><td>Palpitations/abnormal heart rate</td><td>Palpitations/abnormal heart rate</td></tr><tr><td style=\"white-space:nowrap\">22235345<a name=\"presenting-complaints-22235345\"> </a></td><td>Pedestrian vs</td><td>Pedestrian vs</td></tr><tr><td style=\"white-space:nowrap\">22235356<a name=\"presenting-complaints-22235356\"> </a></td><td>Planned ED recall or review</td><td>Planned ED recall or review</td></tr><tr><td style=\"white-space:nowrap\">22235362<a name=\"presenting-complaints-22235362\"> </a></td><td>Possible allergy</td><td>Possible allergy</td></tr><tr><td style=\"white-space:nowrap\">22235374<a name=\"presenting-complaints-22235374\"> </a></td><td>PV bleeding</td><td>PV bleeding</td></tr><tr><td style=\"white-space:nowrap\">22235384<a name=\"presenting-complaints-22235384\"> </a></td><td>Sexual assault</td><td>Sexual assault</td></tr><tr><td style=\"white-space:nowrap\">22235387<a name=\"presenting-complaints-22235387\"> </a></td><td>Sleep disturbance</td><td>Sleep disturbance</td></tr><tr><td style=\"white-space:nowrap\">22235397<a name=\"presenting-complaints-22235397\"> </a></td><td>Swelling/oedema/lump</td><td>Swelling/oedema/lump</td></tr><tr><td style=\"white-space:nowrap\">22235496<a name=\"presenting-complaints-22235496\"> </a></td><td>Cyanosis</td><td>Cyanosis</td></tr><tr><td style=\"white-space:nowrap\">22235501<a name=\"presenting-complaints-22235501\"> </a></td><td>Cycle related</td><td>Cycle related</td></tr><tr><td style=\"white-space:nowrap\">22235514<a name=\"presenting-complaints-22235514\"> </a></td><td>Urinary symptoms</td><td>Urinary symptoms</td></tr><tr><td style=\"white-space:nowrap\">22235519<a name=\"presenting-complaints-22235519\"> </a></td><td>Weight gain/loss</td><td>Weight gain/loss</td></tr><tr><td style=\"white-space:nowrap\">22235526<a name=\"presenting-complaints-22235526\"> </a></td><td>Wheeled device</td><td>Wheeled device</td></tr><tr><td style=\"white-space:nowrap\">22236068<a name=\"presenting-complaints-22236068\"> </a></td><td>Abdo/pelvis/perineal pain</td><td>Abdo/pelvis/perineal pain</td></tr><tr><td style=\"white-space:nowrap\">22236074<a name=\"presenting-complaints-22236074\"> </a></td><td>Aggression</td><td>Aggression</td></tr><tr><td style=\"white-space:nowrap\">22236226<a name=\"presenting-complaints-22236226\"> </a></td><td>Altered level of consciousness</td><td>Altered level of consciousness</td></tr><tr><td style=\"white-space:nowrap\">22236240<a name=\"presenting-complaints-22236240\"> </a></td><td>Anxiety/agitation</td><td>Anxiety/agitation</td></tr><tr><td style=\"white-space:nowrap\">22236310<a name=\"presenting-complaints-22236310\"> </a></td><td>Eye pain</td><td>Eye pain</td></tr><tr><td style=\"white-space:nowrap\">22236317<a name=\"presenting-complaints-22236317\"> </a></td><td>Feeding difficulties/concerns</td><td>Feeding difficulties/concerns</td></tr><tr><td style=\"white-space:nowrap\">22236321<a name=\"presenting-complaints-22236321\"> </a></td><td>Fever/hypothermia</td><td>Fever/hypothermia</td></tr><tr><td style=\"white-space:nowrap\">22236326<a name=\"presenting-complaints-22236326\"> </a></td><td>Gait disturbance</td><td>Gait disturbance</td></tr><tr><td style=\"white-space:nowrap\">22236338<a name=\"presenting-complaints-22236338\"> </a></td><td>GI bleed</td><td>GI bleed</td></tr><tr><td style=\"white-space:nowrap\">22236345<a name=\"presenting-complaints-22236345\"> </a></td><td>Haemoptysis</td><td>Haemoptysis</td></tr><tr><td style=\"white-space:nowrap\">22236366<a name=\"presenting-complaints-22236366\"> </a></td><td>Immersion</td><td>Immersion</td></tr><tr><td style=\"white-space:nowrap\">22236370<a name=\"presenting-complaints-22236370\"> </a></td><td>Increased respiratory effort/distress</td><td>Increased respiratory effort/distress</td></tr><tr><td style=\"white-space:nowrap\">22236386<a name=\"presenting-complaints-22236386\"> </a></td><td>Inpatient team review</td><td>Inpatient team review</td></tr><tr><td style=\"white-space:nowrap\">22236398<a name=\"presenting-complaints-22236398\"> </a></td><td>Laceration/skin tear</td><td>Laceration/skin tear</td></tr><tr><td style=\"white-space:nowrap\">23774122<a name=\"presenting-complaints-23774122\"> </a></td><td>Disaster</td><td>Disaster</td></tr><tr><td style=\"white-space:nowrap\">9044662<a name=\"presenting-complaints-9044662\"> </a></td><td>Bite/sting</td><td>Bite/sting</td></tr><tr><td style=\"white-space:nowrap\">9044663<a name=\"presenting-complaints-9044663\"> </a></td><td>Admission/transfer</td><td>Admission/transfer</td></tr><tr><td style=\"white-space:nowrap\">9044664<a name=\"presenting-complaints-9044664\"> </a></td><td>Apnoea</td><td>Apnoea</td></tr><tr><td style=\"white-space:nowrap\">9044665<a name=\"presenting-complaints-9044665\"> </a></td><td>Arrest</td><td>Arrest</td></tr><tr><td style=\"white-space:nowrap\">9044667<a name=\"presenting-complaints-9044667\"> </a></td><td>Burn/scald</td><td>Burn/scald</td></tr><tr><td style=\"white-space:nowrap\">9044669<a name=\"presenting-complaints-9044669\"> </a></td><td>Constipation</td><td>Constipation</td></tr><tr><td style=\"white-space:nowrap\">9044670<a name=\"presenting-complaints-9044670\"> </a></td><td>Dizziness/vertigo</td><td>Dizziness/vertigo</td></tr><tr><td style=\"white-space:nowrap\">9044671<a name=\"presenting-complaints-9044671\"> </a></td><td>Ear pain</td><td>Ear pain</td></tr><tr><td style=\"white-space:nowrap\">9044672<a name=\"presenting-complaints-9044672\"> </a></td><td>Eating disorder</td><td>Eating disorder</td></tr><tr><td style=\"white-space:nowrap\">9044673<a name=\"presenting-complaints-9044673\"> </a></td><td>Electrocution</td><td>Electrocution</td></tr><tr><td style=\"white-space:nowrap\">9044674<a name=\"presenting-complaints-9044674\"> </a></td><td>Epistaxis (nose)</td><td>Epistaxis (nose)</td></tr><tr><td style=\"white-space:nowrap\">9044675<a name=\"presenting-complaints-9044675\"> </a></td><td>Erythema/rash or other skin complaint</td><td>Erythema/rash or other skin complaint</td></tr><tr><td style=\"white-space:nowrap\">9044676<a name=\"presenting-complaints-9044676\"> </a></td><td>Eye or vision problems</td><td>Eye or vision problems</td></tr><tr><td style=\"white-space:nowrap\">9044677<a name=\"presenting-complaints-9044677\"> </a></td><td>Face-other pain</td><td>Face-other pain</td></tr><tr><td style=\"white-space:nowrap\">9044678<a name=\"presenting-complaints-9044678\"> </a></td><td>Fall</td><td>Fall</td></tr><tr><td style=\"white-space:nowrap\">9044679<a name=\"presenting-complaints-9044679\"> </a></td><td>Haematuria</td><td>Haematuria</td></tr><tr><td style=\"white-space:nowrap\">9044680<a name=\"presenting-complaints-9044680\"> </a></td><td>Hyper/hypoglycaemia</td><td>Hyper/hypoglycaemia</td></tr><tr><td style=\"white-space:nowrap\">9044681<a name=\"presenting-complaints-9044681\"> </a></td><td>Hypertension/hypotension</td><td>Hypertension/hypotension</td></tr><tr><td style=\"white-space:nowrap\">9044682<a name=\"presenting-complaints-9044682\"> </a></td><td>Limb/joint pain</td><td>Limb/joint pain</td></tr><tr><td style=\"white-space:nowrap\">9044683<a name=\"presenting-complaints-9044683\"> </a></td><td>Mood disturbance</td><td>Mood disturbance</td></tr><tr><td style=\"white-space:nowrap\">9044684<a name=\"presenting-complaints-9044684\"> </a></td><td>Request medication/cert/result/procedure</td><td>Request medication/cert/result/procedure</td></tr><tr><td style=\"white-space:nowrap\">9044685<a name=\"presenting-complaints-9044685\"> </a></td><td>Social concern incl child protection</td><td>Social concern incl child protection</td></tr><tr><td style=\"white-space:nowrap\">9044688<a name=\"presenting-complaints-9044688\"> </a></td><td>Suspected FB: non airways</td><td>Suspected FB: non airways</td></tr><tr><td style=\"white-space:nowrap\">9044689<a name=\"presenting-complaints-9044689\"> </a></td><td>Swallowing difficulty</td><td>Swallowing difficulty</td></tr><tr><td style=\"white-space:nowrap\">9044690<a name=\"presenting-complaints-9044690\"> </a></td><td>Temperature stress</td><td>Temperature stress</td></tr><tr><td style=\"white-space:nowrap\">9044691<a name=\"presenting-complaints-9044691\"> </a></td><td>Unplanned ED representation</td><td>Unplanned ED representation</td></tr><tr><td style=\"white-space:nowrap\">9044692<a name=\"presenting-complaints-9044692\"> </a></td><td>Unsettled</td><td>Unsettled</td></tr><tr><td style=\"white-space:nowrap\">9044699<a name=\"presenting-complaints-9044699\"> </a></td><td>Diarrhoea</td><td>Diarrhoea</td></tr><tr><td style=\"white-space:nowrap\">9044711<a name=\"presenting-complaints-9044711\"> </a></td><td>Penetrating injury</td><td>Penetrating injury</td></tr><tr><td style=\"white-space:nowrap\">9044718<a name=\"presenting-complaints-9044718\"> </a></td><td>Headache</td><td>Headache</td></tr><tr><td style=\"white-space:nowrap\">9044723<a name=\"presenting-complaints-9044723\"> </a></td><td>Jaundice</td><td>Jaundice</td></tr><tr><td style=\"white-space:nowrap\">9044748<a name=\"presenting-complaints-9044748\"> </a></td><td>Altered sensation</td><td>Altered sensation</td></tr><tr><td style=\"white-space:nowrap\">9044749<a name=\"presenting-complaints-9044749\"> </a></td><td>Collapse</td><td>Collapse</td></tr><tr><td style=\"white-space:nowrap\">9044758<a name=\"presenting-complaints-9044758\"> </a></td><td>Seizure</td><td>Seizure</td></tr><tr><td style=\"white-space:nowrap\">9044764<a name=\"presenting-complaints-9044764\"> </a></td><td>Stridor</td><td>Stridor</td></tr><tr><td style=\"white-space:nowrap\">9044765<a name=\"presenting-complaints-9044765\"> </a></td><td>Suicidal ideation</td><td>Suicidal ideation</td></tr><tr><td style=\"white-space:nowrap\">9044776<a name=\"presenting-complaints-9044776\"> </a></td><td>Weakness</td><td>Weakness</td></tr><tr><td style=\"white-space:nowrap\">9044782<a name=\"presenting-complaints-9044782\"> </a></td><td>Addiction/dependency</td><td>Addiction/dependency</td></tr><tr><td style=\"white-space:nowrap\">9044783<a name=\"presenting-complaints-9044783\"> </a></td><td>Bruising/other</td><td>Bruising/other</td></tr><tr><td style=\"white-space:nowrap\">9044784<a name=\"presenting-complaints-9044784\"> </a></td><td>Chest pain</td><td>Chest pain</td></tr><tr><td style=\"white-space:nowrap\">9044798<a name=\"presenting-complaints-9044798\"> </a></td><td>Blunt injury</td><td>Blunt injury</td></tr><tr><td style=\"white-space:nowrap\">9044799<a name=\"presenting-complaints-9044799\"> </a></td><td>Hallucinations</td><td>Hallucinations</td></tr><tr><td style=\"white-space:nowrap\">9044800<a name=\"presenting-complaints-9044800\"> </a></td><td>Requesting investigation</td><td>Requesting investigation</td></tr><tr><td style=\"white-space:nowrap\">9044802<a name=\"presenting-complaints-9044802\"> </a></td><td>Suspected FB: airways/choking</td><td>Suspected FB: airways/choking</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"^^xsd:anyURI ;
+     fhir:l <https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "PresentingComplaintCS"] ; # 
+  fhir:title [ fhir:v "Presenting Complaints"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-28"^^xsd:date] ; # 
+  fhir:publisher [ fhir:v "Michael J Osborne"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Michael J Osborne" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://osbornemj.com" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Presenting Complaint codes"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
+         fhir:l <urn:iso:std:iso:3166>
+       ] ;
+       fhir:code [ fhir:v "AUS" ] ;
+       fhir:display [ fhir:v "Australia" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v false] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "83"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "1081207063" ] ;
+     fhir:display [ fhir:v "Homicidal ideation" ] ;
+     fhir:definition [ fhir:v "Homicidal ideation" ]
+  ] [
+     fhir:code [ fhir:v "22235260" ] ;
+     fhir:display [ fhir:v "Back pain" ] ;
+     fhir:definition [ fhir:v "Back pain" ]
+  ] [
+     fhir:code [ fhir:v "22235265" ] ;
+     fhir:display [ fhir:v "Cough/rhinorrhoea" ] ;
+     fhir:definition [ fhir:v "Cough/rhinorrhoea" ]
+  ] [
+     fhir:code [ fhir:v "22235269" ] ;
+     fhir:display [ fhir:v "Crash other" ] ;
+     fhir:definition [ fhir:v "Crash other" ]
+  ] [
+     fhir:code [ fhir:v "22235301" ] ;
+     fhir:display [ fhir:v "MBC/quadbike-driver" ] ;
+     fhir:definition [ fhir:v "MBC/quadbike-driver" ]
+  ] [
+     fhir:code [ fhir:v "22235306" ] ;
+     fhir:display [ fhir:v "MBC/quadbike-passenger" ] ;
+     fhir:definition [ fhir:v "MBC/quadbike-passenger" ]
+  ] [
+     fhir:code [ fhir:v "22235311" ] ;
+     fhir:display [ fhir:v "Multiple pain" ] ;
+     fhir:definition [ fhir:v "Multiple pain" ]
+  ] [
+     fhir:code [ fhir:v "22235320" ] ;
+     fhir:display [ fhir:v "MVC-passenger" ] ;
+     fhir:definition [ fhir:v "MVC-passenger" ]
+  ] [
+     fhir:code [ fhir:v "22235324" ] ;
+     fhir:display [ fhir:v "Nausea/vomiting" ] ;
+     fhir:definition [ fhir:v "Nausea/vomiting" ]
+  ] [
+     fhir:code [ fhir:v "22235330" ] ;
+     fhir:display [ fhir:v "Neck/throat pain" ] ;
+     fhir:definition [ fhir:v "Neck/throat pain" ]
+  ] [
+     fhir:code [ fhir:v "22235336" ] ;
+     fhir:display [ fhir:v "Overdose/toxic exposure" ] ;
+     fhir:definition [ fhir:v "Overdose/toxic exposure" ]
+  ] [
+     fhir:code [ fhir:v "22235341" ] ;
+     fhir:display [ fhir:v "Palpitations/abnormal heart rate" ] ;
+     fhir:definition [ fhir:v "Palpitations/abnormal heart rate" ]
+  ] [
+     fhir:code [ fhir:v "22235345" ] ;
+     fhir:display [ fhir:v "Pedestrian vs" ] ;
+     fhir:definition [ fhir:v "Pedestrian vs" ]
+  ] [
+     fhir:code [ fhir:v "22235356" ] ;
+     fhir:display [ fhir:v "Planned ED recall or review" ] ;
+     fhir:definition [ fhir:v "Planned ED recall or review" ]
+  ] [
+     fhir:code [ fhir:v "22235362" ] ;
+     fhir:display [ fhir:v "Possible allergy" ] ;
+     fhir:definition [ fhir:v "Possible allergy" ]
+  ] [
+     fhir:code [ fhir:v "22235374" ] ;
+     fhir:display [ fhir:v "PV bleeding" ] ;
+     fhir:definition [ fhir:v "PV bleeding" ]
+  ] [
+     fhir:code [ fhir:v "22235384" ] ;
+     fhir:display [ fhir:v "Sexual assault" ] ;
+     fhir:definition [ fhir:v "Sexual assault" ]
+  ] [
+     fhir:code [ fhir:v "22235387" ] ;
+     fhir:display [ fhir:v "Sleep disturbance" ] ;
+     fhir:definition [ fhir:v "Sleep disturbance" ]
+  ] [
+     fhir:code [ fhir:v "22235397" ] ;
+     fhir:display [ fhir:v "Swelling/oedema/lump" ] ;
+     fhir:definition [ fhir:v "Swelling/oedema/lump" ]
+  ] [
+     fhir:code [ fhir:v "22235496" ] ;
+     fhir:display [ fhir:v "Cyanosis" ] ;
+     fhir:definition [ fhir:v "Cyanosis" ]
+  ] [
+     fhir:code [ fhir:v "22235501" ] ;
+     fhir:display [ fhir:v "Cycle related" ] ;
+     fhir:definition [ fhir:v "Cycle related" ]
+  ] [
+     fhir:code [ fhir:v "22235514" ] ;
+     fhir:display [ fhir:v "Urinary symptoms" ] ;
+     fhir:definition [ fhir:v "Urinary symptoms" ]
+  ] [
+     fhir:code [ fhir:v "22235519" ] ;
+     fhir:display [ fhir:v "Weight gain/loss" ] ;
+     fhir:definition [ fhir:v "Weight gain/loss" ]
+  ] [
+     fhir:code [ fhir:v "22235526" ] ;
+     fhir:display [ fhir:v "Wheeled device" ] ;
+     fhir:definition [ fhir:v "Wheeled device" ]
+  ] [
+     fhir:code [ fhir:v "22236068" ] ;
+     fhir:display [ fhir:v "Abdo/pelvis/perineal pain" ] ;
+     fhir:definition [ fhir:v "Abdo/pelvis/perineal pain" ]
+  ] [
+     fhir:code [ fhir:v "22236074" ] ;
+     fhir:display [ fhir:v "Aggression" ] ;
+     fhir:definition [ fhir:v "Aggression" ]
+  ] [
+     fhir:code [ fhir:v "22236226" ] ;
+     fhir:display [ fhir:v "Altered level of consciousness" ] ;
+     fhir:definition [ fhir:v "Altered level of consciousness" ]
+  ] [
+     fhir:code [ fhir:v "22236240" ] ;
+     fhir:display [ fhir:v "Anxiety/agitation" ] ;
+     fhir:definition [ fhir:v "Anxiety/agitation" ]
+  ] [
+     fhir:code [ fhir:v "22236310" ] ;
+     fhir:display [ fhir:v "Eye pain" ] ;
+     fhir:definition [ fhir:v "Eye pain" ]
+  ] [
+     fhir:code [ fhir:v "22236317" ] ;
+     fhir:display [ fhir:v "Feeding difficulties/concerns" ] ;
+     fhir:definition [ fhir:v "Feeding difficulties/concerns" ]
+  ] [
+     fhir:code [ fhir:v "22236321" ] ;
+     fhir:display [ fhir:v "Fever/hypothermia" ] ;
+     fhir:definition [ fhir:v "Fever/hypothermia" ]
+  ] [
+     fhir:code [ fhir:v "22236326" ] ;
+     fhir:display [ fhir:v "Gait disturbance" ] ;
+     fhir:definition [ fhir:v "Gait disturbance" ]
+  ] [
+     fhir:code [ fhir:v "22236338" ] ;
+     fhir:display [ fhir:v "GI bleed" ] ;
+     fhir:definition [ fhir:v "GI bleed" ]
+  ] [
+     fhir:code [ fhir:v "22236345" ] ;
+     fhir:display [ fhir:v "Haemoptysis" ] ;
+     fhir:definition [ fhir:v "Haemoptysis" ]
+  ] [
+     fhir:code [ fhir:v "22236366" ] ;
+     fhir:display [ fhir:v "Immersion" ] ;
+     fhir:definition [ fhir:v "Immersion" ]
+  ] [
+     fhir:code [ fhir:v "22236370" ] ;
+     fhir:display [ fhir:v "Increased respiratory effort/distress" ] ;
+     fhir:definition [ fhir:v "Increased respiratory effort/distress" ]
+  ] [
+     fhir:code [ fhir:v "22236386" ] ;
+     fhir:display [ fhir:v "Inpatient team review" ] ;
+     fhir:definition [ fhir:v "Inpatient team review" ]
+  ] [
+     fhir:code [ fhir:v "22236398" ] ;
+     fhir:display [ fhir:v "Laceration/skin tear" ] ;
+     fhir:definition [ fhir:v "Laceration/skin tear" ]
+  ] [
+     fhir:code [ fhir:v "23774122" ] ;
+     fhir:display [ fhir:v "Disaster" ] ;
+     fhir:definition [ fhir:v "Disaster" ]
+  ] [
+     fhir:code [ fhir:v "9044662" ] ;
+     fhir:display [ fhir:v "Bite/sting" ] ;
+     fhir:definition [ fhir:v "Bite/sting" ]
+  ] [
+     fhir:code [ fhir:v "9044663" ] ;
+     fhir:display [ fhir:v "Admission/transfer" ] ;
+     fhir:definition [ fhir:v "Admission/transfer" ]
+  ] [
+     fhir:code [ fhir:v "9044664" ] ;
+     fhir:display [ fhir:v "Apnoea" ] ;
+     fhir:definition [ fhir:v "Apnoea" ]
+  ] [
+     fhir:code [ fhir:v "9044665" ] ;
+     fhir:display [ fhir:v "Arrest" ] ;
+     fhir:definition [ fhir:v "Arrest" ]
+  ] [
+     fhir:code [ fhir:v "9044667" ] ;
+     fhir:display [ fhir:v "Burn/scald" ] ;
+     fhir:definition [ fhir:v "Burn/scald" ]
+  ] [
+     fhir:code [ fhir:v "9044669" ] ;
+     fhir:display [ fhir:v "Constipation" ] ;
+     fhir:definition [ fhir:v "Constipation" ]
+  ] [
+     fhir:code [ fhir:v "9044670" ] ;
+     fhir:display [ fhir:v "Dizziness/vertigo" ] ;
+     fhir:definition [ fhir:v "Dizziness/vertigo" ]
+  ] [
+     fhir:code [ fhir:v "9044671" ] ;
+     fhir:display [ fhir:v "Ear pain" ] ;
+     fhir:definition [ fhir:v "Ear pain" ]
+  ] [
+     fhir:code [ fhir:v "9044672" ] ;
+     fhir:display [ fhir:v "Eating disorder" ] ;
+     fhir:definition [ fhir:v "Eating disorder" ]
+  ] [
+     fhir:code [ fhir:v "9044673" ] ;
+     fhir:display [ fhir:v "Electrocution" ] ;
+     fhir:definition [ fhir:v "Electrocution" ]
+  ] [
+     fhir:code [ fhir:v "9044674" ] ;
+     fhir:display [ fhir:v "Epistaxis (nose)" ] ;
+     fhir:definition [ fhir:v "Epistaxis (nose)" ]
+  ] [
+     fhir:code [ fhir:v "9044675" ] ;
+     fhir:display [ fhir:v "Erythema/rash or other skin complaint" ] ;
+     fhir:definition [ fhir:v "Erythema/rash or other skin complaint" ]
+  ] [
+     fhir:code [ fhir:v "9044676" ] ;
+     fhir:display [ fhir:v "Eye or vision problems" ] ;
+     fhir:definition [ fhir:v "Eye or vision problems" ]
+  ] [
+     fhir:code [ fhir:v "9044677" ] ;
+     fhir:display [ fhir:v "Face-other pain" ] ;
+     fhir:definition [ fhir:v "Face-other pain" ]
+  ] [
+     fhir:code [ fhir:v "9044678" ] ;
+     fhir:display [ fhir:v "Fall" ] ;
+     fhir:definition [ fhir:v "Fall" ]
+  ] [
+     fhir:code [ fhir:v "9044679" ] ;
+     fhir:display [ fhir:v "Haematuria" ] ;
+     fhir:definition [ fhir:v "Haematuria" ]
+  ] [
+     fhir:code [ fhir:v "9044680" ] ;
+     fhir:display [ fhir:v "Hyper/hypoglycaemia" ] ;
+     fhir:definition [ fhir:v "Hyper/hypoglycaemia" ]
+  ] [
+     fhir:code [ fhir:v "9044681" ] ;
+     fhir:display [ fhir:v "Hypertension/hypotension" ] ;
+     fhir:definition [ fhir:v "Hypertension/hypotension" ]
+  ] [
+     fhir:code [ fhir:v "9044682" ] ;
+     fhir:display [ fhir:v "Limb/joint pain" ] ;
+     fhir:definition [ fhir:v "Limb/joint pain" ]
+  ] [
+     fhir:code [ fhir:v "9044683" ] ;
+     fhir:display [ fhir:v "Mood disturbance" ] ;
+     fhir:definition [ fhir:v "Mood disturbance" ]
+  ] [
+     fhir:code [ fhir:v "9044684" ] ;
+     fhir:display [ fhir:v "Request medication/cert/result/procedure" ] ;
+     fhir:definition [ fhir:v "Request medication/cert/result/procedure" ]
+  ] [
+     fhir:code [ fhir:v "9044685" ] ;
+     fhir:display [ fhir:v "Social concern incl child protection" ] ;
+     fhir:definition [ fhir:v "Social concern incl child protection" ]
+  ] [
+     fhir:code [ fhir:v "9044688" ] ;
+     fhir:display [ fhir:v "Suspected FB: non airways" ] ;
+     fhir:definition [ fhir:v "Suspected FB: non airways" ]
+  ] [
+     fhir:code [ fhir:v "9044689" ] ;
+     fhir:display [ fhir:v "Swallowing difficulty" ] ;
+     fhir:definition [ fhir:v "Swallowing difficulty" ]
+  ] [
+     fhir:code [ fhir:v "9044690" ] ;
+     fhir:display [ fhir:v "Temperature stress" ] ;
+     fhir:definition [ fhir:v "Temperature stress" ]
+  ] [
+     fhir:code [ fhir:v "9044691" ] ;
+     fhir:display [ fhir:v "Unplanned ED representation" ] ;
+     fhir:definition [ fhir:v "Unplanned ED representation" ]
+  ] [
+     fhir:code [ fhir:v "9044692" ] ;
+     fhir:display [ fhir:v "Unsettled" ] ;
+     fhir:definition [ fhir:v "Unsettled" ]
+  ] [
+     fhir:code [ fhir:v "9044699" ] ;
+     fhir:display [ fhir:v "Diarrhoea" ] ;
+     fhir:definition [ fhir:v "Diarrhoea" ]
+  ] [
+     fhir:code [ fhir:v "9044711" ] ;
+     fhir:display [ fhir:v "Penetrating injury" ] ;
+     fhir:definition [ fhir:v "Penetrating injury" ]
+  ] [
+     fhir:code [ fhir:v "9044718" ] ;
+     fhir:display [ fhir:v "Headache" ] ;
+     fhir:definition [ fhir:v "Headache" ]
+  ] [
+     fhir:code [ fhir:v "9044723" ] ;
+     fhir:display [ fhir:v "Jaundice" ] ;
+     fhir:definition [ fhir:v "Jaundice" ]
+  ] [
+     fhir:code [ fhir:v "9044748" ] ;
+     fhir:display [ fhir:v "Altered sensation" ] ;
+     fhir:definition [ fhir:v "Altered sensation" ]
+  ] [
+     fhir:code [ fhir:v "9044749" ] ;
+     fhir:display [ fhir:v "Collapse" ] ;
+     fhir:definition [ fhir:v "Collapse" ]
+  ] [
+     fhir:code [ fhir:v "9044758" ] ;
+     fhir:display [ fhir:v "Seizure" ] ;
+     fhir:definition [ fhir:v "Seizure" ]
+  ] [
+     fhir:code [ fhir:v "9044764" ] ;
+     fhir:display [ fhir:v "Stridor" ] ;
+     fhir:definition [ fhir:v "Stridor" ]
+  ] [
+     fhir:code [ fhir:v "9044765" ] ;
+     fhir:display [ fhir:v "Suicidal ideation" ] ;
+     fhir:definition [ fhir:v "Suicidal ideation" ]
+  ] [
+     fhir:code [ fhir:v "9044776" ] ;
+     fhir:display [ fhir:v "Weakness" ] ;
+     fhir:definition [ fhir:v "Weakness" ]
+  ] [
+     fhir:code [ fhir:v "9044782" ] ;
+     fhir:display [ fhir:v "Addiction/dependency" ] ;
+     fhir:definition [ fhir:v "Addiction/dependency" ]
+  ] [
+     fhir:code [ fhir:v "9044783" ] ;
+     fhir:display [ fhir:v "Bruising/other" ] ;
+     fhir:definition [ fhir:v "Bruising/other" ]
+  ] [
+     fhir:code [ fhir:v "9044784" ] ;
+     fhir:display [ fhir:v "Chest pain" ] ;
+     fhir:definition [ fhir:v "Chest pain" ]
+  ] [
+     fhir:code [ fhir:v "9044798" ] ;
+     fhir:display [ fhir:v "Blunt injury" ] ;
+     fhir:definition [ fhir:v "Blunt injury" ]
+  ] [
+     fhir:code [ fhir:v "9044799" ] ;
+     fhir:display [ fhir:v "Hallucinations" ] ;
+     fhir:definition [ fhir:v "Hallucinations" ]
+  ] [
+     fhir:code [ fhir:v "9044800" ] ;
+     fhir:display [ fhir:v "Requesting investigation" ] ;
+     fhir:definition [ fhir:v "Requesting investigation" ]
+  ] [
+     fhir:code [ fhir:v "9044802" ] ;
+     fhir:display [ fhir:v "Suspected FB: airways/choking" ] ;
+     fhir:definition [ fhir:v "Suspected FB: airways/choking" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

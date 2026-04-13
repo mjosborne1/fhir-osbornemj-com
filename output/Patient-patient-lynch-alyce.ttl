@@ -1,0 +1,145 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://fhir.osbornemj.com/ig/Patient/patient-lynch-alyce> a fhir:Patient ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "patient-lynch-alyce"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org.au/fhir/core/StructureDefinition/au-core-patient"^^xsd:anyURI ;
+       fhir:l <http://hl7.org.au/fhir/core/StructureDefinition/au-core-patient>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Patient patient-lynch-alyce</b></p><a name=\"patient-lynch-alyce\"> </a><a name=\"hcpatient-lynch-alyce\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org.au/fhir/core/2.0.0/StructureDefinition-au-core-patient.html\">AU Core Patient</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">Alyce SHAUNA LYNCH (official) Female, DoB: 2009-12-02 ( Hospital Unique patient number: PC842914 (use: usual, ))</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Other Ids (see the one above)\">Other Ids:</td><td colspan=\"3\"><ul><li>IHI/8003608333647212</li><li>Medicare Number/49516520011</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the Patient\">Contact Detail</td><td colspan=\"3\"><ul><li>ph: 0770109326(Home)</li><li>ph: 0491570313(Mobile)</li><li>ph: 0770104778(Work)</li><li>162 Pine Cnr Miami QLD 4220 AU </li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"This extension applies to the Patient, Person, and RelatedPerson resources and is used to indicate whether a person identifies as being of Aboriginal or Torres Strait Islander origin.\"><a href=\"http://hl7.org.au/fhir/6.0.0/StructureDefinition-indigenous-status.html\">Australian Indigenous Status</a></td><td colspan=\"3\">australian-indigenous-status-1: 4 (Neither Aboriginal nor Torres Strait Islander origin)</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org.au/fhir/StructureDefinition/indigenous-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org.au/fhir/StructureDefinition/indigenous-status>
+     ] ;
+     fhir:value [
+       a fhir:Coding ;
+       fhir:system [
+         fhir:v "https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1"^^xsd:anyURI ;
+         fhir:l <https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1>
+       ] ;
+       fhir:code [ fhir:v "4" ] ;
+       fhir:display [ fhir:v "Neither Aboriginal nor Torres Strait Islander origin" ]
+     ]
+  ] ) ; # 
+  fhir:identifier ( [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "http://hl7.org.au/fhir/StructureDefinition/ihi-status"^^xsd:anyURI ;
+         fhir:l <http://hl7.org.au/fhir/StructureDefinition/ihi-status>
+       ] ;
+       fhir:value [
+         a fhir:Coding ;
+         fhir:system [
+           fhir:v "https://healthterminologies.gov.au/fhir/CodeSystem/ihi-status-1"^^xsd:anyURI ;
+           fhir:l <https://healthterminologies.gov.au/fhir/CodeSystem/ihi-status-1>
+         ] ;
+         fhir:code [ fhir:v "active" ]
+       ]
+     ] [
+       fhir:url [
+         fhir:v "http://hl7.org.au/fhir/StructureDefinition/ihi-record-status"^^xsd:anyURI ;
+         fhir:l <http://hl7.org.au/fhir/StructureDefinition/ihi-record-status>
+       ] ;
+       fhir:value [
+         a fhir:Coding ;
+         fhir:system [
+           fhir:v "https://healthterminologies.gov.au/fhir/CodeSystem/ihi-record-status-1"^^xsd:anyURI ;
+           fhir:l <https://healthterminologies.gov.au/fhir/CodeSystem/ihi-record-status-1>
+         ] ;
+         fhir:code [ fhir:v "verified" ] ;
+         fhir:display [ fhir:v "verified" ]
+       ]
+     ] ) ;
+     fhir:type [
+       fhir:coding ( [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/v2-0203>
+         ] ;
+         fhir:code [ fhir:v "NI" ]
+       ] ) ;
+       fhir:text [ fhir:v "IHI" ]
+     ] ;
+     fhir:system [
+       fhir:v "http://ns.electronichealth.net.au/id/hi/ihi/1.0"^^xsd:anyURI ;
+       fhir:l <http://ns.electronichealth.net.au/id/hi/ihi/1.0>
+     ] ;
+     fhir:value [ fhir:v "8003608333647212" ]
+  ] [
+     fhir:type [
+       fhir:coding ( [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/v2-0203>
+         ] ;
+         fhir:code [ fhir:v "MC" ]
+       ] ) ;
+       fhir:text [ fhir:v "Medicare Number" ]
+     ] ;
+     fhir:system [
+       fhir:v "http://ns.electronichealth.net.au/id/medicare-number"^^xsd:anyURI ;
+       fhir:l <http://ns.electronichealth.net.au/id/medicare-number>
+     ] ;
+     fhir:value [ fhir:v "49516520011" ]
+  ] [
+     fhir:use [ fhir:v "usual" ] ;
+     fhir:type [
+       fhir:coding ( [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/v2-0203>
+         ] ;
+         fhir:code [ fhir:v "MR" ] ;
+         fhir:display [ fhir:v "Medical record number" ]
+       ] ) ;
+       fhir:text [ fhir:v "Hospital Unique patient number" ]
+     ] ;
+     fhir:system [
+       fhir:v "http://hosp.osbornemj.com/id/MRN"^^xsd:anyURI ;
+       fhir:l <http://hosp.osbornemj.com/id/MRN>
+     ] ;
+     fhir:value [ fhir:v "PC842914" ]
+  ] ) ; # 
+  fhir:name ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:family [ fhir:v "LYNCH" ] ;
+     fhir:given ( [ fhir:v "Alyce" ] [ fhir:v "SHAUNA" ] )
+  ] ) ; # 
+  fhir:telecom ( [
+     fhir:system [ fhir:v "phone" ] ;
+     fhir:value [ fhir:v "0770109326" ] ;
+     fhir:use [ fhir:v "home" ]
+  ] [
+     fhir:system [ fhir:v "phone" ] ;
+     fhir:value [ fhir:v "0491570313" ] ;
+     fhir:use [ fhir:v "mobile" ]
+  ] [
+     fhir:system [ fhir:v "phone" ] ;
+     fhir:value [ fhir:v "0770104778" ] ;
+     fhir:use [ fhir:v "work" ]
+  ] ) ; # 
+  fhir:gender [ fhir:v "female"] ; # 
+  fhir:birthDate [ fhir:v "2009-12-02"^^xsd:date] ; # 
+  fhir:address ( [
+     fhir:line ( [ fhir:v "162 Pine Cnr" ] ) ;
+     fhir:city [ fhir:v "Miami" ] ;
+     fhir:state [ fhir:v "QLD" ] ;
+     fhir:postalCode [ fhir:v "4220" ] ;
+     fhir:country [ fhir:v "AU" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,72 @@
+{
+  "codeSystems" : [{
+    "url" : "http://hl7.org/fhir/diagnostic-report-status",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "DiagnosticReportStatus",
+    "title" : "DiagnosticReportStatus",
+    "description" : "The status of the diagnostic report.",
+    "oids" : ["2.16.840.1.113883.4.642.4.236"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-diagnostic-report-status.html" : "DiagnosticReportStatus"
+  },
+  {
+    "url" : "http://snomed.info/sct",
+    "version" : null,
+    "status" : "active",
+    "name" : "SNOMED_CT",
+    "title" : "SNOMED CT (all versions)",
+    "description" : "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).",
+    "oids" : ["2.16.840.1.113883.6.96"],
+    "uses" : {
+    },
+    "https://tx.hl7.org.au/fhir/ValueSet/clinical-finding-1" : "Clinical Finding"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v2-0074",
+    "version" : "3.0.0",
+    "status" : "active",
+    "name" : "DiagnosticServiceSectionId",
+    "title" : "diagnosticServiceSectionId",
+    "description" : "HL7-defined code system of concepts which specify a section of a diagnostic service where the observation may be performed.  Used in HL7 Version 2.x messaging in the OBR and OM4 segments.",
+    "oids" : ["2.16.840.1.113883.18.29"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-diagnostic-service-sections.html" : "Diagnostic Service Section Codes"
+  },
+  {
+    "url" : "https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "OSLABMicrobiologyReportsCS",
+    "title" : "OS LAB Microbiology Reports",
+    "description" : "The OS LAB Microbiology Reports code system includes codes for reporting of microbiology results.",
+    "uses" : {
+    },
+    "ValueSet-vs-OSLAB-microbiology-report.html" : "OS LAB Microbiology Report"
+  },
+  {
+    "url" : "https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "PresentingComplaintCS",
+    "title" : "Presenting Complaints",
+    "description" : "Presenting Complaint codes",
+    "uses" : {
+    },
+    "ValueSet-vs-presenting-complaint.html" : "Presenting Complaints ValueSet"
+  },
+  {
+    "url" : "urn:ietf:bcp:47",
+    "version" : "2.0.1",
+    "status" : "active",
+    "name" : "Ietf3066",
+    "title" : "Tags for the Identification of Languages",
+    "description" : "Older value from OID registry.  Superceded; see recommendations in BCP-47.",
+    "oids" : ["2.16.840.1.113883.6.121"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-languages.html" : "Common Languages"
+  }]
+}

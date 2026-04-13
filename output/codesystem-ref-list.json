@@ -1,0 +1,36 @@
+{
+  "codeSystems" : [{
+    "url" : "http://hl7.org/fhir/diagnostic-report-status",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "DiagnosticReportStatus",
+    "title" : "DiagnosticReportStatus",
+    "description" : "The status of the diagnostic report.",
+    "oids" : ["2.16.840.1.113883.4.642.4.236"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-diagnostic-report-status.html" : "DiagnosticReportStatus"
+  },
+  {
+    "url" : "https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "OSLABMicrobiologyReportsCS",
+    "title" : "OS LAB Microbiology Reports",
+    "description" : "The OS LAB Microbiology Reports code system includes codes for reporting of microbiology results.",
+    "uses" : {
+    },
+    "ValueSet-vs-OSLAB-microbiology-report.html" : "OS LAB Microbiology Report"
+  },
+  {
+    "url" : "https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "PresentingComplaintCS",
+    "title" : "Presenting Complaints",
+    "description" : "Presenting Complaint codes",
+    "uses" : {
+    },
+    "ValueSet-vs-presenting-complaint.html" : "Presenting Complaints ValueSet"
+  }]
+}

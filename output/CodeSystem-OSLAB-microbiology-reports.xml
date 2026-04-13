@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="OSLAB-microbiology-reports"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem OSLAB-microbiology-reports</b></p><a name="OSLAB-microbiology-reports"> </a><a name="hcOSLAB-microbiology-reports"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="http://hl7.org/fhir/R4/shareablecodesystem.html">Shareable CodeSystem</a></p></div><p>This case-insensitive code system <code>https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">ADFUNG<a name="OSLAB-microbiology-reports-ADFUNG"> </a></td><td>Fungal Culture (M/C/S)</td><td>Fungal Culture (M/C/S)</td></tr><tr><td style="white-space:nowrap">BC<a name="OSLAB-microbiology-reports-BC"> </a></td><td>Blood Culture (M/C/S)</td><td>Blood Culture (M/C/S)</td></tr><tr><td style="white-space:nowrap">CAS<a name="OSLAB-microbiology-reports-CAS"> </a></td><td>Candida auris Screen Culture</td><td>Candida auris Screen Culture</td></tr><tr><td style="white-space:nowrap">CSF<a name="OSLAB-microbiology-reports-CSF"> </a></td><td>CSF Culture (M/C/S)</td><td>CSF Culture (M/C/S)</td></tr><tr><td style="white-space:nowrap">CSFS<a name="OSLAB-microbiology-reports-CSFS"> </a></td><td>CSF Subarachnoid Culture (M/C/S)</td><td>CSF Subarachnoid Culture (M/C/S)</td></tr><tr><td style="white-space:nowrap">ENT<a name="OSLAB-microbiology-reports-ENT"> </a></td><td>Ear, Nose, Throat and Conjunctival Swab</td><td>Ear, Nose, Throat and Conjunctival Swab</td></tr><tr><td style="white-space:nowrap">EYE<a name="OSLAB-microbiology-reports-EYE"> </a></td><td>Eye Invasive Culture (M/C/S)</td><td>Eye Invasive Culture (M/C/S)</td></tr><tr><td style="white-space:nowrap">FAEMIC<a name="OSLAB-microbiology-reports-FAEMIC"> </a></td><td>Faeces Microscopy (RBC,WBC) Only</td><td>Faeces Microscopy (RBC,WBC) Only</td></tr><tr><td style="white-space:nowrap">FLBCM<a name="OSLAB-microbiology-reports-FLBCM"> </a></td><td>Sterile Fluid Culture in Blood Culture M</td><td>Sterile Fluid Culture in Blood Culture M</td></tr><tr><td style="white-space:nowrap">FLPLUS<a name="OSLAB-microbiology-reports-FLPLUS"> </a></td><td>Sterile Fluid Culture plus Fluid in Bloo</td><td>Sterile Fluid Culture plus Fluid in Bloo</td></tr><tr><td style="white-space:nowrap">FLUID<a name="OSLAB-microbiology-reports-FLUID"> </a></td><td>Sterile Fluid Culture (M/C/S)</td><td>Sterile Fluid Culture (M/C/S)</td></tr><tr><td style="white-space:nowrap">FUNGI<a name="OSLAB-microbiology-reports-FUNGI"> </a></td><td>Skin, Hair, Nail Dermatophyte Culture (M</td><td>Skin, Hair, Nail Dermatophyte Culture (M</td></tr><tr><td style="white-space:nowrap">GBS<a name="OSLAB-microbiology-reports-GBS"> </a></td><td>Group B Streptococcus Culture Screen (M/</td><td>Group B Streptococcus Culture Screen (M/</td></tr><tr><td style="white-space:nowrap">GENIT<a name="OSLAB-microbiology-reports-GENIT"> </a></td><td>Genital Swab Culture (M/C/S)</td><td>Genital Swab Culture (M/C/S)</td></tr><tr><td style="white-space:nowrap">MRSA<a name="OSLAB-microbiology-reports-MRSA"> </a></td><td>MRSA Screen Culture</td><td>MRSA Screen Culture</td></tr><tr><td style="white-space:nowrap">PUS<a name="OSLAB-microbiology-reports-PUS"> </a></td><td>Deep Invasive Pus or Swab Culture (M/C/S</td><td>Deep Invasive Pus or Swab Culture (M/C/S</td></tr><tr><td style="white-space:nowrap">RESP<a name="OSLAB-microbiology-reports-RESP"> </a></td><td>Respiratory Sputum or ETT Culture (M/C/S</td><td>Respiratory Sputum or ETT Culture (M/C/S</td></tr><tr><td style="white-space:nowrap">RESPF<a name="OSLAB-microbiology-reports-RESPF"> </a></td><td>Respiratory Bronchoscopic Collection Cul</td><td>Respiratory Bronchoscopic Collection Cul</td></tr><tr><td style="white-space:nowrap">SITE<a name="OSLAB-microbiology-reports-SITE"> </a></td><td>Superficial Pus or Swab Culture (M/C/S)</td><td>Superficial Pus or Swab Culture (M/C/S)</td></tr><tr><td style="white-space:nowrap">TIP<a name="OSLAB-microbiology-reports-TIP"> </a></td><td>Tip Culture (M/C/S)</td><td>Tip Culture (M/C/S)</td></tr><tr><td style="white-space:nowrap">TIS<a name="OSLAB-microbiology-reports-TIS"> </a></td><td>Tissue Culture (M/C/S)</td><td>Tissue Culture (M/C/S)</td></tr><tr><td style="white-space:nowrap">URINE<a name="OSLAB-microbiology-reports-URINE"> </a></td><td>Urine Culture (M/C/S)</td><td>Urine Culture (M/C/S)</td></tr><tr><td style="white-space:nowrap">VRES<a name="OSLAB-microbiology-reports-VRES"> </a></td><td>VRE Screen Culture</td><td>VRE Screen Culture</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0"/>
+  </extension>
+  <url value="https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports"/>
+  <version value="0.1.0"/>
+  <name value="OSLABMicrobiologyReportsCS"/>
+  <title value="OS LAB Microbiology Reports"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2026-02-28"/>
+  <publisher value="Michael J Osborne"/>
+  <contact>
+    <name value="Michael J Osborne"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://osbornemj.com"/>
+    </telecom>
+  </contact>
+  <description value="The OS LAB Microbiology Reports code system includes codes for reporting of microbiology results."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="AUS"/>
+      <display value="Australia"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="false"/>
+  <content value="complete"/>
+  <count value="23"/>
+  <concept>
+    <code value="ADFUNG"/>
+    <display value="Fungal Culture (M/C/S)"/>
+    <definition value="Fungal Culture (M/C/S)"/>
+  </concept>
+  <concept>
+    <code value="BC"/>
+    <display value="Blood Culture (M/C/S)"/>
+    <definition value="Blood Culture (M/C/S)"/>
+  </concept>
+  <concept>
+    <code value="CAS"/>
+    <display value="Candida auris Screen Culture"/>
+    <definition value="Candida auris Screen Culture"/>
+  </concept>
+  <concept>
+    <code value="CSF"/>
+    <display value="CSF Culture (M/C/S)"/>
+    <definition value="CSF Culture (M/C/S)"/>
+  </concept>
+  <concept>
+    <code value="CSFS"/>
+    <display value="CSF Subarachnoid Culture (M/C/S)"/>
+    <definition value="CSF Subarachnoid Culture (M/C/S)"/>
+  </concept>
+  <concept>
+    <code value="ENT"/>
+    <display value="Ear, Nose, Throat and Conjunctival Swab"/>
+    <definition value="Ear, Nose, Throat and Conjunctival Swab"/>
+  </concept>
+  <concept>
+    <code value="EYE"/>
+    <display value="Eye Invasive Culture (M/C/S)"/>
+    <definition value="Eye Invasive Culture (M/C/S)"/>
+  </concept>
+  <concept>
+    <code value="FAEMIC"/>
+    <display value="Faeces Microscopy (RBC,WBC) Only"/>
+    <definition value="Faeces Microscopy (RBC,WBC) Only"/>
+  </concept>
+  <concept>
+    <code value="FLBCM"/>
+    <display value="Sterile Fluid Culture in Blood Culture M"/>
+    <definition value="Sterile Fluid Culture in Blood Culture M"/>
+  </concept>
+  <concept>
+    <code value="FLPLUS"/>
+    <display value="Sterile Fluid Culture plus Fluid in Bloo"/>
+    <definition value="Sterile Fluid Culture plus Fluid in Bloo"/>
+  </concept>
+  <concept>
+    <code value="FLUID"/>
+    <display value="Sterile Fluid Culture (M/C/S)"/>
+    <definition value="Sterile Fluid Culture (M/C/S)"/>
+  </concept>
+  <concept>
+    <code value="FUNGI"/>
+    <display value="Skin, Hair, Nail Dermatophyte Culture (M"/>
+    <definition value="Skin, Hair, Nail Dermatophyte Culture (M"/>
+  </concept>
+  <concept>
+    <code value="GBS"/>
+    <display value="Group B Streptococcus Culture Screen (M/"/>
+    <definition value="Group B Streptococcus Culture Screen (M/"/>
+  </concept>
+  <concept>
+    <code value="GENIT"/>
+    <display value="Genital Swab Culture (M/C/S)"/>
+    <definition value="Genital Swab Culture (M/C/S)"/>
+  </concept>
+  <concept>
+    <code value="MRSA"/>
+    <display value="MRSA Screen Culture"/>
+    <definition value="MRSA Screen Culture"/>
+  </concept>
+  <concept>
+    <code value="PUS"/>
+    <display value="Deep Invasive Pus or Swab Culture (M/C/S"/>
+    <definition value="Deep Invasive Pus or Swab Culture (M/C/S"/>
+  </concept>
+  <concept>
+    <code value="RESP"/>
+    <display value="Respiratory Sputum or ETT Culture (M/C/S"/>
+    <definition value="Respiratory Sputum or ETT Culture (M/C/S"/>
+  </concept>
+  <concept>
+    <code value="RESPF"/>
+    <display value="Respiratory Bronchoscopic Collection Cul"/>
+    <definition value="Respiratory Bronchoscopic Collection Cul"/>
+  </concept>
+  <concept>
+    <code value="SITE"/>
+    <display value="Superficial Pus or Swab Culture (M/C/S)"/>
+    <definition value="Superficial Pus or Swab Culture (M/C/S)"/>
+  </concept>
+  <concept>
+    <code value="TIP"/>
+    <display value="Tip Culture (M/C/S)"/>
+    <definition value="Tip Culture (M/C/S)"/>
+  </concept>
+  <concept>
+    <code value="TIS"/>
+    <display value="Tissue Culture (M/C/S)"/>
+    <definition value="Tissue Culture (M/C/S)"/>
+  </concept>
+  <concept>
+    <code value="URINE"/>
+    <display value="Urine Culture (M/C/S)"/>
+    <definition value="Urine Culture (M/C/S)"/>
+  </concept>
+  <concept>
+    <code value="VRES"/>
+    <display value="VRE Screen Culture"/>
+    <definition value="VRE Screen Culture"/>
+  </concept>
+</CodeSystem>

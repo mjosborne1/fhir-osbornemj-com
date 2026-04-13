@@ -1,0 +1,186 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "oslab-specimens",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem oslab-specimens</b></p><a name=\"oslab-specimens\"> </a><a name=\"hcoslab-specimens\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p>This case-insensitive code system <code>https://fhir.osbornemj.com/ig/CodeSystem/oslab-specimens</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">Swab<a name=\"oslab-specimens-Swab\"> </a></td><td>Swab</td><td>Swab</td></tr><tr><td style=\"white-space:nowrap\">Tissue<a name=\"oslab-specimens-Tissue\"> </a></td><td>Tissue specimen</td><td>Tissue specimen</td></tr><tr><td style=\"white-space:nowrap\">LeftNeckTissue<a name=\"oslab-specimens-LeftNeckTissue\"> </a></td><td>Tissue specimen</td><td>Tissue specimen</td></tr><tr><td style=\"white-space:nowrap\">Fluid<a name=\"oslab-specimens-Fluid\"> </a></td><td>Fluid sample</td><td>Fluid sample</td></tr><tr><td style=\"white-space:nowrap\">AsciticFluid<a name=\"oslab-specimens-AsciticFluid\"> </a></td><td>Ascitic fluid</td><td>Ascitic fluid</td></tr><tr><td style=\"white-space:nowrap\">Mesh<a name=\"oslab-specimens-Mesh\"> </a></td><td>Mesh</td><td>Mesh</td></tr><tr><td style=\"white-space:nowrap\">Pus<a name=\"oslab-specimens-Pus\"> </a></td><td>Pus specimen</td><td>Pus specimen</td></tr><tr><td style=\"white-space:nowrap\">Blood<a name=\"oslab-specimens-Blood\"> </a></td><td>Blood specimen</td><td>Blood specimen</td></tr><tr><td style=\"white-space:nowrap\">Urine<a name=\"oslab-specimens-Urine\"> </a></td><td>Urine specimen</td><td>Urine specimen</td></tr><tr><td style=\"white-space:nowrap\">Tip<a name=\"oslab-specimens-Tip\"> </a></td><td>Specimen from drain tip</td><td>Specimen from drain tip</td></tr><tr><td style=\"white-space:nowrap\">Washing<a name=\"oslab-specimens-Washing\"> </a></td><td>Specimen obtained by lavage</td><td>Specimen obtained by lavage</td></tr><tr><td style=\"white-space:nowrap\">Washings<a name=\"oslab-specimens-Washings\"> </a></td><td>Specimen obtained by lavage</td><td>Specimen obtained by lavage</td></tr><tr><td style=\"white-space:nowrap\">Lavage<a name=\"oslab-specimens-Lavage\"> </a></td><td>Specimen obtained by lavage</td><td>Specimen obtained by lavage</td></tr><tr><td style=\"white-space:nowrap\">Bone<a name=\"oslab-specimens-Bone\"> </a></td><td>Specimen from bone</td><td>Specimen from bone</td></tr><tr><td style=\"white-space:nowrap\">Aspirate<a name=\"oslab-specimens-Aspirate\"> </a></td><td>Specimen obtained by aspiration</td><td>Specimen obtained by aspiration</td></tr><tr><td style=\"white-space:nowrap\">Sputum<a name=\"oslab-specimens-Sputum\"> </a></td><td>Sputum specimen</td><td>Sputum specimen</td></tr><tr><td style=\"white-space:nowrap\">Isolate<a name=\"oslab-specimens-Isolate\"> </a></td><td>Microbial isolate</td><td>Microbial isolate</td></tr><tr><td style=\"white-space:nowrap\">Faeces<a name=\"oslab-specimens-Faeces\"> </a></td><td>Faeces specimen</td><td>Faeces specimen</td></tr><tr><td style=\"white-space:nowrap\">Drain<a name=\"oslab-specimens-Drain\"> </a></td><td>Swab of building drain</td><td>Swab of building drain</td></tr><tr><td style=\"white-space:nowrap\">Shower<a name=\"oslab-specimens-Shower\"> </a></td><td>Swab of building shower</td><td>Swab of building shower</td></tr><tr><td style=\"white-space:nowrap\">Sink<a name=\"oslab-specimens-Sink\"> </a></td><td>Swab of building sink</td><td>Swab of building sink</td></tr><tr><td style=\"white-space:nowrap\">Room<a name=\"oslab-specimens-Room\"> </a></td><td>Swab of building room</td><td>Swab of building room</td></tr><tr><td style=\"white-space:nowrap\">Wound<a name=\"oslab-specimens-Wound\"> </a></td><td>Specimen from wound</td><td>Specimen from wound</td></tr><tr><td style=\"white-space:nowrap\">Device<a name=\"oslab-specimens-Device\"> </a></td><td>Specimen from device</td><td>Specimen from device</td></tr><tr><td style=\"white-space:nowrap\">Burn<a name=\"oslab-specimens-Burn\"> </a></td><td>Burn tissue</td><td>Burn tissue</td></tr><tr><td style=\"white-space:nowrap\">Abscess<a name=\"oslab-specimens-Abscess\"> </a></td><td>Specimen from abscess</td><td>Specimen from abscess</td></tr><tr><td style=\"white-space:nowrap\">AbdominalAbscess<a name=\"oslab-specimens-AbdominalAbscess\"> </a></td><td>Specimen from intra-abdominal abscess</td><td>Specimen from intra-abdominal abscess</td></tr><tr><td style=\"white-space:nowrap\">AbdomenAbscess<a name=\"oslab-specimens-AbdomenAbscess\"> </a></td><td>Specimen from intra-abdominal abscess</td><td>Specimen from intra-abdominal abscess</td></tr><tr><td style=\"white-space:nowrap\">?Collection<a name=\"oslab-specimens-.63Collection\"> </a></td><td>Specimen of unknown material</td><td>Specimen of unknown material</td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 0
+  }],
+  "url" : "https://fhir.osbornemj.com/ig/CodeSystem/oslab-specimens",
+  "version" : "0.1.0",
+  "name" : "OSLABSpecimensCS",
+  "title" : "OS LAB Microbiology Specimens CodeSystem",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2026-02-28",
+  "publisher" : "Michael J Osborne",
+  "contact" : [{
+    "name" : "Michael J Osborne",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://osbornemj.com"
+    }]
+  }],
+  "description" : "The OS Lab Microbiology Specimens CodeSystem includes codes for specimens for use in a Laboratory Observation.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "AUS",
+      "display" : "Australia"
+    }]
+  }],
+  "caseSensitive" : false,
+  "content" : "complete",
+  "count" : 29,
+  "concept" : [{
+    "code" : "Swab",
+    "display" : "Swab",
+    "definition" : "Swab"
+  },
+  {
+    "code" : "Tissue",
+    "display" : "Tissue specimen",
+    "definition" : "Tissue specimen"
+  },
+  {
+    "code" : "LeftNeckTissue",
+    "display" : "Tissue specimen",
+    "definition" : "Tissue specimen"
+  },
+  {
+    "code" : "Fluid",
+    "display" : "Fluid sample",
+    "definition" : "Fluid sample"
+  },
+  {
+    "code" : "AsciticFluid",
+    "display" : "Ascitic fluid",
+    "definition" : "Ascitic fluid"
+  },
+  {
+    "code" : "Mesh",
+    "display" : "Mesh",
+    "definition" : "Mesh"
+  },
+  {
+    "code" : "Pus",
+    "display" : "Pus specimen",
+    "definition" : "Pus specimen"
+  },
+  {
+    "code" : "Blood",
+    "display" : "Blood specimen",
+    "definition" : "Blood specimen"
+  },
+  {
+    "code" : "Urine",
+    "display" : "Urine specimen",
+    "definition" : "Urine specimen"
+  },
+  {
+    "code" : "Tip",
+    "display" : "Specimen from drain tip",
+    "definition" : "Specimen from drain tip"
+  },
+  {
+    "code" : "Washing",
+    "display" : "Specimen obtained by lavage",
+    "definition" : "Specimen obtained by lavage"
+  },
+  {
+    "code" : "Washings",
+    "display" : "Specimen obtained by lavage",
+    "definition" : "Specimen obtained by lavage"
+  },
+  {
+    "code" : "Lavage",
+    "display" : "Specimen obtained by lavage",
+    "definition" : "Specimen obtained by lavage"
+  },
+  {
+    "code" : "Bone",
+    "display" : "Specimen from bone",
+    "definition" : "Specimen from bone"
+  },
+  {
+    "code" : "Aspirate",
+    "display" : "Specimen obtained by aspiration",
+    "definition" : "Specimen obtained by aspiration"
+  },
+  {
+    "code" : "Sputum",
+    "display" : "Sputum specimen",
+    "definition" : "Sputum specimen"
+  },
+  {
+    "code" : "Isolate",
+    "display" : "Microbial isolate",
+    "definition" : "Microbial isolate"
+  },
+  {
+    "code" : "Faeces",
+    "display" : "Faeces specimen",
+    "definition" : "Faeces specimen"
+  },
+  {
+    "code" : "Drain",
+    "display" : "Swab of building drain",
+    "definition" : "Swab of building drain"
+  },
+  {
+    "code" : "Shower",
+    "display" : "Swab of building shower",
+    "definition" : "Swab of building shower"
+  },
+  {
+    "code" : "Sink",
+    "display" : "Swab of building sink",
+    "definition" : "Swab of building sink"
+  },
+  {
+    "code" : "Room",
+    "display" : "Swab of building room",
+    "definition" : "Swab of building room"
+  },
+  {
+    "code" : "Wound",
+    "display" : "Specimen from wound",
+    "definition" : "Specimen from wound"
+  },
+  {
+    "code" : "Device",
+    "display" : "Specimen from device",
+    "definition" : "Specimen from device"
+  },
+  {
+    "code" : "Burn",
+    "display" : "Burn tissue",
+    "definition" : "Burn tissue"
+  },
+  {
+    "code" : "Abscess",
+    "display" : "Specimen from abscess",
+    "definition" : "Specimen from abscess"
+  },
+  {
+    "code" : "AbdominalAbscess",
+    "display" : "Specimen from intra-abdominal abscess",
+    "definition" : "Specimen from intra-abdominal abscess"
+  },
+  {
+    "code" : "AbdomenAbscess",
+    "display" : "Specimen from intra-abdominal abscess",
+    "definition" : "Specimen from intra-abdominal abscess"
+  },
+  {
+    "code" : "?Collection",
+    "display" : "Specimen of unknown material",
+    "definition" : "Specimen of unknown material"
+  }]
+}

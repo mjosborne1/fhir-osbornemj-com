@@ -1,0 +1,2935 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="7aa9572b-c465-4b52-b557-e915eaaa143f"/>
+  <meta>
+    <lastUpdated value="2026-04-13T13:22:11.795+10:00"/>
+  </meta>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="https://fhir.osbornemj.com/ig/ValueSet/vs-OSLAB-microbiology-report"/>
+    <resource>
+      <ValueSet>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-OSLAB-microbiology-reports.html">codesystem OS LAB Microbiology Reports v0.1.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports|0.1.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 23 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports-ADFUNG"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-OSLAB-microbiology-reports.html#OSLAB-microbiology-reports-ADFUNG">ADFUNG</a>
+                </td>
+                <td>Fungal Culture (M/C/S)</td>
+                <td>Fungal Culture (M/C/S)</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;ADFUNG&quot;, &quot;display&quot;: &quot;Fungal Culture (M/C/S)&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;ADFUNG&quot;&gt;&lt;display value=&quot;Fungal Culture (M/C/S)&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports-BC"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-OSLAB-microbiology-reports.html#OSLAB-microbiology-reports-BC">BC</a>
+                </td>
+                <td>Blood Culture (M/C/S)</td>
+                <td>Blood Culture (M/C/S)</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;BC&quot;, &quot;display&quot;: &quot;Blood Culture (M/C/S)&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;BC&quot;&gt;&lt;display value=&quot;Blood Culture (M/C/S)&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports-CAS"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-OSLAB-microbiology-reports.html#OSLAB-microbiology-reports-CAS">CAS</a>
+                </td>
+                <td>Candida auris Screen Culture</td>
+                <td>Candida auris Screen Culture</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;CAS&quot;, &quot;display&quot;: &quot;Candida auris Screen Culture&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;CAS&quot;&gt;&lt;display value=&quot;Candida auris Screen Culture&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports-CSF"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-OSLAB-microbiology-reports.html#OSLAB-microbiology-reports-CSF">CSF</a>
+                </td>
+                <td>CSF Culture (M/C/S)</td>
+                <td>CSF Culture (M/C/S)</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;CSF&quot;, &quot;display&quot;: &quot;CSF Culture (M/C/S)&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;CSF&quot;&gt;&lt;display value=&quot;CSF Culture (M/C/S)&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports-CSFS"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-OSLAB-microbiology-reports.html#OSLAB-microbiology-reports-CSFS">CSFS</a>
+                </td>
+                <td>CSF Subarachnoid Culture (M/C/S)</td>
+                <td>CSF Subarachnoid Culture (M/C/S)</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;CSFS&quot;, &quot;display&quot;: &quot;CSF Subarachnoid Culture (M/C/S)&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;CSFS&quot;&gt;&lt;display value=&quot;CSF Subarachnoid Culture (M/C/S)&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports-ENT"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-OSLAB-microbiology-reports.html#OSLAB-microbiology-reports-ENT">ENT</a>
+                </td>
+                <td>Ear, Nose, Throat and Conjunctival Swab</td>
+                <td>Ear, Nose, Throat and Conjunctival Swab</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;ENT&quot;, &quot;display&quot;: &quot;Ear, Nose, Throat and Conjunctival Swab&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;ENT&quot;&gt;&lt;display value=&quot;Ear, Nose, Throat and Conjunctival Swab&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports-EYE"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-OSLAB-microbiology-reports.html#OSLAB-microbiology-reports-EYE">EYE</a>
+                </td>
+                <td>Eye Invasive Culture (M/C/S)</td>
+                <td>Eye Invasive Culture (M/C/S)</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;EYE&quot;, &quot;display&quot;: &quot;Eye Invasive Culture (M/C/S)&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;EYE&quot;&gt;&lt;display value=&quot;Eye Invasive Culture (M/C/S)&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports-FAEMIC"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-OSLAB-microbiology-reports.html#OSLAB-microbiology-reports-FAEMIC">FAEMIC</a>
+                </td>
+                <td>Faeces Microscopy (RBC,WBC) Only</td>
+                <td>Faeces Microscopy (RBC,WBC) Only</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;FAEMIC&quot;, &quot;display&quot;: &quot;Faeces Microscopy (RBC,WBC) Only&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;FAEMIC&quot;&gt;&lt;display value=&quot;Faeces Microscopy (RBC,WBC) Only&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports-FLBCM"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-OSLAB-microbiology-reports.html#OSLAB-microbiology-reports-FLBCM">FLBCM</a>
+                </td>
+                <td>Sterile Fluid Culture in Blood Culture M</td>
+                <td>Sterile Fluid Culture in Blood Culture M</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;FLBCM&quot;, &quot;display&quot;: &quot;Sterile Fluid Culture in Blood Culture M&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;FLBCM&quot;&gt;&lt;display value=&quot;Sterile Fluid Culture in Blood Culture M&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports-FLPLUS"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-OSLAB-microbiology-reports.html#OSLAB-microbiology-reports-FLPLUS">FLPLUS</a>
+                </td>
+                <td>Sterile Fluid Culture plus Fluid in Bloo</td>
+                <td>Sterile Fluid Culture plus Fluid in Bloo</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;FLPLUS&quot;, &quot;display&quot;: &quot;Sterile Fluid Culture plus Fluid in Bloo&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;FLPLUS&quot;&gt;&lt;display value=&quot;Sterile Fluid Culture plus Fluid in Bloo&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports-FLUID"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-OSLAB-microbiology-reports.html#OSLAB-microbiology-reports-FLUID">FLUID</a>
+                </td>
+                <td>Sterile Fluid Culture (M/C/S)</td>
+                <td>Sterile Fluid Culture (M/C/S)</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;FLUID&quot;, &quot;display&quot;: &quot;Sterile Fluid Culture (M/C/S)&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;FLUID&quot;&gt;&lt;display value=&quot;Sterile Fluid Culture (M/C/S)&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports-FUNGI"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-OSLAB-microbiology-reports.html#OSLAB-microbiology-reports-FUNGI">FUNGI</a>
+                </td>
+                <td>Skin, Hair, Nail Dermatophyte Culture (M</td>
+                <td>Skin, Hair, Nail Dermatophyte Culture (M</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;FUNGI&quot;, &quot;display&quot;: &quot;Skin, Hair, Nail Dermatophyte Culture (M&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;FUNGI&quot;&gt;&lt;display value=&quot;Skin, Hair, Nail Dermatophyte Culture (M&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports-GBS"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-OSLAB-microbiology-reports.html#OSLAB-microbiology-reports-GBS">GBS</a>
+                </td>
+                <td>Group B Streptococcus Culture Screen (M/</td>
+                <td>Group B Streptococcus Culture Screen (M/</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;GBS&quot;, &quot;display&quot;: &quot;Group B Streptococcus Culture Screen (M/&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;GBS&quot;&gt;&lt;display value=&quot;Group B Streptococcus Culture Screen (M/&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports-GENIT"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-OSLAB-microbiology-reports.html#OSLAB-microbiology-reports-GENIT">GENIT</a>
+                </td>
+                <td>Genital Swab Culture (M/C/S)</td>
+                <td>Genital Swab Culture (M/C/S)</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;GENIT&quot;, &quot;display&quot;: &quot;Genital Swab Culture (M/C/S)&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;GENIT&quot;&gt;&lt;display value=&quot;Genital Swab Culture (M/C/S)&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports-MRSA"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-OSLAB-microbiology-reports.html#OSLAB-microbiology-reports-MRSA">MRSA</a>
+                </td>
+                <td>MRSA Screen Culture</td>
+                <td>MRSA Screen Culture</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;MRSA&quot;, &quot;display&quot;: &quot;MRSA Screen Culture&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;MRSA&quot;&gt;&lt;display value=&quot;MRSA Screen Culture&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports-PUS"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-OSLAB-microbiology-reports.html#OSLAB-microbiology-reports-PUS">PUS</a>
+                </td>
+                <td>Deep Invasive Pus or Swab Culture (M/C/S</td>
+                <td>Deep Invasive Pus or Swab Culture (M/C/S</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;PUS&quot;, &quot;display&quot;: &quot;Deep Invasive Pus or Swab Culture (M/C/S&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;PUS&quot;&gt;&lt;display value=&quot;Deep Invasive Pus or Swab Culture (M/C/S&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports-RESP"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-OSLAB-microbiology-reports.html#OSLAB-microbiology-reports-RESP">RESP</a>
+                </td>
+                <td>Respiratory Sputum or ETT Culture (M/C/S</td>
+                <td>Respiratory Sputum or ETT Culture (M/C/S</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;RESP&quot;, &quot;display&quot;: &quot;Respiratory Sputum or ETT Culture (M/C/S&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;RESP&quot;&gt;&lt;display value=&quot;Respiratory Sputum or ETT Culture (M/C/S&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports-RESPF"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-OSLAB-microbiology-reports.html#OSLAB-microbiology-reports-RESPF">RESPF</a>
+                </td>
+                <td>Respiratory Bronchoscopic Collection Cul</td>
+                <td>Respiratory Bronchoscopic Collection Cul</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;RESPF&quot;, &quot;display&quot;: &quot;Respiratory Bronchoscopic Collection Cul&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;RESPF&quot;&gt;&lt;display value=&quot;Respiratory Bronchoscopic Collection Cul&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports-SITE"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-OSLAB-microbiology-reports.html#OSLAB-microbiology-reports-SITE">SITE</a>
+                </td>
+                <td>Superficial Pus or Swab Culture (M/C/S)</td>
+                <td>Superficial Pus or Swab Culture (M/C/S)</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;SITE&quot;, &quot;display&quot;: &quot;Superficial Pus or Swab Culture (M/C/S)&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;SITE&quot;&gt;&lt;display value=&quot;Superficial Pus or Swab Culture (M/C/S)&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports-TIP"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-OSLAB-microbiology-reports.html#OSLAB-microbiology-reports-TIP">TIP</a>
+                </td>
+                <td>Tip Culture (M/C/S)</td>
+                <td>Tip Culture (M/C/S)</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;TIP&quot;, &quot;display&quot;: &quot;Tip Culture (M/C/S)&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;TIP&quot;&gt;&lt;display value=&quot;Tip Culture (M/C/S)&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports-TIS"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-OSLAB-microbiology-reports.html#OSLAB-microbiology-reports-TIS">TIS</a>
+                </td>
+                <td>Tissue Culture (M/C/S)</td>
+                <td>Tissue Culture (M/C/S)</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;TIS&quot;, &quot;display&quot;: &quot;Tissue Culture (M/C/S)&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;TIS&quot;&gt;&lt;display value=&quot;Tissue Culture (M/C/S)&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports-URINE"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-OSLAB-microbiology-reports.html#OSLAB-microbiology-reports-URINE">URINE</a>
+                </td>
+                <td>Urine Culture (M/C/S)</td>
+                <td>Urine Culture (M/C/S)</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;URINE&quot;, &quot;display&quot;: &quot;Urine Culture (M/C/S)&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;URINE&quot;&gt;&lt;display value=&quot;Urine Culture (M/C/S)&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports-VRES"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-OSLAB-microbiology-reports.html#OSLAB-microbiology-reports-VRES">VRES</a>
+                </td>
+                <td>VRE Screen Culture</td>
+                <td>VRE Screen Culture</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;VRES&quot;, &quot;display&quot;: &quot;VRE Screen Culture&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;VRES&quot;&gt;&lt;display value=&quot;VRE Screen Culture&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://fhir.osbornemj.com/ig/ValueSet/vs-OSLAB-microbiology-report"/>
+        <version value="0.1.0"/>
+        <name value="OSLABMicrobiologyOrdersVS"/>
+        <title value="OS LAB Microbiology Report"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <date value="2026-02-28"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="AUS"/>
+            <display value="Australia"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:5a3cebd7-f304-472e-b4a9-c147c5321849"/>
+          <timestamp value="2026-04-13T13:23:25+10:00"/>
+          <total value="23"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports"/>
+            <code value="ADFUNG"/>
+            <display value="Fungal Culture (M/C/S)"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports"/>
+            <code value="BC"/>
+            <display value="Blood Culture (M/C/S)"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports"/>
+            <code value="CAS"/>
+            <display value="Candida auris Screen Culture"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports"/>
+            <code value="CSF"/>
+            <display value="CSF Culture (M/C/S)"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports"/>
+            <code value="CSFS"/>
+            <display value="CSF Subarachnoid Culture (M/C/S)"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports"/>
+            <code value="ENT"/>
+            <display value="Ear, Nose, Throat and Conjunctival Swab"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports"/>
+            <code value="EYE"/>
+            <display value="Eye Invasive Culture (M/C/S)"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports"/>
+            <code value="FAEMIC"/>
+            <display value="Faeces Microscopy (RBC,WBC) Only"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports"/>
+            <code value="FLBCM"/>
+            <display value="Sterile Fluid Culture in Blood Culture M"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports"/>
+            <code value="FLPLUS"/>
+            <display value="Sterile Fluid Culture plus Fluid in Bloo"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports"/>
+            <code value="FLUID"/>
+            <display value="Sterile Fluid Culture (M/C/S)"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports"/>
+            <code value="FUNGI"/>
+            <display value="Skin, Hair, Nail Dermatophyte Culture (M"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports"/>
+            <code value="GBS"/>
+            <display value="Group B Streptococcus Culture Screen (M/"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports"/>
+            <code value="GENIT"/>
+            <display value="Genital Swab Culture (M/C/S)"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports"/>
+            <code value="MRSA"/>
+            <display value="MRSA Screen Culture"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports"/>
+            <code value="PUS"/>
+            <display value="Deep Invasive Pus or Swab Culture (M/C/S"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports"/>
+            <code value="RESP"/>
+            <display value="Respiratory Sputum or ETT Culture (M/C/S"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports"/>
+            <code value="RESPF"/>
+            <display value="Respiratory Bronchoscopic Collection Cul"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports"/>
+            <code value="SITE"/>
+            <display value="Superficial Pus or Swab Culture (M/C/S)"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports"/>
+            <code value="TIP"/>
+            <display value="Tip Culture (M/C/S)"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports"/>
+            <code value="TIS"/>
+            <display value="Tissue Culture (M/C/S)"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports"/>
+            <code value="URINE"/>
+            <display value="Urine Culture (M/C/S)"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/OSLAB-microbiology-reports"/>
+            <code value="VRES"/>
+            <display value="VRE Screen Culture"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://fhir.osbornemj.com/ig/ValueSet/vs-presenting-complaint"/>
+    <resource>
+      <ValueSet>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-presenting-complaints.html">codesystem Presenting Complaints v0.1.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints|0.1.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 83 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-1081207063"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-1081207063">1081207063</a>
+                </td>
+                <td>Homicidal ideation</td>
+                <td>Homicidal ideation</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;1081207063&quot;, &quot;display&quot;: &quot;Homicidal ideation&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;1081207063&quot;&gt;&lt;display value=&quot;Homicidal ideation&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-22235260"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-22235260">22235260</a>
+                </td>
+                <td>Back pain</td>
+                <td>Back pain</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;22235260&quot;, &quot;display&quot;: &quot;Back pain&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;22235260&quot;&gt;&lt;display value=&quot;Back pain&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-22235265"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-22235265">22235265</a>
+                </td>
+                <td>Cough/rhinorrhoea</td>
+                <td>Cough/rhinorrhoea</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;22235265&quot;, &quot;display&quot;: &quot;Cough/rhinorrhoea&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;22235265&quot;&gt;&lt;display value=&quot;Cough/rhinorrhoea&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-22235269"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-22235269">22235269</a>
+                </td>
+                <td>Crash other</td>
+                <td>Crash other</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;22235269&quot;, &quot;display&quot;: &quot;Crash other&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;22235269&quot;&gt;&lt;display value=&quot;Crash other&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-22235301"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-22235301">22235301</a>
+                </td>
+                <td>MBC/quadbike-driver</td>
+                <td>MBC/quadbike-driver</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;22235301&quot;, &quot;display&quot;: &quot;MBC/quadbike-driver&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;22235301&quot;&gt;&lt;display value=&quot;MBC/quadbike-driver&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-22235306"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-22235306">22235306</a>
+                </td>
+                <td>MBC/quadbike-passenger</td>
+                <td>MBC/quadbike-passenger</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;22235306&quot;, &quot;display&quot;: &quot;MBC/quadbike-passenger&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;22235306&quot;&gt;&lt;display value=&quot;MBC/quadbike-passenger&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-22235311"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-22235311">22235311</a>
+                </td>
+                <td>Multiple pain</td>
+                <td>Multiple pain</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;22235311&quot;, &quot;display&quot;: &quot;Multiple pain&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;22235311&quot;&gt;&lt;display value=&quot;Multiple pain&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-22235320"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-22235320">22235320</a>
+                </td>
+                <td>MVC-passenger</td>
+                <td>MVC-passenger</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;22235320&quot;, &quot;display&quot;: &quot;MVC-passenger&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;22235320&quot;&gt;&lt;display value=&quot;MVC-passenger&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-22235324"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-22235324">22235324</a>
+                </td>
+                <td>Nausea/vomiting</td>
+                <td>Nausea/vomiting</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;22235324&quot;, &quot;display&quot;: &quot;Nausea/vomiting&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;22235324&quot;&gt;&lt;display value=&quot;Nausea/vomiting&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-22235330"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-22235330">22235330</a>
+                </td>
+                <td>Neck/throat pain</td>
+                <td>Neck/throat pain</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;22235330&quot;, &quot;display&quot;: &quot;Neck/throat pain&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;22235330&quot;&gt;&lt;display value=&quot;Neck/throat pain&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-22235336"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-22235336">22235336</a>
+                </td>
+                <td>Overdose/toxic exposure</td>
+                <td>Overdose/toxic exposure</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;22235336&quot;, &quot;display&quot;: &quot;Overdose/toxic exposure&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;22235336&quot;&gt;&lt;display value=&quot;Overdose/toxic exposure&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-22235341"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-22235341">22235341</a>
+                </td>
+                <td>Palpitations/abnormal heart rate</td>
+                <td>Palpitations/abnormal heart rate</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;22235341&quot;, &quot;display&quot;: &quot;Palpitations/abnormal heart rate&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;22235341&quot;&gt;&lt;display value=&quot;Palpitations/abnormal heart rate&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-22235345"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-22235345">22235345</a>
+                </td>
+                <td>Pedestrian vs</td>
+                <td>Pedestrian vs</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;22235345&quot;, &quot;display&quot;: &quot;Pedestrian vs&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;22235345&quot;&gt;&lt;display value=&quot;Pedestrian vs&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-22235356"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-22235356">22235356</a>
+                </td>
+                <td>Planned ED recall or review</td>
+                <td>Planned ED recall or review</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;22235356&quot;, &quot;display&quot;: &quot;Planned ED recall or review&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;22235356&quot;&gt;&lt;display value=&quot;Planned ED recall or review&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-22235362"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-22235362">22235362</a>
+                </td>
+                <td>Possible allergy</td>
+                <td>Possible allergy</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;22235362&quot;, &quot;display&quot;: &quot;Possible allergy&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;22235362&quot;&gt;&lt;display value=&quot;Possible allergy&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-22235374"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-22235374">22235374</a>
+                </td>
+                <td>PV bleeding</td>
+                <td>PV bleeding</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;22235374&quot;, &quot;display&quot;: &quot;PV bleeding&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;22235374&quot;&gt;&lt;display value=&quot;PV bleeding&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-22235384"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-22235384">22235384</a>
+                </td>
+                <td>Sexual assault</td>
+                <td>Sexual assault</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;22235384&quot;, &quot;display&quot;: &quot;Sexual assault&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;22235384&quot;&gt;&lt;display value=&quot;Sexual assault&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-22235387"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-22235387">22235387</a>
+                </td>
+                <td>Sleep disturbance</td>
+                <td>Sleep disturbance</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;22235387&quot;, &quot;display&quot;: &quot;Sleep disturbance&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;22235387&quot;&gt;&lt;display value=&quot;Sleep disturbance&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-22235397"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-22235397">22235397</a>
+                </td>
+                <td>Swelling/oedema/lump</td>
+                <td>Swelling/oedema/lump</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;22235397&quot;, &quot;display&quot;: &quot;Swelling/oedema/lump&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;22235397&quot;&gt;&lt;display value=&quot;Swelling/oedema/lump&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-22235496"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-22235496">22235496</a>
+                </td>
+                <td>Cyanosis</td>
+                <td>Cyanosis</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;22235496&quot;, &quot;display&quot;: &quot;Cyanosis&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;22235496&quot;&gt;&lt;display value=&quot;Cyanosis&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-22235501"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-22235501">22235501</a>
+                </td>
+                <td>Cycle related</td>
+                <td>Cycle related</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;22235501&quot;, &quot;display&quot;: &quot;Cycle related&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;22235501&quot;&gt;&lt;display value=&quot;Cycle related&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-22235514"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-22235514">22235514</a>
+                </td>
+                <td>Urinary symptoms</td>
+                <td>Urinary symptoms</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;22235514&quot;, &quot;display&quot;: &quot;Urinary symptoms&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;22235514&quot;&gt;&lt;display value=&quot;Urinary symptoms&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-22235519"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-22235519">22235519</a>
+                </td>
+                <td>Weight gain/loss</td>
+                <td>Weight gain/loss</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;22235519&quot;, &quot;display&quot;: &quot;Weight gain/loss&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;22235519&quot;&gt;&lt;display value=&quot;Weight gain/loss&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-22235526"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-22235526">22235526</a>
+                </td>
+                <td>Wheeled device</td>
+                <td>Wheeled device</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;22235526&quot;, &quot;display&quot;: &quot;Wheeled device&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;22235526&quot;&gt;&lt;display value=&quot;Wheeled device&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-22236068"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-22236068">22236068</a>
+                </td>
+                <td>Abdo/pelvis/perineal pain</td>
+                <td>Abdo/pelvis/perineal pain</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;22236068&quot;, &quot;display&quot;: &quot;Abdo/pelvis/perineal pain&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;22236068&quot;&gt;&lt;display value=&quot;Abdo/pelvis/perineal pain&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-22236074"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-22236074">22236074</a>
+                </td>
+                <td>Aggression</td>
+                <td>Aggression</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;22236074&quot;, &quot;display&quot;: &quot;Aggression&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;22236074&quot;&gt;&lt;display value=&quot;Aggression&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-22236226"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-22236226">22236226</a>
+                </td>
+                <td>Altered level of consciousness</td>
+                <td>Altered level of consciousness</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;22236226&quot;, &quot;display&quot;: &quot;Altered level of consciousness&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;22236226&quot;&gt;&lt;display value=&quot;Altered level of consciousness&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-22236240"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-22236240">22236240</a>
+                </td>
+                <td>Anxiety/agitation</td>
+                <td>Anxiety/agitation</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;22236240&quot;, &quot;display&quot;: &quot;Anxiety/agitation&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;22236240&quot;&gt;&lt;display value=&quot;Anxiety/agitation&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-22236310"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-22236310">22236310</a>
+                </td>
+                <td>Eye pain</td>
+                <td>Eye pain</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;22236310&quot;, &quot;display&quot;: &quot;Eye pain&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;22236310&quot;&gt;&lt;display value=&quot;Eye pain&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-22236317"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-22236317">22236317</a>
+                </td>
+                <td>Feeding difficulties/concerns</td>
+                <td>Feeding difficulties/concerns</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;22236317&quot;, &quot;display&quot;: &quot;Feeding difficulties/concerns&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;22236317&quot;&gt;&lt;display value=&quot;Feeding difficulties/concerns&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-22236321"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-22236321">22236321</a>
+                </td>
+                <td>Fever/hypothermia</td>
+                <td>Fever/hypothermia</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;22236321&quot;, &quot;display&quot;: &quot;Fever/hypothermia&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;22236321&quot;&gt;&lt;display value=&quot;Fever/hypothermia&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-22236326"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-22236326">22236326</a>
+                </td>
+                <td>Gait disturbance</td>
+                <td>Gait disturbance</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;22236326&quot;, &quot;display&quot;: &quot;Gait disturbance&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;22236326&quot;&gt;&lt;display value=&quot;Gait disturbance&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-22236338"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-22236338">22236338</a>
+                </td>
+                <td>GI bleed</td>
+                <td>GI bleed</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;22236338&quot;, &quot;display&quot;: &quot;GI bleed&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;22236338&quot;&gt;&lt;display value=&quot;GI bleed&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-22236345"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-22236345">22236345</a>
+                </td>
+                <td>Haemoptysis</td>
+                <td>Haemoptysis</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;22236345&quot;, &quot;display&quot;: &quot;Haemoptysis&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;22236345&quot;&gt;&lt;display value=&quot;Haemoptysis&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-22236366"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-22236366">22236366</a>
+                </td>
+                <td>Immersion</td>
+                <td>Immersion</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;22236366&quot;, &quot;display&quot;: &quot;Immersion&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;22236366&quot;&gt;&lt;display value=&quot;Immersion&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-22236370"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-22236370">22236370</a>
+                </td>
+                <td>Increased respiratory effort/distress</td>
+                <td>Increased respiratory effort/distress</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;22236370&quot;, &quot;display&quot;: &quot;Increased respiratory effort/distress&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;22236370&quot;&gt;&lt;display value=&quot;Increased respiratory effort/distress&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-22236386"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-22236386">22236386</a>
+                </td>
+                <td>Inpatient team review</td>
+                <td>Inpatient team review</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;22236386&quot;, &quot;display&quot;: &quot;Inpatient team review&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;22236386&quot;&gt;&lt;display value=&quot;Inpatient team review&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-22236398"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-22236398">22236398</a>
+                </td>
+                <td>Laceration/skin tear</td>
+                <td>Laceration/skin tear</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;22236398&quot;, &quot;display&quot;: &quot;Laceration/skin tear&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;22236398&quot;&gt;&lt;display value=&quot;Laceration/skin tear&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-23774122"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-23774122">23774122</a>
+                </td>
+                <td>Disaster</td>
+                <td>Disaster</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;23774122&quot;, &quot;display&quot;: &quot;Disaster&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;23774122&quot;&gt;&lt;display value=&quot;Disaster&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-9044662"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-9044662">9044662</a>
+                </td>
+                <td>Bite/sting</td>
+                <td>Bite/sting</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;9044662&quot;, &quot;display&quot;: &quot;Bite/sting&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;9044662&quot;&gt;&lt;display value=&quot;Bite/sting&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-9044663"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-9044663">9044663</a>
+                </td>
+                <td>Admission/transfer</td>
+                <td>Admission/transfer</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;9044663&quot;, &quot;display&quot;: &quot;Admission/transfer&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;9044663&quot;&gt;&lt;display value=&quot;Admission/transfer&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-9044664"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-9044664">9044664</a>
+                </td>
+                <td>Apnoea</td>
+                <td>Apnoea</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;9044664&quot;, &quot;display&quot;: &quot;Apnoea&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;9044664&quot;&gt;&lt;display value=&quot;Apnoea&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-9044665"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-9044665">9044665</a>
+                </td>
+                <td>Arrest</td>
+                <td>Arrest</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;9044665&quot;, &quot;display&quot;: &quot;Arrest&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;9044665&quot;&gt;&lt;display value=&quot;Arrest&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-9044667"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-9044667">9044667</a>
+                </td>
+                <td>Burn/scald</td>
+                <td>Burn/scald</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;9044667&quot;, &quot;display&quot;: &quot;Burn/scald&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;9044667&quot;&gt;&lt;display value=&quot;Burn/scald&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-9044669"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-9044669">9044669</a>
+                </td>
+                <td>Constipation</td>
+                <td>Constipation</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;9044669&quot;, &quot;display&quot;: &quot;Constipation&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;9044669&quot;&gt;&lt;display value=&quot;Constipation&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-9044670"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-9044670">9044670</a>
+                </td>
+                <td>Dizziness/vertigo</td>
+                <td>Dizziness/vertigo</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;9044670&quot;, &quot;display&quot;: &quot;Dizziness/vertigo&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;9044670&quot;&gt;&lt;display value=&quot;Dizziness/vertigo&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-9044671"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-9044671">9044671</a>
+                </td>
+                <td>Ear pain</td>
+                <td>Ear pain</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;9044671&quot;, &quot;display&quot;: &quot;Ear pain&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;9044671&quot;&gt;&lt;display value=&quot;Ear pain&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-9044672"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-9044672">9044672</a>
+                </td>
+                <td>Eating disorder</td>
+                <td>Eating disorder</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;9044672&quot;, &quot;display&quot;: &quot;Eating disorder&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;9044672&quot;&gt;&lt;display value=&quot;Eating disorder&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-9044673"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-9044673">9044673</a>
+                </td>
+                <td>Electrocution</td>
+                <td>Electrocution</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;9044673&quot;, &quot;display&quot;: &quot;Electrocution&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;9044673&quot;&gt;&lt;display value=&quot;Electrocution&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-9044674"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-9044674">9044674</a>
+                </td>
+                <td>Epistaxis (nose)</td>
+                <td>Epistaxis (nose)</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;9044674&quot;, &quot;display&quot;: &quot;Epistaxis (nose)&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;9044674&quot;&gt;&lt;display value=&quot;Epistaxis (nose)&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-9044675"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-9044675">9044675</a>
+                </td>
+                <td>Erythema/rash or other skin complaint</td>
+                <td>Erythema/rash or other skin complaint</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;9044675&quot;, &quot;display&quot;: &quot;Erythema/rash or other skin complaint&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;9044675&quot;&gt;&lt;display value=&quot;Erythema/rash or other skin complaint&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-9044676"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-9044676">9044676</a>
+                </td>
+                <td>Eye or vision problems</td>
+                <td>Eye or vision problems</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;9044676&quot;, &quot;display&quot;: &quot;Eye or vision problems&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;9044676&quot;&gt;&lt;display value=&quot;Eye or vision problems&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-9044677"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-9044677">9044677</a>
+                </td>
+                <td>Face-other pain</td>
+                <td>Face-other pain</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;9044677&quot;, &quot;display&quot;: &quot;Face-other pain&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;9044677&quot;&gt;&lt;display value=&quot;Face-other pain&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-9044678"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-9044678">9044678</a>
+                </td>
+                <td>Fall</td>
+                <td>Fall</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;9044678&quot;, &quot;display&quot;: &quot;Fall&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;9044678&quot;&gt;&lt;display value=&quot;Fall&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-9044679"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-9044679">9044679</a>
+                </td>
+                <td>Haematuria</td>
+                <td>Haematuria</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;9044679&quot;, &quot;display&quot;: &quot;Haematuria&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;9044679&quot;&gt;&lt;display value=&quot;Haematuria&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-9044680"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-9044680">9044680</a>
+                </td>
+                <td>Hyper/hypoglycaemia</td>
+                <td>Hyper/hypoglycaemia</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;9044680&quot;, &quot;display&quot;: &quot;Hyper/hypoglycaemia&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;9044680&quot;&gt;&lt;display value=&quot;Hyper/hypoglycaemia&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-9044681"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-9044681">9044681</a>
+                </td>
+                <td>Hypertension/hypotension</td>
+                <td>Hypertension/hypotension</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;9044681&quot;, &quot;display&quot;: &quot;Hypertension/hypotension&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;9044681&quot;&gt;&lt;display value=&quot;Hypertension/hypotension&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-9044682"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-9044682">9044682</a>
+                </td>
+                <td>Limb/joint pain</td>
+                <td>Limb/joint pain</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;9044682&quot;, &quot;display&quot;: &quot;Limb/joint pain&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;9044682&quot;&gt;&lt;display value=&quot;Limb/joint pain&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-9044683"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-9044683">9044683</a>
+                </td>
+                <td>Mood disturbance</td>
+                <td>Mood disturbance</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;9044683&quot;, &quot;display&quot;: &quot;Mood disturbance&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;9044683&quot;&gt;&lt;display value=&quot;Mood disturbance&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-9044684"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-9044684">9044684</a>
+                </td>
+                <td>Request medication/cert/result/procedure</td>
+                <td>Request medication/cert/result/procedure</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;9044684&quot;, &quot;display&quot;: &quot;Request medication/cert/result/procedure&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;9044684&quot;&gt;&lt;display value=&quot;Request medication/cert/result/procedure&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-9044685"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-9044685">9044685</a>
+                </td>
+                <td>Social concern incl child protection</td>
+                <td>Social concern incl child protection</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;9044685&quot;, &quot;display&quot;: &quot;Social concern incl child protection&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;9044685&quot;&gt;&lt;display value=&quot;Social concern incl child protection&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-9044688"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-9044688">9044688</a>
+                </td>
+                <td>Suspected FB: non airways</td>
+                <td>Suspected FB: non airways</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;9044688&quot;, &quot;display&quot;: &quot;Suspected FB: non airways&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;9044688&quot;&gt;&lt;display value=&quot;Suspected FB: non airways&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-9044689"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-9044689">9044689</a>
+                </td>
+                <td>Swallowing difficulty</td>
+                <td>Swallowing difficulty</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;9044689&quot;, &quot;display&quot;: &quot;Swallowing difficulty&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;9044689&quot;&gt;&lt;display value=&quot;Swallowing difficulty&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-9044690"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-9044690">9044690</a>
+                </td>
+                <td>Temperature stress</td>
+                <td>Temperature stress</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;9044690&quot;, &quot;display&quot;: &quot;Temperature stress&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;9044690&quot;&gt;&lt;display value=&quot;Temperature stress&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-9044691"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-9044691">9044691</a>
+                </td>
+                <td>Unplanned ED representation</td>
+                <td>Unplanned ED representation</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;9044691&quot;, &quot;display&quot;: &quot;Unplanned ED representation&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;9044691&quot;&gt;&lt;display value=&quot;Unplanned ED representation&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-9044692"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-9044692">9044692</a>
+                </td>
+                <td>Unsettled</td>
+                <td>Unsettled</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;9044692&quot;, &quot;display&quot;: &quot;Unsettled&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;9044692&quot;&gt;&lt;display value=&quot;Unsettled&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-9044699"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-9044699">9044699</a>
+                </td>
+                <td>Diarrhoea</td>
+                <td>Diarrhoea</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;9044699&quot;, &quot;display&quot;: &quot;Diarrhoea&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;9044699&quot;&gt;&lt;display value=&quot;Diarrhoea&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-9044711"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-9044711">9044711</a>
+                </td>
+                <td>Penetrating injury</td>
+                <td>Penetrating injury</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;9044711&quot;, &quot;display&quot;: &quot;Penetrating injury&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;9044711&quot;&gt;&lt;display value=&quot;Penetrating injury&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-9044718"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-9044718">9044718</a>
+                </td>
+                <td>Headache</td>
+                <td>Headache</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;9044718&quot;, &quot;display&quot;: &quot;Headache&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;9044718&quot;&gt;&lt;display value=&quot;Headache&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-9044723"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-9044723">9044723</a>
+                </td>
+                <td>Jaundice</td>
+                <td>Jaundice</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;9044723&quot;, &quot;display&quot;: &quot;Jaundice&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;9044723&quot;&gt;&lt;display value=&quot;Jaundice&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-9044748"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-9044748">9044748</a>
+                </td>
+                <td>Altered sensation</td>
+                <td>Altered sensation</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;9044748&quot;, &quot;display&quot;: &quot;Altered sensation&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;9044748&quot;&gt;&lt;display value=&quot;Altered sensation&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-9044749"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-9044749">9044749</a>
+                </td>
+                <td>Collapse</td>
+                <td>Collapse</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;9044749&quot;, &quot;display&quot;: &quot;Collapse&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;9044749&quot;&gt;&lt;display value=&quot;Collapse&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-9044758"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-9044758">9044758</a>
+                </td>
+                <td>Seizure</td>
+                <td>Seizure</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;9044758&quot;, &quot;display&quot;: &quot;Seizure&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;9044758&quot;&gt;&lt;display value=&quot;Seizure&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-9044764"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-9044764">9044764</a>
+                </td>
+                <td>Stridor</td>
+                <td>Stridor</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;9044764&quot;, &quot;display&quot;: &quot;Stridor&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;9044764&quot;&gt;&lt;display value=&quot;Stridor&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-9044765"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-9044765">9044765</a>
+                </td>
+                <td>Suicidal ideation</td>
+                <td>Suicidal ideation</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;9044765&quot;, &quot;display&quot;: &quot;Suicidal ideation&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;9044765&quot;&gt;&lt;display value=&quot;Suicidal ideation&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-9044776"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-9044776">9044776</a>
+                </td>
+                <td>Weakness</td>
+                <td>Weakness</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;9044776&quot;, &quot;display&quot;: &quot;Weakness&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;9044776&quot;&gt;&lt;display value=&quot;Weakness&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-9044782"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-9044782">9044782</a>
+                </td>
+                <td>Addiction/dependency</td>
+                <td>Addiction/dependency</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;9044782&quot;, &quot;display&quot;: &quot;Addiction/dependency&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;9044782&quot;&gt;&lt;display value=&quot;Addiction/dependency&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-9044783"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-9044783">9044783</a>
+                </td>
+                <td>Bruising/other</td>
+                <td>Bruising/other</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;9044783&quot;, &quot;display&quot;: &quot;Bruising/other&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;9044783&quot;&gt;&lt;display value=&quot;Bruising/other&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-9044784"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-9044784">9044784</a>
+                </td>
+                <td>Chest pain</td>
+                <td>Chest pain</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;9044784&quot;, &quot;display&quot;: &quot;Chest pain&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;9044784&quot;&gt;&lt;display value=&quot;Chest pain&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-9044798"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-9044798">9044798</a>
+                </td>
+                <td>Blunt injury</td>
+                <td>Blunt injury</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;9044798&quot;, &quot;display&quot;: &quot;Blunt injury&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;9044798&quot;&gt;&lt;display value=&quot;Blunt injury&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-9044799"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-9044799">9044799</a>
+                </td>
+                <td>Hallucinations</td>
+                <td>Hallucinations</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;9044799&quot;, &quot;display&quot;: &quot;Hallucinations&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;9044799&quot;&gt;&lt;display value=&quot;Hallucinations&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-9044800"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-9044800">9044800</a>
+                </td>
+                <td>Requesting investigation</td>
+                <td>Requesting investigation</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;9044800&quot;, &quot;display&quot;: &quot;Requesting investigation&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;9044800&quot;&gt;&lt;display value=&quot;Requesting investigation&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints-9044802"> </a>
+                  <code>https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-presenting-complaints.html#presenting-complaints-9044802">9044802</a>
+                </td>
+                <td>Suspected FB: airways/choking</td>
+                <td>Suspected FB: airways/choking</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;9044802&quot;, &quot;display&quot;: &quot;Suspected FB: airways/choking&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;9044802&quot;&gt;&lt;display value=&quot;Suspected FB: airways/choking&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://fhir.osbornemj.com/ig/ValueSet/vs-presenting-complaint"/>
+        <version value="0.1.0"/>
+        <name value="PresentingComplaintVS"/>
+        <title value="Presenting Complaints ValueSet"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <date value="2026-02-28"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="AUS"/>
+            <display value="Australia"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:1f6b06d6-71b8-4eb6-801a-33d53d8cb301"/>
+          <timestamp value="2026-04-13T13:23:25+10:00"/>
+          <total value="83"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="1081207063"/>
+            <display value="Homicidal ideation"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="22235260"/>
+            <display value="Back pain"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="22235265"/>
+            <display value="Cough/rhinorrhoea"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="22235269"/>
+            <display value="Crash other"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="22235301"/>
+            <display value="MBC/quadbike-driver"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="22235306"/>
+            <display value="MBC/quadbike-passenger"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="22235311"/>
+            <display value="Multiple pain"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="22235320"/>
+            <display value="MVC-passenger"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="22235324"/>
+            <display value="Nausea/vomiting"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="22235330"/>
+            <display value="Neck/throat pain"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="22235336"/>
+            <display value="Overdose/toxic exposure"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="22235341"/>
+            <display value="Palpitations/abnormal heart rate"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="22235345"/>
+            <display value="Pedestrian vs"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="22235356"/>
+            <display value="Planned ED recall or review"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="22235362"/>
+            <display value="Possible allergy"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="22235374"/>
+            <display value="PV bleeding"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="22235384"/>
+            <display value="Sexual assault"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="22235387"/>
+            <display value="Sleep disturbance"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="22235397"/>
+            <display value="Swelling/oedema/lump"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="22235496"/>
+            <display value="Cyanosis"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="22235501"/>
+            <display value="Cycle related"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="22235514"/>
+            <display value="Urinary symptoms"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="22235519"/>
+            <display value="Weight gain/loss"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="22235526"/>
+            <display value="Wheeled device"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="22236068"/>
+            <display value="Abdo/pelvis/perineal pain"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="22236074"/>
+            <display value="Aggression"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="22236226"/>
+            <display value="Altered level of consciousness"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="22236240"/>
+            <display value="Anxiety/agitation"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="22236310"/>
+            <display value="Eye pain"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="22236317"/>
+            <display value="Feeding difficulties/concerns"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="22236321"/>
+            <display value="Fever/hypothermia"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="22236326"/>
+            <display value="Gait disturbance"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="22236338"/>
+            <display value="GI bleed"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="22236345"/>
+            <display value="Haemoptysis"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="22236366"/>
+            <display value="Immersion"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="22236370"/>
+            <display value="Increased respiratory effort/distress"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="22236386"/>
+            <display value="Inpatient team review"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="22236398"/>
+            <display value="Laceration/skin tear"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="23774122"/>
+            <display value="Disaster"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="9044662"/>
+            <display value="Bite/sting"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="9044663"/>
+            <display value="Admission/transfer"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="9044664"/>
+            <display value="Apnoea"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="9044665"/>
+            <display value="Arrest"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="9044667"/>
+            <display value="Burn/scald"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="9044669"/>
+            <display value="Constipation"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="9044670"/>
+            <display value="Dizziness/vertigo"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="9044671"/>
+            <display value="Ear pain"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="9044672"/>
+            <display value="Eating disorder"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="9044673"/>
+            <display value="Electrocution"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="9044674"/>
+            <display value="Epistaxis (nose)"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="9044675"/>
+            <display value="Erythema/rash or other skin complaint"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="9044676"/>
+            <display value="Eye or vision problems"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="9044677"/>
+            <display value="Face-other pain"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="9044678"/>
+            <display value="Fall"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="9044679"/>
+            <display value="Haematuria"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="9044680"/>
+            <display value="Hyper/hypoglycaemia"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="9044681"/>
+            <display value="Hypertension/hypotension"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="9044682"/>
+            <display value="Limb/joint pain"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="9044683"/>
+            <display value="Mood disturbance"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="9044684"/>
+            <display value="Request medication/cert/result/procedure"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="9044685"/>
+            <display value="Social concern incl child protection"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="9044688"/>
+            <display value="Suspected FB: non airways"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="9044689"/>
+            <display value="Swallowing difficulty"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="9044690"/>
+            <display value="Temperature stress"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="9044691"/>
+            <display value="Unplanned ED representation"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="9044692"/>
+            <display value="Unsettled"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="9044699"/>
+            <display value="Diarrhoea"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="9044711"/>
+            <display value="Penetrating injury"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="9044718"/>
+            <display value="Headache"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="9044723"/>
+            <display value="Jaundice"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="9044748"/>
+            <display value="Altered sensation"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="9044749"/>
+            <display value="Collapse"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="9044758"/>
+            <display value="Seizure"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="9044764"/>
+            <display value="Stridor"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="9044765"/>
+            <display value="Suicidal ideation"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="9044776"/>
+            <display value="Weakness"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="9044782"/>
+            <display value="Addiction/dependency"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="9044783"/>
+            <display value="Bruising/other"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="9044784"/>
+            <display value="Chest pain"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="9044798"/>
+            <display value="Blunt injury"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="9044799"/>
+            <display value="Hallucinations"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="9044800"/>
+            <display value="Requesting investigation"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.osbornemj.com/ig/CodeSystem/presenting-complaints"/>
+            <code value="9044802"/>
+            <display value="Suspected FB: airways/choking"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+</Bundle>
