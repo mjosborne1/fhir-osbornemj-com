@@ -45,7 +45,7 @@ Distributed under the MIT License. See [LICENSE.txt](https://au-ig-template.heal
   "name" : "FHIROsbornemjIG",
   "title" : "FHIR Implementation Guide for PUBLIC Testing",
   "status" : "draft",
-  "date" : "2026-04-13T14:16:09+10:00",
+  "date" : "2026-04-13T14:28:28+10:00",
   "publisher" : "Michael J Osborne",
   "contact" : [{
     "name" : "Michael J Osborne",
@@ -869,7 +869,7 @@ Distributed under the MIT License. See [LICENSE.txt](https://au-ig-template.heal
         "reference" : "Patient/patient-lynch-alyce"
       },
       "name" : "Patient - Alyce Lynch",
-      "description" : "Patient Alyce Shauna Lynch",
+      "description" : "Patient Alyce Shauna Lynch, courtesy of the HL7 AU FHIR Test Data repo",
       "exampleCanonical" : "http://hl7.org.au/fhir/core/StructureDefinition/au-core-patient"
     },
     {

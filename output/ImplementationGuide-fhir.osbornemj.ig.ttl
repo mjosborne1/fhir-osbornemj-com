@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "FHIROsbornemjIG"] ; # 
   fhir:title [ fhir:v "FHIR Implementation Guide for PUBLIC Testing"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2026-04-13T14:16:09+10:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-04-13T14:28:28+10:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Michael J Osborne"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Michael J Osborne" ] ;
@@ -1708,7 +1708,7 @@
          fhir:reference [ fhir:v "Patient/patient-lynch-alyce" ]
        ] ;
        fhir:name [ fhir:v "Patient - Alyce Lynch" ] ;
-       fhir:description [ fhir:v "Patient Alyce Shauna Lynch" ] ;
+       fhir:description [ fhir:v "Patient Alyce Shauna Lynch, courtesy of the HL7 AU FHIR Test Data repo" ] ;
        fhir:example [
          a fhir:Canonical ;
          fhir:v "http://hl7.org.au/fhir/core/StructureDefinition/au-core-patient"^^xsd:anyURI ;

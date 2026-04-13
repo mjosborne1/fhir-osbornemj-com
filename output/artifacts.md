@@ -51,7 +51,7 @@ These are example instances that show what data produced and consumed by systems
 | [Observation - E. coli Colony Count](Observation-observation-ecoli-colonycount.md) | E. coli colony count in urine for patient Lynch |
 | [Observation - E. coli Cotrimoxazole Susceptibility](Observation-observation-ecoli-cotrimoxazole.md) | Trimethoprim+Sulfamethoxazole susceptibility result for patient Lynch |
 | [Observation - E. coli in Urine](Observation-observation-ecoli.md) | E. coli identified in urine by culture for patient Lynch |
-| [Patient - Alyce Lynch](Patient-patient-lynch-alyce.md) | Patient Alyce Shauna Lynch |
+| [Patient - Alyce Lynch](Patient-patient-lynch-alyce.md) | Patient Alyce Shauna Lynch, courtesy of the HL7 AU FHIR Test Data repo |
 | [Practitioner - Una Persson](Practitioner-practitioner-persson-una.md) | Practitioner Una Persson |
 | [ServiceRequest - Urine MCS](ServiceRequest-servicerequest-urinemcs.md) | Lab order for urine microscopy, culture and sensitivity panel |
 | [Specimen - Urine](Specimen-specimen-urine.md) | Urine specimen for patient Lynch |
