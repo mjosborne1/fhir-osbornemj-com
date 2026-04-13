@@ -1,16 +1,19 @@
 # After you have cloned this template,  update the following 5 properties  
-id: template.fhir.ig                                        # a unique identifier for this IG - you will need to update ig.ini with
-canonical: https://healthinfoservices.site/template-fhir-ig # the canonical URL for this IG ideally with a domain you control
-name: TemplateFHIRIG                                        # computer-readable name without spaces
-title: Template Implementation Guide - AU                   # title of the IG
-description: Template FHIR Implementation Guide for Australian Context # this will show as the description of the IG
+id: fhir.osbornemj.ig                                        # a unique identifier for this IG - you will need to update ig.ini with
+canonical: https://fhir.osbornemj.com/ig # the canonical URL for this IG ideally with a domain you control
+name: FHIROsbornemjIG                                        # computer-readable name without spaces
+title: FHIR Implementation Guide for PUBLIC Testing          # title of the IG
+description: FHIR Implementation Guide for PUBLIC Testing        # this will show as the description of the IG
 
-# update these as required
 status: draft # draft | active | retired | unknown
-version: 0.0.2
-copyrightYear: 2025
+version: 0.1.0
+license: CC0-1.0
+copyrightYear: 2025+
 releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
-license: MIT
+
+publisher:
+  name: Michael J Osborne
+  url: http://osbornemj.com
 
 # this is where you can change the menu structure of the IG
 menu:
@@ -20,8 +23,52 @@ menu:
 # leave these settings as is unless you know what you're doing
 fhirVersion: 4.0.1
 dependencies:
-  hl7.fhir.au.core: 1.0.0
-  hl7.fhir.au.base: 5.0.0
+  hl7.fhir.au.core: 2.0.0
+  hl7.fhir.au.base: 6.0.0
 jurisdiction: urn:iso:std:iso:3166#AUS "Australia"
 instanceOptions:
   manualSliceOrdering: true
+
+
+parameters:  # see https://confluence.hl7.org/display/FHIR/Implementation+Guide+Parameters
+  path-resource:    
+    - input/resources
+    - fsh-generated/resources
+  path-pages:
+    - fsh-generated/includes
+
+    #- input/summaries
+  path-expansion-params: '../../input/_resources/exp-params.json' 
+
+
+resources:
+  Condition/condition-lynch-ckd:
+    name: "Condition - CKD Diagnosis for Lynch"
+    description: "Encounter diagnosis of chronic kidney disease for patient Lynch"
+  Condition/condition-lynch-uti:
+    name: "Condition - UTI Diagnosis for Lynch"
+    description: "Encounter diagnosis of urinary tract infection (UTI) for patient Lynch"  
+  Condition/condition-lynch-haematuria:
+    name: "Condition - Haematuria for Lynch"
+    description: "Problem list item of haematuria for patient Lynch"
+  DiagnosticReport/diagnosticreport-urinemcs:
+    name: "DiagnosticReport - Urine MCS"
+    description: "Microbiology report for urine microscopy, culture and sensitivities"
+  Observation/observation-ecoli-amoxicillin:
+    name: "Observation - E. coli Amoxicillin Susceptibility"
+    description: "Amoxicillin susceptibility result for patient Lynch"
+  Observation/observation-ecoli-cephalexin:
+    name: "Observation - E. coli Cephalexin Susceptibility"
+    description: "Cephalexin susceptibility result for patient Lynch"
+  Observation/observation-ecoli-cotrimoxazole:
+    name: "Observation - E. coli Cotrimoxazole Susceptibility"
+    description: "Trimethoprim+Sulfamethoxazole susceptibility result for patient Lynch"
+  Observation/observation-ecoli-colonycount:
+    name: "Observation - E. coli Colony Count"
+    description: "E. coli colony count in urine for patient Lynch"
+  Observation/observation-ecoli:
+    name: "Observation - E. coli in Urine"
+    description: "E. coli identified in urine by culture for patient Lynch"
+  Patient/patient-lynch-alyce:
+    name: "Patient - Alyce Lynch"
+    description: "Patient Alyce Shauna Lynch"

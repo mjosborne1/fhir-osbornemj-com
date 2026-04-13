@@ -1,0 +1,7 @@
+services:
+  - type: web
+    runtime: static
+    name: temp-fhir-ig
+    buildCommand: chmod +x _genonce.sh && ./_genonce.sh
+    staticPublishPath: ./output
+    autoDeployTrigger: commit
